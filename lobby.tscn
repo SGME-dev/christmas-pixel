@@ -1,6 +1,6 @@
-[gd_scene load_steps=50 format=3 uid="uid://o3a1kb7lx1ux"]
+[gd_scene load_steps=57 format=3 uid="uid://o3a1kb7lx1ux"]
 
-[ext_resource type="Script" path="res://lobby.gd" id="1_ll2xe"]
+[ext_resource type="Script" uid="uid://byta5gcbtshf6" path="res://lobby.gd" id="1_ll2xe"]
 [ext_resource type="PackedScene" uid="uid://d0vuotcp6ec3s" path="res://character_body_3d.tscn" id="2_xrgmn"]
 [ext_resource type="Texture2D" uid="uid://bdg0umnf2krnc" path="res://New Piskel (8) (3).png" id="25_q8u18"]
 [ext_resource type="Texture2D" uid="uid://c0vqyhe5p2kdg" path="res://New Piskel (8) (2).png" id="26_2d81i"]
@@ -37,6 +37,12 @@ albedo_color = Color(0.66, 0.3498, 0.0396, 1)
 [sub_resource type="BoxMesh" id="BoxMesh_xrgmn"]
 material = SubResource("StandardMaterial3D_7pk01")
 
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2aljx"]
+albedo_color = Color(0.43, 0.43, 0.43, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_bufr4"]
+material = SubResource("StandardMaterial3D_2aljx")
+
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_o6dcp"]
 
 [sub_resource type="Sky" id="Sky_2wvic"]
@@ -69,6 +75,12 @@ albedo_texture = ExtResource("25_q8u18")
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_y81st"]
 material = SubResource("StandardMaterial3D_5syci")
 
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_kxcl2"]
+albedo_texture = ExtResource("26_2d81i")
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_7bhu6"]
+material = SubResource("StandardMaterial3D_kxcl2")
+
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_c4ir0"]
 albedo_texture = ExtResource("26_4gsoq")
 
@@ -80,6 +92,21 @@ albedo_texture = ExtResource("26_2d81i")
 
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_m65k3"]
 material = SubResource("StandardMaterial3D_52tph")
+
+[sub_resource type="Animation" id="Animation_xgtip"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(10.197, 1.16466, -13.0589)]
+}
 
 [sub_resource type="Animation" id="Animation_u4bdj"]
 resource_name = "move"
@@ -97,29 +124,21 @@ tracks/0/keys = {
 "values": [Vector3(10.197, 1.16466, -13.0589), Vector3(-7.90319, 1.16466, 22.6779)]
 }
 
-[sub_resource type="Animation" id="Animation_xgtip"]
-length = 0.001
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath(".:position")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Vector3(10.197, 1.16466, -13.0589)]
-}
-
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_6gfha"]
 _data = {
-"RESET": SubResource("Animation_xgtip"),
-"move": SubResource("Animation_u4bdj")
+&"RESET": SubResource("Animation_xgtip"),
+&"move": SubResource("Animation_u4bdj")
 }
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_aaofw"]
 size = Vector3(5.16693, 10.6678, 1)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_2aljx"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bufr4"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_kxcl2"]
+material = SubResource("StandardMaterial3D_bufr4")
 
 [node name="lobby" type="Node3D"]
 script = ExtResource("1_ll2xe")
@@ -137,6 +156,25 @@ transform = Transform3D(10, 0, 0, 0, 0.5, 0, 0, 0, 10, 0, 0, 0)
 lod_bias = 100.0
 visibility_range_end = 100.0
 mesh = SubResource("BoxMesh_xrgmn")
+
+[node name="StaticBody3D17" type="StaticBody3D" parent="."]
+transform = Transform3D(4.18, 0, 0, 0, 1, 0, 0, 0, 4.3, 0, 0, -93.0524)
+collision_layer = 2
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D17"]
+shape = SubResource("BoxShape3D_r5v3i")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D17"]
+transform = Transform3D(10, 0, 0, 0, 0.5, 0, 0, 0, 10, 0, 0, 0)
+lod_bias = 100.0
+visibility_range_end = 100.0
+mesh = SubResource("BoxMesh_xrgmn")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="StaticBody3D17"]
+transform = Transform3D(10, 0, 0, 0, 0.5, 0, 0, 0, 6.25392, 0, 0.1405, 0)
+lod_bias = 100.0
+visibility_range_end = 100.0
+mesh = SubResource("BoxMesh_bufr4")
 
 [node name="StaticBody3D3" type="StaticBody3D" parent="."]
 transform = Transform3D(1.36274, 0, 0, 0, 1, 0, 0, 0, 1.67447, -8.68155, 0, 28.5386)
@@ -550,6 +588,26 @@ shape = SubResource("CapsuleShape3D_msvey")
 [node name="MeshInstance3D" type="MeshInstance3D" parent="AnimatableBody3D"]
 mesh = SubResource("CapsuleMesh_y81st")
 
+[node name="AnimatableBody3D6" type="AnimatableBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 5.56711, 1.16466, -100.688)
+collision_layer = 2
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="AnimatableBody3D6"]
+shape = SubResource("CapsuleShape3D_msvey")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="AnimatableBody3D6"]
+mesh = SubResource("CapsuleMesh_y81st")
+
+[node name="AnimatableBody3D7" type="AnimatableBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 5.56711, 1.16466, -85.1736)
+collision_layer = 2
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="AnimatableBody3D7"]
+shape = SubResource("CapsuleShape3D_msvey")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="AnimatableBody3D7"]
+mesh = SubResource("CapsuleMesh_7bhu6")
+
 [node name="AnimatableBody3D5" type="AnimatableBody3D" parent="."]
 transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, -5.10414, 1.16466, -26.3554)
 collision_layer = 2
@@ -594,7 +652,7 @@ mesh = SubResource("CapsuleMesh_m65k3")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="AnimatableBody3D2"]
 libraries = {
-"": SubResource("AnimationLibrary_6gfha")
+&"": SubResource("AnimationLibrary_6gfha")
 }
 
 [node name="Area3D" type="Area3D" parent="."]
@@ -622,8 +680,22 @@ shape = SubResource("BoxShape3D_aaofw")
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 0.258819, 0.965926, 0, -0.965926, 0.258819, 0, 16.9842, 0)
 
+[node name="Area3D4" type="Area3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.53496, 0.84992, -30.3274)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D4"]
+shape = SubResource("BoxShape3D_2aljx")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Area3D4"]
+mesh = SubResource("BoxMesh_kxcl2")
+
+[node name="Label3D" type="Label3D" parent="Area3D4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.25195, 0)
+text = "Next"
+
 [connection signal="pressed" from="CanvasLayer/TextEdit/Next" to="." method="_on_next_pressed"]
 [connection signal="pressed" from="CanvasLayer/Panel/host" to="." method="_on_host_pressed"]
 [connection signal="pressed" from="CanvasLayer/Panel/join" to="." method="_on_join_pressed"]
 [connection signal="body_entered" from="Area3D" to="." method="_on_area_3d_body_entered"]
 [connection signal="body_entered" from="Area3D3" to="." method="_on_area_3d_3_body_entered"]
+[connection signal="body_entered" from="Area3D4" to="." method="_on_area_3d_4_body_entered"]

@@ -2,15 +2,12 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b87habpyl6ps6"
+uid="uid://c60pap328vehe"
 path.s3tc="res://.godot/imported/donkey_New Piskel (14).png-a23dd51c8eeb348b45f1e045642f56cb.s3tc.ctex"
 path.etc2="res://.godot/imported/donkey_New Piskel (14).png-a23dd51c8eeb348b45f1e045642f56cb.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "ffd4923ea400965e3bcaff0e688ad718"
 }
 
 [deps]

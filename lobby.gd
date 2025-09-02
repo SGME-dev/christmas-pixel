@@ -160,7 +160,7 @@ func _on_next_pressed() -> void:
 		$CanvasLayer/TextEdit.text = "Then when she whent home, a angel called gabriel appered. The angel Gabriel told Mary she was favored by God, would conceive and give birth to a son named Jesus, who would be great and called the Son of the Most High, and would reign forever. Gabriel also explained that the Holy Spirit would come upon her, and the power of God would overshadow her, enabling this miraculous conception."
 		$AnimatableBody3D2/AnimationPlayer.play("move")
 	if $CanvasLayer/TextEdit.text == "At first Joseph did not understand this all but then The angel explained it to him.":
-		pass
+		$CanvasLayer/TextEdit.text = "Then Joseph did what the angel said."
 	
 	
 
@@ -200,5 +200,10 @@ func _on_http_request_completed(result: int, response_code: int, headers: Packed
 		#     print("Error: Service URL not found.")
 
 
-func _on_area_3d_3_body_entered(body: Node3D) -> void:
+func _on_area_3d_3_body_entered(body: player) -> void:
 	$CanvasLayer/TextEdit.text = "At first Joseph did not understand this all but then The angel explained it to him."
+
+
+func _on_area_3d_4_body_entered(body: player) -> void:
+	$CanvasLayer/TextEdit.text = "After that, the ruler of Israel wanted to count how much people was in Israel so he commanded all the people to go to their home. Josephs and Marys hometown was Jerlusalem so they went to Jerlusalem."
+	body.global_position = $StaticBody3D17.global_position
