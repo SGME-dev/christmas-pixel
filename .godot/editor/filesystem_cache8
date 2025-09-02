@@ -1,0 +1,685 @@
+fc8a56933c4b1c8d796fdb8f7a9f9475
+::res://::1756824531
+1976606-200.png::CompressedTexture2D::239029966273926131::1756808003::1756808149::1::::<><>::
+1742735805457fqbx6815-voicemaker.in-speech.mp3::AudioStreamMP3::729413859004464744::1756808003::1756808148::1::::<><>::
+1742735926109uij4nh8-voicemaker.in-speech.mp3::AudioStreamMP3::5230725135840914293::1756808003::1756808148::1::::<><>::
+1742735970692jtc9ihoh-voicemaker.in-speech.mp3::AudioStreamMP3::7552334756120599044::1756808003::1756808148::1::::<><>::
+1742736017516lb08e2i4-voicemaker.in-speech.mp3::AudioStreamMP3::7957334921993127352::1756808003::1756808147::1::::<><>::
+1742736361073l0ccqa2q-voicemaker.in-speech.mp3::AudioStreamMP3::5529089387199488718::1756808003::1756808147::1::::<><>::
+1742736419277pfm0im6l-voicemaker.in-speech.mp3::AudioStreamMP3::5287321176431577944::1756808003::1756808147::1::::<><>::
+1742736482732nbrpnkwh-voicemaker.in-speech.mp3::AudioStreamMP3::2043637503438164853::1756808003::1756808147::1::::<><>::
+1742736536148n8bgfmoc-voicemaker.in-speech.mp3::AudioStreamMP3::7760932202256904813::1756808003::1756808147::1::::<><>::
+1742736591377agdcnt4xk-voicemaker.in-speech.mp3::AudioStreamMP3::6058041031746526750::1756808003::1756808147::1::::<><>::
+1742736647141hh17iykr-voicemaker.in-speech.mp3::AudioStreamMP3::4477344462634610459::1756808003::1756808147::1::::<><>::
+1742736720393lh2hqafe-voicemaker.in-speech.mp3::AudioStreamMP3::1215127072374048131::1756808003::1756808147::1::::<><>::
+1742736798184ysav72gs-voicemaker.in-speech.mp3::AudioStreamMP3::8907331829456466499::1756808003::1756808148::1::::<><>::
+1742736856853j6qlo2vi-voicemaker.in-speech.mp3::AudioStreamMP3::2812840642484701089::1756808003::1756808148::1::::<><>::
+1742737005996zwumfpfs-voicemaker.in-speech.mp3::AudioStreamMP3::2565224732125176876::1756808003::1756808148::1::::<><>::
+1742737060189jtju47jh-voicemaker.in-speech.mp3::AudioStreamMP3::1778078658892927551::1756808003::1756808148::1::::<><>::
+17427356878139nw8z7h-voicemaker.in-speech.mp3::AudioStreamMP3::7628602599065584888::1756808003::1756808148::1::::<><>::
+17427358744982bmfxf7r-voicemaker.in-speech.mp3::AudioStreamMP3::4805651751301549929::1756808003::1756808148::1::::<><>::
+17427361058546r0yysa-voicemaker.in-speech.mp3::AudioStreamMP3::6185862499066449359::1756808003::1756808148::1::::<><>::
+17427369036139190u7lr-voicemaker.in-speech.mp3::AudioStreamMP3::3135869270686834283::1756808003::1756808148::1::::<><>::
+character_body_3d.gd::GDScript::-1::1756808006::0::1::::player<>CharacterBody3D<>::
+character_body_3d.tres::StandardMaterial3D::3542256451931106125::1756808006::0::1::::<><>::uid://6panfgdej7lq::::res://New Piskel (9) (10).png
+character_body_3d.tscn::PackedScene::8958575417591745730::1756808006::0::1::::<><>::uid://i8ydn102b2o4::::res://character_body_3d.gd<>uid://bqp5pf30o4mqv::::res://character_body_3d.tres<>uid://dm0tucvr3n8rr::::res://mesh_instance_3d.gd<>uid://81qg48odtf4l::::res://scripts/touch_screen_joystick.gd<>uid://b4imyx34sic7q::::res://New Piskel (26).png<>uid://shlroab6kika::::res://New Piskel (28).png
+color.png::CompressedTexture2D::5276438091365137776::1756808006::1756808149::1::::<><>::
+craiyon_192454_low_poly_seamless_grass_texture.png::CompressedTexture2D::4620754440437204927::1756808006::1756808149::1::::<><>::
+data.hterrain::Resource::-1::1756808006::0::1::::<><>::
+detail.png::CompressedTexture2D::4018064355962900477::1756808006::1756808149::1::::<><>::
+donkey.glb::PackedScene::4709929268944778695::1756808006::1756808244::1::::<><>::uid://b87habpyl6ps6::::res://donkey_New Piskel (14).png<>uid://l3ulsasdwshq::::res://donkey_New Piskel (13).png
+donkey_New Piskel (13).png::CompressedTexture2D::831114786963348070::1756808006::1756808149::1::::<><>::
+donkey_New Piskel (14).png::CompressedTexture2D::4769137707629250471::1756808006::1756808149::1::::<><>::
+easteregghunt.gd::GDScript::-1::1756808006::0::1::::easteregghunt<>Node3D<>::
+easteregghunt.tscn::PackedScene::7134294075935703901::1756808006::0::1::::<><>::uid://dpv4jqjrirwyx::::res://easteregghunt.gd<>uid://b5egc5pfxc2eo::::res://New Piskel (22).png<>uid://d0vuotcp6ec3s::::res://character_body_3d.tscn<>uid://bqnw8j1634arq::::res://jerusalem_1_st__temple_period__blmj_museummod.tscn<>uid://bbgttfso3p6n1::::res://fps.tscn<>uid://4si3s67c6cr4::::res://Free Easter Eggs 3D Models/Free Easter Eggs 3D Models/Easter Egg Textured_Easter Egg_low_Material 1_BaseColor.png<>uid://cl576hpy5boxy::::res://Free Easter Eggs 3D Models/Free Easter Eggs 3D Models/Easter Egg Textured_Easter Egg_low_Material 1_Metallic-Easter Egg_low_Material 1_Roughness.png<>uid://ctkkr6ub8vdjc::::res://Free Easter Eggs 3D Models/Free Easter Eggs 3D Models/Easter Egg Textured_Easter Egg_low_Material 1_Normal.png<>uid://d3ne2rqy0kf31::::res://New Piskel (27).png<>uid://rilm2cp7qnod::::res://Free Easter Eggs 3D Models/Free Easter Eggs 3D Models/Easter Egg Textured_Easter Egg_low_Material 2_BaseColor.png<>uid://ctonmfr4r2i27::::res://Free Easter Eggs 3D Models/Free Easter Eggs 3D Models/Easter Egg Textured_Easter Egg_low_Material 2_Metallic-Easter Egg_low_Material 2_Roughness.png<>uid://c6xitfv6lb5pj::::res://Free Easter Eggs 3D Models/Free Easter Eggs 3D Models/Easter Egg Textured_Easter Egg_low_Material 2_Normal.png<>uid://de7ob66kd0jdr::::res://Free Easter Eggs 3D Models/Free Easter Eggs 3D Models/Easter Egg Textured_Easter Egg_low_Material 3_BaseColor.png<>uid://upo7sv2wc23g::::res://Free Easter Eggs 3D Models/Free Easter Eggs 3D Models/Easter Egg Textured_Easter Egg_low_Material 3_Metallic-Easter Egg_low_Material 3_Roughness.png<>uid://dpw1ro3klubiu::::res://Free Easter Eggs 3D Models/Free Easter Eggs 3D Models/Easter Egg Textured_Easter Egg_low_Material 3_Normal.png<>uid://dhouwenmswiov::::res://electric-shock-97989.mp3<>uid://bx1ww06fett1h::::res://Screen Recording 2025-03-23 144438.mp3<>uid://b4imyx34sic7q::::res://New Piskel (26).png
+easter_egg_textured.tscn::PackedScene::144856647945006682::1756808006::0::1::::<><>::uid://4si3s67c6cr4::::res://Free Easter Eggs 3D Models/Free Easter Eggs 3D Models/Easter Egg Textured_Easter Egg_low_Material 1_BaseColor.png<>uid://cl576hpy5boxy::::res://Free Easter Eggs 3D Models/Free Easter Eggs 3D Models/Easter Egg Textured_Easter Egg_low_Material 1_Metallic-Easter Egg_low_Material 1_Roughness.png<>uid://ctkkr6ub8vdjc::::res://Free Easter Eggs 3D Models/Free Easter Eggs 3D Models/Easter Egg Textured_Easter Egg_low_Material 1_Normal.png<>uid://de7ob66kd0jdr::::res://Free Easter Eggs 3D Models/Free Easter Eggs 3D Models/Easter Egg Textured_Easter Egg_low_Material 3_BaseColor.png<>uid://upo7sv2wc23g::::res://Free Easter Eggs 3D Models/Free Easter Eggs 3D Models/Easter Egg Textured_Easter Egg_low_Material 3_Metallic-Easter Egg_low_Material 3_Roughness.png<>uid://dpw1ro3klubiu::::res://Free Easter Eggs 3D Models/Free Easter Eggs 3D Models/Easter Egg Textured_Easter Egg_low_Material 3_Normal.png<>uid://rilm2cp7qnod::::res://Free Easter Eggs 3D Models/Free Easter Eggs 3D Models/Easter Egg Textured_Easter Egg_low_Material 2_BaseColor.png<>uid://ctonmfr4r2i27::::res://Free Easter Eggs 3D Models/Free Easter Eggs 3D Models/Easter Egg Textured_Easter Egg_low_Material 2_Metallic-Easter Egg_low_Material 2_Roughness.png<>uid://c6xitfv6lb5pj::::res://Free Easter Eggs 3D Models/Free Easter Eggs 3D Models/Easter Egg Textured_Easter Egg_low_Material 2_Normal.png
+electric-shock-97989.mp3::AudioStreamMP3::7680739103169615265::1756808006::1756808148::1::::<><>::
+export_presets.cfg::TextFile::-1::1756808006::0::1::::<><>::
+fps.gd::GDScript::-1::1756808006::0::1::::<>Label<>::
+fps.tscn::PackedScene::2470183637899617352::1756808006::0::1::::<><>::uid://b2a1ai1ntmlh2::::res://fps.gd
+GameManager.gd::GDScript::-1::1756808004::0::1::::<>Node<>::
+height.res::Image::5795333530913624013::1756808006::0::1::::<><>::
+icon.png::CompressedTexture2D::1509683308058089937::1756808006::1756808149::1::::<><>::
+icon.svg::CompressedTexture2D::1645331291872865153::1756808006::1756808149::1::::<><>::
+jerusalem_1st._temple_period._blmj_museum (1).glb::PackedScene::6250576780113948827::1756808007::1756808252::1::::<><>::uid://byabje7bkbp5o::::res://jerusalem_1st._temple_period_0.jpg<>uid://dwiexwkrj6jw3::::res://jerusalem_1st._temple_period_1.jpg
+jerusalem_1st._temple_period._blmj_museum.glb::PackedScene::8894530462375640025::1756808007::1756808147::0::::<><>::
+jerusalem_1st._temple_period._blmj_museummod.glb::PackedScene::2524013664330122982::1756808008::1756808264::1::::<><>::uid://d3kejrhq20jep::::res://jerusalem_1st._temple_period_Image_1.jpg<>uid://bbkl807pp76ue::::res://jerusalem_1st._temple_period_Image_0.jpg
+jerusalem_1st._temple_period_0.jpg::CompressedTexture2D::4071029979729787150::1756808008::1756808149::1::::<><>::
+jerusalem_1st._temple_period_1.jpg::CompressedTexture2D::8720216746126778452::1756808008::1756808149::1::::<><>::
+jerusalem_1st._temple_period_Image_0.jpg::CompressedTexture2D::2477981486211389432::1756808008::1756808148::1::::<><>::
+jerusalem_1st._temple_period_Image_1.jpg::CompressedTexture2D::9145453295075641971::1756808008::1756808148::1::::<><>::
+jerusalem_1_st__temple_period__blmj_museummod.tscn::PackedScene::3537674312066242138::1756808006::0::1::::<><>::uid://bb7wevsxibpjq::::res://jerusalem_1st._temple_period._blmj_museummod.glb
+large_tree_voxel.glb::PackedScene::6213071734091627738::1756808008::1756808265::1::::<><>::
+LICENSE.md::TextFile::-1::1756808004::0::1::::<><>::
+lobby.gd::GDScript::-1::1756822409::0::1::::lobby<>Node3D<>::
+lobby.tscn::PackedScene::1040493346935528271::1756822509::0::1::::<><>::res://lobby.gd<>uid://d0vuotcp6ec3s::::res://character_body_3d.tscn<>uid://bdg0umnf2krnc::::res://New Piskel (8) (3).png<>uid://c0vqyhe5p2kdg::::res://New Piskel (8) (2).png<>uid://866tlxfhivde::::res://New Piskel (8) (4).png<>uid://b5egc5pfxc2eo::::res://New Piskel (22).png<>uid://dgxl78u4d1uls::::res://17427356878139nw8z7h-voicemaker.in-speech.mp3<>uid://knllsxe1rrnc::::res://1742735805457fqbx6815-voicemaker.in-speech.mp3<>uid://cap5m84e7fmy8::::res://17427358744982bmfxf7r-voicemaker.in-speech.mp3<>uid://cgr2jqiy1k7ph::::res://1742735926109uij4nh8-voicemaker.in-speech.mp3<>uid://dfun35vk4dmoq::::res://1742735970692jtc9ihoh-voicemaker.in-speech.mp3<>uid://dlmue48or71ng::::res://1742736017516lb08e2i4-voicemaker.in-speech.mp3<>uid://cueqis3v4dn5x::::res://17427361058546r0yysa-voicemaker.in-speech.mp3<>uid://ck1lkak8pl74m::::res://1742736361073l0ccqa2q-voicemaker.in-speech.mp3<>uid://chlhn33cll22o::::res://1742736419277pfm0im6l-voicemaker.in-speech.mp3<>uid://4d7n8h8afec0::::res://1742736482732nbrpnkwh-voicemaker.in-speech.mp3<>uid://ditpoi6ovdw2x::::res://1742736536148n8bgfmoc-voicemaker.in-speech.mp3<>uid://csktbyu15txak::::res://1742736591377agdcnt4xk-voicemaker.in-speech.mp3<>uid://b414hd1qruqbj::::res://1742736647141hh17iykr-voicemaker.in-speech.mp3<>uid://rku727dtsmul::::res://1742736720393lh2hqafe-voicemaker.in-speech.mp3<>uid://dy51powjaot8f::::res://1742736798184ysav72gs-voicemaker.in-speech.mp3<>uid://bgctcsba4110h::::res://1742736856853j6qlo2vi-voicemaker.in-speech.mp3<>uid://bkxbkq5nwk2ff::::res://17427369036139190u7lr-voicemaker.in-speech.mp3<>uid://bcsu42kc1gmoq::::res://1742737005996zwumfpfs-voicemaker.in-speech.mp3<>uid://0lkxwja7hcb4::::res://1742737060189jtju47jh-voicemaker.in-speech.mp3<>uid://bx1ww06fett1h::::res://Screen Recording 2025-03-23 144438.mp3<>uid://bbgttfso3p6n1::::res://fps.tscn
+main_menu.gd::GDScript::-1::1756808008::0::1::::<>Control<>::
+main_menu.tscn::PackedScene::8711418152570850675::1756808008::0::1::::<><>::uid://bd6gq5hkci1mr::::res://main_menu.gd<>uid://b5egc5pfxc2eo::::res://New Piskel (22).png<>uid://bbgttfso3p6n1::::res://fps.tscn
+meaningofeaster.gd::GDScript::-1::1756808008::0::1::::easteregghunt_resurect<>Node3D<>::
+meaningofeaster.tscn::PackedScene::5010979046397299085::1756808008::0::1::::<><>::uid://dp786gfhs2qy::::res://meaningofeaster.gd<>uid://d0vuotcp6ec3s::::res://character_body_3d.tscn<>uid://b5egc5pfxc2eo::::res://New Piskel (22).png<>uid://37ha5rs7kt0o::::res://addons/zylann.hterrain/hterrain.gd<>uid://bbgttfso3p6n1::::res://fps.tscn<>uid://dmert2f2gtta7::::res://folder2/data.hterrain<>uid://cjhewyn1w1awa::::res://addons/zylann.hterrain/hterrain_texture_set.gd<>uid://m57j63ixbsjd::::res://pixel-background-games-concept-background-resizable-seamless-pattern-grass-vector.jpg<>uid://bsrege2kl8wnx::::res://new_array_mesh.tres<>uid://bx1ww06fett1h::::res://Screen Recording 2025-03-23 144438.mp3
+MEGA-RECOVERYKEY.txt::TextFile::-1::1756808004::0::1::::<><>::
+MeshInstance3D.glb::PackedScene::3223161436106873788::1756808004::1756808265::1::::<><>::uid://csfjonkjjxpks::::res://MeshInstance3D_0.png
+MeshInstance3D_0.png::CompressedTexture2D::6047134594364114186::1756808004::1756808148::1::::<><>::
+mesh_instance_3d.gd::GDScript::-1::1756808008::0::1::::<>MeshInstance3D<>::
+mesh_instance_3d.glb::PackedScene::2094833455174320310::1756808008::1756808266::1::::<><>::uid://dte2e2t173q2q::::res://mesh_instance_3d_0.png
+mesh_instance_3d.tscn::PackedScene::4448366622092118294::1756808008::0::1::::<><>::uid://dbl8oxwl1cdil::::res://New Piskel (9).png
+mesh_instance_3d_0.png::CompressedTexture2D::8502755541905413190::1756808008::1756808148::1::::<><>::
+multiplayerScene.tscn::PackedScene::2743233217480500788::1756808008::0::1::::<><>::uid://4t71p3l5h2rr::::res://MutiplayerController.gd<>uid://c5vlmw07qogl::::res://ServerBrowser.gd
+MutiplayerController.gd::GDScript::-1::1756808004::0::1::::<>RefCounted<>::
+myplayer.tscn::PackedScene::655473681015726273::1756808008::0::1::::<><>::uid://0nloiihuqy55::::res://New Piskel (9) (14).png
+New Piskel (1).png::CompressedTexture2D::8791877975792363298::1756808004::1756808148::1::::<><>::
+New Piskel (2).png::CompressedTexture2D::8941539138109411178::1756808005::1756808148::1::::<><>::
+New Piskel (3).png::CompressedTexture2D::4221445230485814258::1756808005::1756808148::1::::<><>::
+New Piskel (4).png::CompressedTexture2D::6937776483282281642::1756808005::1756808148::1::::<><>::
+New Piskel (5).png::CompressedTexture2D::6083345430290895482::1756808005::1756808148::1::::<><>::
+New Piskel (6).png::CompressedTexture2D::2371009367239681344::1756808005::1756808148::1::::<><>::
+New Piskel (7).png::CompressedTexture2D::4733302853743889105::1756808005::1756808148::1::::<><>::
+New Piskel (8) (1).png::CompressedTexture2D::2921566900626674299::1756808005::1756808148::1::::<><>::
+New Piskel (8) (2).png::CompressedTexture2D::6571929097337097244::1756819914::1756820526::1::::<><>::
+New Piskel (8) (3).png::CompressedTexture2D::2610927772455146848::1756819937::1756820355::1::::<><>::
+New Piskel (8) (4).png::CompressedTexture2D::2382144320815098574::1756821386::1756821494::1::::<><>::
+New Piskel (8).png::CompressedTexture2D::2984287417051713322::1756808005::1756808148::1::::<><>::
+New Piskel (9) (1).png::CompressedTexture2D::1604203912916445495::1756808005::1756808148::1::::<><>::
+New Piskel (9) (2).png::CompressedTexture2D::4637265834411885265::1756808005::1756808148::1::::<><>::
+New Piskel (9) (3).png::CompressedTexture2D::5832763252802616417::1756808005::1756808148::1::::<><>::
+New Piskel (9) (4).png::CompressedTexture2D::5175107076936425688::1756808005::1756808148::1::::<><>::
+New Piskel (9) (5).png::CompressedTexture2D::7413616972225512623::1756808005::1756808148::1::::<><>::
+New Piskel (9) (6).png::CompressedTexture2D::4200726558337124943::1756808005::1756808148::1::::<><>::
+New Piskel (9) (7).png::CompressedTexture2D::413312783239848509::1756808006::1756808148::1::::<><>::
+New Piskel (9) (8).png::CompressedTexture2D::4300249865568254955::1756808006::1756808148::1::::<><>::
+New Piskel (9) (9).png::CompressedTexture2D::4711451303721562560::1756808006::1756808148::1::::<><>::
+New Piskel (9) (10).png::CompressedTexture2D::2206843306438284142::1756808005::1756808148::1::::<><>::
+New Piskel (9) (11).png::CompressedTexture2D::2253879311969144450::1756808005::1756808148::1::::<><>::
+New Piskel (9) (12).png::CompressedTexture2D::2284463925896867885::1756808005::1756808148::1::::<><>::
+New Piskel (9) (13).png::CompressedTexture2D::6437097055020393183::1756808005::1756808148::1::::<><>::
+New Piskel (9) (14).png::CompressedTexture2D::1782251322679355162::1756808005::1756808154::1::::<><>::
+New Piskel (9).png::CompressedTexture2D::7254188954445322167::1756808006::1756808154::1::::<><>::
+New Piskel (10) (1).png::CompressedTexture2D::5723919347609516490::1756808004::1756808154::1::::<><>::
+New Piskel (10).png::CompressedTexture2D::1211513415413133940::1756808004::1756808154::1::::<><>::
+New Piskel (11) (1).png::CompressedTexture2D::8548385680833691745::1756808004::1756808154::1::::<><>::
+New Piskel (11) (2).png::CompressedTexture2D::4917998440819395079::1756808004::1756808154::1::::<><>::
+New Piskel (11) (3).png::CompressedTexture2D::4577668415151467878::1756808004::1756808154::1::::<><>::
+New Piskel (11) (4).png::CompressedTexture2D::6816462813796007861::1756808004::1756808154::1::::<><>::
+New Piskel (11).png::CompressedTexture2D::7299953078060545437::1756808004::1756808153::1::::<><>::
+New Piskel (12) (1).png::CompressedTexture2D::4159563807105882900::1756808004::1756808153::1::::<><>::
+New Piskel (12) (2).png::CompressedTexture2D::1686965267569552200::1756808005::1756808153::1::::<><>::
+New Piskel (12) (3).png::CompressedTexture2D::5023281766762088375::1756808005::1756808153::1::::<><>::
+New Piskel (12) (4).png::CompressedTexture2D::4780282925916028224::1756808005::1756808153::1::::<><>::
+New Piskel (12) (5).png::CompressedTexture2D::2862765622812625118::1756808005::1756808153::1::::<><>::
+New Piskel (12) (6).png::CompressedTexture2D::5724671356552540613::1756808005::1756808153::1::::<><>::
+New Piskel (12) (7).png::CompressedTexture2D::940348505818372842::1756808005::1756808153::1::::<><>::
+New Piskel (12) (8).png::CompressedTexture2D::1214428843986862044::1756808005::1756808153::1::::<><>::
+New Piskel (12) (9).png::CompressedTexture2D::7062576200205835340::1756808005::1756808153::1::::<><>::
+New Piskel (12) (10).png::CompressedTexture2D::1998275502455949696::1756808004::1756808154::1::::<><>::
+New Piskel (12) (11).png::CompressedTexture2D::5223992399056230551::1756808005::1756808154::1::::<><>::
+New Piskel (12) (12).png::CompressedTexture2D::6348178536082850976::1756808005::1756808154::1::::<><>::
+New Piskel (12) (13).png::CompressedTexture2D::8589925361541898031::1756808005::1756808154::1::::<><>::
+New Piskel (12).png::CompressedTexture2D::9206370071573357825::1756808005::1756808154::1::::<><>::
+New Piskel (13).png::CompressedTexture2D::3798891877275260101::1756808005::1756808154::1::::<><>::
+New Piskel (14).png::CompressedTexture2D::1134656615842839373::1756808005::1756808154::1::::<><>::
+New Piskel (15).png::CompressedTexture2D::7548100419250531713::1756808005::1756808154::1::::<><>::
+New Piskel (16).png::CompressedTexture2D::5862046708133648205::1756808005::1756808154::1::::<><>::
+New Piskel (17).png::CompressedTexture2D::8204331523274694906::1756808005::1756808154::1::::<><>::
+New Piskel (18).png::CompressedTexture2D::1339121017384102794::1756808005::1756808154::1::::<><>::
+New Piskel (19).png::CompressedTexture2D::3299241383724621138::1756808005::1756808154::1::::<><>::
+New Piskel (20).png::CompressedTexture2D::7349764609994345788::1756808005::1756808154::1::::<><>::
+New Piskel (21).png::CompressedTexture2D::8164399417639272407::1756808005::1756808154::1::::<><>::
+New Piskel (22).png::CompressedTexture2D::4500712976525313634::1756808005::1756808154::1::::<><>::
+New Piskel (23).png::CompressedTexture2D::3163607639788855333::1756808005::1756808154::1::::<><>::
+New Piskel (24).png::CompressedTexture2D::4297455928973438444::1756808005::1756808154::1::::<><>::
+New Piskel (25).png::CompressedTexture2D::3168075948792987832::1756808005::1756808154::1::::<><>::
+New Piskel (26).png::CompressedTexture2D::4439184886829009624::1756808005::1756808155::1::::<><>::
+New Piskel (27).png::CompressedTexture2D::9151678586891566534::1756808005::1756808153::1::::<><>::
+New Piskel (28).png::CompressedTexture2D::1278548810593982164::1756808005::1756808153::1::::<><>::
+New Piskel (29).png::CompressedTexture2D::6263288441150355::1756808005::1756808153::1::::<><>::
+New Piskel.png::CompressedTexture2D::1981696640548076806::1756808006::1756808150::1::::<><>::
+new_array_mesh.tres::ArrayMesh::3685168126004692065::1756808008::0::1::::<><>::
+new_standard_material_3d.tres::StandardMaterial3D::1939817466074118385::1756808008::0::1::::<><>::
+node_3d.gd::GDScript::-1::1756808008::0::1::::<>Node3D<>::
+node_3d.tscn::PackedScene::3046074669039080184::1756808008::0::1::::<><>::uid://d1bdn4pdx4j4n::::res://node_3d.gd
+normal.png::CompressedTexture2D::6302362742101663289::1756808008::1756808150::1::::<><>::
+parkore_skills.gd::GDScript::-1::1756808008::0::1::::lobby_bible_verses<>Node3D<>::
+parkore_skills.tscn::PackedScene::4356492242690741862::1756808008::0::1::::<><>::uid://bsjljvlhai5t3::::res://parkore_skills.gd<>uid://d0vuotcp6ec3s::::res://character_body_3d.tscn<>uid://k7iacsfo8puh::::res://seamless-textured-grass-natural-grass-pattern/Cartoon_green_texture_grass.jpg<>uid://dcyjsxagfaiee::::res://New Piskel (20).png<>uid://b5egc5pfxc2eo::::res://New Piskel (22).png<>uid://bx1ww06fett1h::::res://Screen Recording 2025-03-23 144438.mp3<>uid://bbgttfso3p6n1::::res://fps.tscn
+pixel-background-games-concept-background-resizable-seamless-pattern-grass-vector.jpg::CompressedTexture2D::906158144064510453::1756808008::1756808150::1::::<><>::
+pixel-speech-bubble (1).png::CompressedTexture2D::3486133472455057070::1756808008::1756808150::1::::<><>::
+pixel-speech-bubble (2).png::CompressedTexture2D::7224583769721796296::1756808009::1756808150::1::::<><>::
+pixel-speech-bubble (3).png::CompressedTexture2D::5275058993840090135::1756808009::1756808150::1::::<><>::
+pixel-speech-bubble (4).png::CompressedTexture2D::8931859104866546457::1756808009::1756808150::1::::<><>::
+pixel-speech-bubble (5).png::CompressedTexture2D::4168174488930316194::1756808009::1756808150::1::::<><>::
+pixel-speech-bubble (6).png::CompressedTexture2D::4587392787568301531::1756808009::1756808150::1::::<><>::
+pixel-speech-bubble (7).png::CompressedTexture2D::1240296691408126414::1756808009::1756808150::1::::<><>::
+pixel-speech-bubble (8).png::CompressedTexture2D::5531236605841118135::1756808009::1756808150::1::::<><>::
+pixel-speech-bubble (9).png::CompressedTexture2D::7606651647985539914::1756808009::1756808150::1::::<><>::
+pixel-speech-bubble (10).png::CompressedTexture2D::7002420777325918087::1756808008::1756808150::1::::<><>::
+pixel-speech-bubble (11).png::CompressedTexture2D::2585896011944833669::1756808008::1756808149::1::::<><>::
+pixel-speech-bubble (12).png::CompressedTexture2D::509511498763350031::1756808008::1756808149::1::::<><>::
+pixel-speech-bubble (13).png::CompressedTexture2D::6646230485153673837::1756808009::1756808153::1::::<><>::
+pixel-speech-bubble (14).png::CompressedTexture2D::6423809282725299287::1756808009::1756808153::1::::<><>::
+pixel-speech-bubble (15).png::CompressedTexture2D::7685308440522284248::1756808009::1756808153::1::::<><>::
+pixel-speech-bubble (16).png::CompressedTexture2D::2459725303212509248::1756808009::1756808153::1::::<><>::
+pixel-speech-bubble (17).png::CompressedTexture2D::8117569666718881851::1756808009::1756808153::1::::<><>::
+pixel-speech-bubble (18).png::CompressedTexture2D::1137717071634846949::1756808009::1756808153::1::::<><>::
+pixel-speech-bubble (19).png::CompressedTexture2D::1015554846387556769::1756808009::1756808153::1::::<><>::
+pixel-speech-bubble.png::CompressedTexture2D::4046476611343339769::1756808009::1756808152::1::::<><>::
+quiz.gd::GDScript::-1::1756808009::0::1::::lobby_quiz<>Node3D<>::
+quiz.tscn::PackedScene::4616657223394986685::1756808009::0::1::::<><>::uid://d2ix02cqc3pe2::::res://quiz.gd<>uid://d0vuotcp6ec3s::::res://character_body_3d.tscn<>uid://dok5p3g7ob8op::::res://New Piskel (21).png<>uid://b5egc5pfxc2eo::::res://New Piskel (22).png<>uid://bx1ww06fett1h::::res://Screen Recording 2025-03-23 144438.mp3<>uid://bbgttfso3p6n1::::res://fps.tscn
+README.md::TextFile::-1::1756808006::0::1::::<><>::
+resized_Screenshot 2025-03-23 170241.png::CompressedTexture2D::6264151361856939959::1756808009::1756808152::1::::<><>::
+resized_Screenshot 2025-03-23 170336.png::CompressedTexture2D::4399960852917550792::1756808009::1756808152::1::::<><>::
+road_to_emmaus.gd::GDScript::-1::1756808009::0::1::::road_to_emmaus<>Node3D<>::
+road_to_emmaus.tscn::PackedScene::4883860532340593376::1756808009::0::1::::<><>::uid://bsmyn08gtmafe::::res://road_to_emmaus.gd<>uid://d0vuotcp6ec3s::::res://character_body_3d.tscn<>uid://b5cuqrlu7vbav::::res://Screenshot 2025-06-16 181502.png<>uid://bpwydx7uk482m::::res://pixel-speech-bubble (1).png<>uid://chfjpljpye8vj::::res://pixel-speech-bubble (3).png<>uid://d0nl3w1j4l1fq::::res://New Piskel (2).png<>uid://bxwe44wfbm442::::res://pixel-speech-bubble.png<>uid://rw2rgeh0kncw::::res://pixel-speech-bubble (7).png<>uid://d0iwodfmg3ho8::::res://pixel-speech-bubble (4).png<>uid://da6v3sco7leey::::res://pixel-speech-bubble (2).png<>uid://ck2mwnsp8fmwd::::res://pixel-speech-bubble (8).png<>uid://b6mfxop4fof6j::::res://pixel-speech-bubble (6).png<>uid://c61a32j3o6hcp::::res://pixel-speech-bubble (10).png<>uid://cxr0g2u2hcly2::::res://pixel-speech-bubble (14).png<>uid://bhvh1rxnrjlax::::res://New Piskel (8) (1).png<>uid://b0ndhv6xry0gc::::res://pixel-speech-bubble (5).png<>uid://hi2tyoee0tut::::res://pixel-speech-bubble (12).png<>uid://b034l8x2vmkgl::::res://New Piskel (9) (6).png<>uid://f5hg3sfuxglx::::res://New Piskel (9) (7).png<>uid://dhq253xylm0qe::::res://pixel-speech-bubble (15).png<>uid://b2jcqs8rb4dd8::::res://New Piskel (9) (8).png<>uid://dgmypaeysqfaw::::res://pixel-speech-bubble (9).png<>uid://bc3vlg6fsrgoj::::res://pixel-speech-bubble (11).png<>uid://c1xqpeq2ebe6x::::res://pixel-speech-bubble (13).png<>uid://dnwhglrasl5h4::::res://pixel-speech-bubble (17).png<>uid://op7bmgayrfw0::::res://pixel-speech-bubble (19).png<>uid://bbbrk0y0mgroq::::res://pixel-speech-bubble (16).png<>uid://qhebfii8emaf::::res://pixel-speech-bubble (18).png<>uid://cwpdtqnsjp36k::::res://New Piskel (12) (12).png<>uid://dbl8oxwl1cdil::::res://New Piskel (9).png<>uid://b8ei6dkiq0yp1::::res://New Piskel (9) (9).png<>uid://b5egc5pfxc2eo::::res://New Piskel (22).png<>uid://knllsxe1rrnc::::res://1742735805457fqbx6815-voicemaker.in-speech.mp3<>uid://dn112v8yutx0::::res://1976606-200.png<>uid://cap5m84e7fmy8::::res://17427358744982bmfxf7r-voicemaker.in-speech.mp3<>uid://cgr2jqiy1k7ph::::res://1742735926109uij4nh8-voicemaker.in-speech.mp3<>uid://dfun35vk4dmoq::::res://1742735970692jtc9ihoh-voicemaker.in-speech.mp3<>uid://dlmue48or71ng::::res://1742736017516lb08e2i4-voicemaker.in-speech.mp3<>uid://cueqis3v4dn5x::::res://17427361058546r0yysa-voicemaker.in-speech.mp3<>uid://ck1lkak8pl74m::::res://1742736361073l0ccqa2q-voicemaker.in-speech.mp3<>uid://chlhn33cll22o::::res://1742736419277pfm0im6l-voicemaker.in-speech.mp3<>uid://4d7n8h8afec0::::res://1742736482732nbrpnkwh-voicemaker.in-speech.mp3<>uid://ditpoi6ovdw2x::::res://1742736536148n8bgfmoc-voicemaker.in-speech.mp3<>uid://csktbyu15txak::::res://1742736591377agdcnt4xk-voicemaker.in-speech.mp3<>uid://b414hd1qruqbj::::res://1742736647141hh17iykr-voicemaker.in-speech.mp3<>uid://rku727dtsmul::::res://1742736720393lh2hqafe-voicemaker.in-speech.mp3<>uid://dy51powjaot8f::::res://1742736798184ysav72gs-voicemaker.in-speech.mp3<>uid://bgctcsba4110h::::res://1742736856853j6qlo2vi-voicemaker.in-speech.mp3<>uid://bkxbkq5nwk2ff::::res://17427369036139190u7lr-voicemaker.in-speech.mp3<>uid://bcsu42kc1gmoq::::res://1742737005996zwumfpfs-voicemaker.in-speech.mp3<>uid://0lkxwja7hcb4::::res://1742737060189jtju47jh-voicemaker.in-speech.mp3<>uid://bx1ww06fett1h::::res://Screen Recording 2025-03-23 144438.mp3<>uid://bbgttfso3p6n1::::res://fps.tscn
+Screen Recording 2025-03-23 144438.mp3::AudioStreamMP3::4055814331486152575::1756808006::1756808148::1::::<><>::
+Screenshot 2025-03-23 170143.png::CompressedTexture2D::8821430064857389995::1756808006::1756808151::1::::<><>::
+Screenshot 2025-03-23 170215.png::CompressedTexture2D::6438121059340445452::1756808006::1756808151::1::::<><>::
+Screenshot 2025-06-16 181502.png::CompressedTexture2D::4497458571742098561::1756808006::1756808151::1::::<><>::
+ServerBrowser.gd::GDScript::-1::1756808006::0::1::::<>Control<>::
+ServerInfo.gd::GDScript::-1::1756808006::0::1::::<>HBoxContainer<>::
+server_browser.gd::GDScript::-1::1756808009::0::1::::<>Control<>::
+server_info.tscn::PackedScene::111082683968787762::1756808009::0::1::::<><>::uid://cv8fnu5l8tux2::::res://ServerInfo.gd
+server_info_item.gd::GDScript::-1::1756808009::0::1::::<>Control<>::
+server_info_item.tscn::PackedScene::1042929476921114996::1756808009::0::1::::<><>::uid://dy3wvp67r8iax::::res://server_info_item.gd
+SGME.png::CompressedTexture2D::5695977599276835103::1756808006::1756808151::1::::<><>::
+signin-button.png::CompressedTexture2D::1171090849112814522::1756808009::1756808151::1::::<><>::
+signin.gd::GDScript::-1::1756808009::0::1::::<>Node<>::
+signin.tscn::PackedScene::328864436192740313::1756808009::0::1::::<><>::uid://choa2j4qrf26m::::res://signin.gd<>uid://qxjxvvutwbig::::res://signin-button.png<>uid://b5egc5pfxc2eo::::res://New Piskel (22).png
+sketchfab_scene.tscn::PackedScene::3408386149937507669::1756808009::0::1::::<><>::uid://curwnbtx8j4wc::::res://large_tree_voxel.glb<>uid://bsrege2kl8wnx::::res://new_array_mesh.tres
+slot0_albedo_bump.png::CompressedTexture2D::3003600219571393508::1756808009::1756808151::1::::<><>::
+slot0_normal_roughness.png::CompressedTexture2D::5098534330778564970::1756808009::1756808150::1::::<><>::
+splat.png::CompressedTexture2D::4470164357318396998::1756808009::1756808150::1::::<><>::
+the_easter_hunt.gdshader::Shader::-1::1756808009::0::1::::<><>::
+touchscreenjoystickicon.png::CompressedTexture2D::5183069700045563830::1756808009::1756808150::1::::<><>::
+::res://addons/::1756808053
+::res://addons/godot-firebase/::1756808173
+icon.svg::CompressedTexture2D::1932520971276548949::1756808050::1756808173::1::::<><>::
+plugin.cfg::TextFile::-1::1756808050::0::1::::<><>::
+plugin.gd::GDScript::-1::1756808050::0::1::::<>EditorPlugin<>::
+README.md::TextFile::-1::1756808049::0::1::::<><>::
+Utilities.gd::GDScript::-1::1756808049::0::1::::Utilities<>Node<>::
+::res://addons/godot-firebase/auth/::1756808050
+auth.gd::GDScript::-1::1756808050::0::1::::FirebaseAuth<>HTTPRequest<>::
+auth_provider.gd::GDScript::-1::1756808050::0::1::::AuthProvider<>RefCounted<>::
+user_data.gd::GDScript::-1::1756808050::0::1::::FirebaseUserData<>RefCounted<>::
+::res://addons/godot-firebase/auth/providers/::1756808050
+facebook.gd::GDScript::-1::1756808050::0::1::::FacebookProvider<>AuthProvider<>::
+github.gd::GDScript::-1::1756808050::0::1::::GitHubProvider<>AuthProvider<>::
+google.gd::GDScript::-1::1756808050::0::1::::GoogleProvider<>AuthProvider<>::
+twitter.gd::GDScript::-1::1756808050::0::1::::TwitterProvider<>AuthProvider<>::
+::res://addons/godot-firebase/database/::1756808050
+database.gd::GDScript::-1::1756808050::0::1::::FirebaseDatabase<>Node<>::
+database_store.gd::GDScript::-1::1756808050::0::1::::FirebaseDatabaseStore<>Node<>::
+firebase_database_reference.tscn::PackedScene::3743898896187944825::1756808050::0::1::::<><>::res://addons/godot-firebase/database/reference.gd<>uid://ctb4l7plg8kqg::::res://addons/godot-firebase/queues/queueable_http_request.tscn<>res://addons/http-sse-client/HTTPSSEClient.gd<>res://addons/godot-firebase/database/database_store.gd
+firebase_once_database_reference.tscn::PackedScene::9027041200797885914::1756808050::0::1::::<><>::res://addons/godot-firebase/database/once_reference.gd<>uid://ctb4l7plg8kqg::::res://addons/godot-firebase/queues/queueable_http_request.tscn
+once_reference.gd::GDScript::-1::1756808050::0::1::::FirebaseOnceDatabaseReference<>Node<>::
+reference.gd::GDScript::-1::1756808050::0::1::::FirebaseDatabaseReference<>Node<>::
+resource.gd::GDScript::-1::1756808050::0::1::::FirebaseResource<>Resource<>::
+::res://addons/godot-firebase/dynamiclinks/::1756808050
+dynamiclinks.gd::GDScript::-1::1756808050::0::1::::FirebaseDynamicLinks<>Node<>::
+::res://addons/godot-firebase/firebase/::1756808050
+firebase.gd::GDScript::-1::1756808050::0::1::::<>Node<>::
+firebase.tscn::PackedScene::6250566209717982510::1756808050::0::1::::<><>::res://addons/godot-firebase/database/database.gd<>res://addons/godot-firebase/firestore/firestore.gd<>res://addons/godot-firebase/firebase/firebase.gd<>res://addons/godot-firebase/auth/auth.gd<>res://addons/godot-firebase/storage/storage.gd<>res://addons/godot-firebase/dynamiclinks/dynamiclinks.gd<>res://addons/godot-firebase/functions/functions.gd<>uid://5xa6ulbllkjk::::res://addons/godot-firebase/remote_config/firebase_remote_config.tscn
+::res://addons/godot-firebase/firestore/::1756808050
+field_transform.gd::GDScript::-1::1756808050::0::1::::FieldTransform<>FirestoreTransform<>::
+field_transform_array.gd::GDScript::-1::1756808050::0::1::::FieldTransformArray<>RefCounted<>::
+firestore.gd::GDScript::-1::1756808050::0::1::::FirebaseFirestore<>Node<>::
+firestore_collection.gd::GDScript::-1::1756808050::0::1::::FirestoreCollection<>Node<>::
+firestore_document.gd::GDScript::-1::1756808050::0::1::::FirestoreDocument<>Node<>::
+firestore_listener.gd::GDScript::-1::1756808050::0::1::::FirestoreListener<>Node<>::
+firestore_listener.tscn::PackedScene::3975908630060077356::1756808050::0::1::::<><>::res://addons/godot-firebase/firestore/firestore_listener.gd
+firestore_query.gd::GDScript::-1::1756808050::0::1::::FirestoreQuery<>RefCounted<>::
+firestore_task.gd::GDScript::-1::1756808050::0::1::::FirestoreTask<>RefCounted<>::
+firestore_transform.gd::GDScript::-1::1756808050::0::1::::FirestoreTransform<>RefCounted<>::
+::res://addons/godot-firebase/firestore/field_transforms/::1756808050
+decrement_transform.gd::GDScript::-1::1756808050::0::1::::DecrementTransform<>FieldTransform<>::
+increment_transform.gd::GDScript::-1::1756808050::0::1::::IncrementTransform<>FieldTransform<>::
+max_transform.gd::GDScript::-1::1756808050::0::1::::MaxTransform<>FieldTransform<>::
+min_transform.gd::GDScript::-1::1756808050::0::1::::MinTransform<>FieldTransform<>::
+server_timestamp_transform.gd::GDScript::-1::1756808050::0::1::::ServerTimestampTransform<>FieldTransform<>::
+::res://addons/godot-firebase/functions/::1756808050
+functions.gd::GDScript::-1::1756808050::0::1::::FirebaseFunctions<>Node<>::
+function_task.gd::GDScript::-1::1756808050::0::1::::FunctionTask<>RefCounted<>::
+::res://addons/godot-firebase/queues/::1756808051
+queueable_http_request.gd::GDScript::-1::1756808050::0::1::::QueueableHTTPRequest<>HTTPRequest<>::
+queueable_http_request.tscn::PackedScene::6110275915214446166::1756808051::0::1::::<><>::res://addons/godot-firebase/queues/queueable_http_request.gd
+::res://addons/godot-firebase/remote_config/::1756808051
+firebase_remote_config.gd::GDScript::-1::1756808051::0::1::::FirebaseRemoteConfig<>Node<>::
+firebase_remote_config.tscn::PackedScene::2153202424615828940::1756808051::0::1::::<><>::res://addons/godot-firebase/remote_config/firebase_remote_config.gd
+remote_config.gd::GDScript::-1::1756808051::0::1::::RemoteConfig<>RefCounted<>::
+::res://addons/godot-firebase/storage/::1756808051
+storage.gd::GDScript::-1::1756808051::0::1::::FirebaseStorage<>Node<>::
+storage_reference.gd::GDScript::-1::1756808051::0::1::::StorageReference<>Node<>::
+storage_task.gd::GDScript::-1::1756808051::0::1::::StorageTask<>RefCounted<>::
+::res://addons/godot-jolt/::1756808052
+godot-jolt.gdextension::GDExtension::-1::1756808051::0::1::::<><>::
+LICENSE.txt::TextFile::-1::1756808051::0::1::::<><>::
+THIRDPARTY.txt::TextFile::-1::1756808051::0::1::::<><>::
+::res://addons/godot-jolt/android/::1756808051
+::res://addons/godot-jolt/ios/::1756808051
+::res://addons/godot-jolt/ios/godot-jolt_ios.framework/::1756808051
+::res://addons/godot-jolt/ios/godot-jolt_ios_editor.framework/::1756808051
+::res://addons/godot-jolt/linux/::1756808052
+::res://addons/godot-jolt/macos/::1756808052
+::res://addons/godot-jolt/macos/godot-jolt_macos.framework/::1756808052
+::res://addons/godot-jolt/macos/godot-jolt_macos.framework/_CodeSignature/::1756808052
+::res://addons/godot-jolt/macos/godot-jolt_macos.framework/Resources/::1756808052
+::res://addons/godot-jolt/macos/godot-jolt_macos_editor.framework/::1756808052
+::res://addons/godot-jolt/macos/godot-jolt_macos_editor.framework/_CodeSignature/::1756808052
+::res://addons/godot-jolt/macos/godot-jolt_macos_editor.framework/Resources/::1756808052
+::res://addons/godot-jolt/windows/::1756824519
+::res://addons/http-sse-client/::1756808173
+HTTPSSEClient.gd::GDScript::-1::1756808053::0::1::::<>Node<>::
+HTTPSSEClient.tscn::PackedScene::-1::1756808053::0::1::::<><>::res://addons/http-sse-client/HTTPSSEClient.gd
+httpsseclient_plugin.gd::GDScript::-1::1756808053::0::1::::<>EditorPlugin<>::
+icon.png::CompressedTexture2D::8571961843693771470::1756808053::1756808173::1::::<><>::
+plugin.cfg::TextFile::-1::1756808053::0::1::::<><>::
+README.md::TextFile::-1::1756808053::0::1::::<><>::
+::res://addons/zylann.hterrain/::1756808059
+hterrain.gd::GDScript::-1::1756808053::0::1::::<>Node3D<>::
+hterrain_chunk.gd::GDScript::-1::1756808053::0::1::::<>RefCounted<>::
+hterrain_chunk_debug.gd::GDScript::-1::1756808053::0::1::::<><>::
+hterrain_collider.gd::GDScript::-1::1756808053::0::1::::<>RefCounted<>::
+hterrain_data.gd::GDScript::-1::1756808053::0::1::::<>Resource<>::
+hterrain_detail_layer.gd::GDScript::-1::1756808053::0::1::::<>Node3D<>::
+hterrain_mesher.gd::GDScript::-1::1756808053::0::1::::<>RefCounted<>::
+hterrain_resource_loader.gd::GDScript::-1::1756808053::0::1::::HTerrainDataLoader<>ResourceFormatLoader<>::
+hterrain_resource_saver.gd::GDScript::-1::1756808053::0::1::::HTerrainDataSaver<>ResourceFormatSaver<>::
+hterrain_texture_set.gd::GDScript::-1::1756808053::0::1::::<>Resource<>::
+LICENSE.md::TextFile::-1::1756808053::0::1::::<><>::
+plugin.cfg::TextFile::-1::1756808053::0::1::::<><>::
+::res://addons/zylann.hterrain/models/::1756808243
+grass_quad.obj::Mesh::6620316929404339230::1756808054::1756808243::1::::<><>::
+grass_quad_x2.obj::Mesh::8220704214985638595::1756808054::1756808242::1::::<><>::
+grass_quad_x3.obj::Mesh::2896441702435920530::1756808054::1756808242::1::::<><>::
+grass_quad_x4.obj::Mesh::5372299299175112764::1756808054::1756808242::1::::<><>::
+::res://addons/zylann.hterrain/native/::1756808055
+factory.gd::GDScript::-1::1756808054::0::1::::<>RefCounted<>::
+image_utils_generic.gd::GDScript::-1::1756808054::0::1::::<>RefCounted<>::
+quad_tree_lod_generic.gd::GDScript::-1::1756808055::0::1::::<>RefCounted<>::
+::res://addons/zylann.hterrain/native/bin/::1756808055
+::res://addons/zylann.hterrain/native/bin/linux/::1756808055
+::res://addons/zylann.hterrain/native/bin/osx/::1756808055
+::res://addons/zylann.hterrain/native/bin/win64/::1756808055
+::res://addons/zylann.hterrain/shaders/::1756808055
+array.gdshader::Shader::-1::1756808055::0::1::::<><>::
+array_global.gdshader::Shader::-1::1756808055::0::1::::<><>::
+detail.gdshader::Shader::-1::1756808055::0::1::::<><>::
+lookdev.gdshader::Shader::-1::1756808055::0::1::::<><>::
+low_poly.gdshader::Shader::-1::1756808055::0::1::::<><>::
+multisplat16.gdshader::Shader::-1::1756808055::0::1::::<><>::
+multisplat16_global.gdshader::Shader::-1::1756808055::0::1::::<><>::
+multisplat16_lite.gdshader::Shader::-1::1756808055::0::1::::<><>::
+simple4.gdshader::Shader::-1::1756808055::0::1::::<><>::
+simple4_global.gdshader::Shader::-1::1756808055::0::1::::<><>::
+simple4_lite.gdshader::Shader::-1::1756808055::0::1::::<><>::
+::res://addons/zylann.hterrain/shaders/include/::1756808055
+heightmap.gdshaderinc::ShaderInclude::-1::1756808055::0::1::::<><>::
+heightmap_rgb8_encoding.gdshaderinc::ShaderInclude::-1::1756808055::0::1::::<><>::
+::res://addons/zylann.hterrain/tools/::1756808059
+bump2normal_tex.gdshader::Shader::-1::1756808055::0::1::::<><>::
+generate_mesh_dialog.gd::GDScript::-1::1756808055::0::1::::<>AcceptDialog<>::
+generate_mesh_dialog.tscn::PackedScene::5386145332112369122::1756808055::0::1::::<><>::res://addons/zylann.hterrain/tools/generate_mesh_dialog.gd<>res://addons/zylann.hterrain/tools/util/dialog_fitter.tscn
+globalmap_baker.gd::GDScript::-1::1756808055::0::1::::<>Node<>::
+load_texture_dialog.gd::GDScript::-1::1756808055::0::1::::<>EditorFileDialog<>::
+normalmap_baker.gd::GDScript::-1::1756808055::0::1::::<>Node<>::
+panel.gd::GDScript::-1::1756808055::0::1::::<>Control<>::
+panel.tscn::PackedScene::8499408700996811109::1756808055::0::1::::<><>::res://addons/zylann.hterrain/tools/panel.gd<>uid://bd42ig216p216::::res://addons/zylann.hterrain/tools/brush/brush_editor.tscn<>res://addons/zylann.hterrain/tools/texture_editor/texture_editor.tscn<>uid://do3c3jse5p7hx::::res://addons/zylann.hterrain/tools/detail_editor/detail_editor.tscn<>uid://cba6k3hrwhrke::::res://addons/zylann.hterrain/tools/minimap/minimap.tscn<>res://addons/zylann.hterrain/tools/minimap/ratio_container.gd
+plugin.gd::GDScript::-1::1756808055::0::1::::<>EditorPlugin<>::
+preview_generator.gd::GDScript::-1::1756808055::0::1::::<>EditorResourcePreviewGenerator<>::
+progress_window.gd::GDScript::-1::1756808055::0::1::::<>AcceptDialog<>::
+progress_window.tscn::PackedScene::4153177811752584475::1756808055::0::1::::<><>::res://addons/zylann.hterrain/tools/progress_window.gd
+terrain_preview.gd::GDScript::-1::1756808055::0::1::::<>SubViewportContainer<>::
+terrain_preview.tscn::PackedScene::3800103945786689903::1756808056::0::1::::<><>::res://addons/zylann.hterrain/tools/terrain_preview.gd
+::res://addons/zylann.hterrain/tools/about/::1756808056
+about_dialog.gd::GDScript::-1::1756808056::0::1::::<>AcceptDialog<>::
+about_dialog.tscn::PackedScene::6289310962249958540::1756808056::0::1::::<><>::res://addons/zylann.hterrain/tools/about/about_dialog.gd<>uid://sdaddk8wxjin::::res://addons/zylann.hterrain/tools/icons/icon_heightmap_node_large.svg<>res://addons/zylann.hterrain/tools/util/rich_text_label_hyperlinks.gd
+::res://addons/zylann.hterrain/tools/brush/::1756808056
+brush.gd::GDScript::-1::1756808056::0::1::::<>RefCounted<>::
+brush_editor.gd::GDScript::-1::1756808056::0::1::::<>Control<>::
+brush_editor.tscn::PackedScene::2658508172704054631::1756808056::0::1::::<><>::res://addons/zylann.hterrain/tools/brush/brush_editor.gd<>res://addons/zylann.hterrain/tools/util/interval_slider.gd
+decal.gd::GDScript::-1::1756808056::0::1::::<>RefCounted<>::
+decal.gdshader::Shader::-1::1756808056::0::1::::<><>::
+no_blend.gdshader::Shader::-1::1756808056::0::1::::<><>::
+no_blend_rf.gdshader::Shader::-1::1756808056::0::1::::<><>::
+painter.gd::GDScript::-1::1756808056::0::1::::<>Node<>::
+terrain_painter.gd::GDScript::-1::1756808056::0::1::::<>Node<>::
+::res://addons/zylann.hterrain/tools/brush/settings_dialog/::1756808056
+brush_settings_dialog.gd::GDScript::-1::1756808056::0::1::::<>AcceptDialog<>::
+brush_settings_dialog.tscn::PackedScene::9090660047164542933::1756808056::0::1::::<><>::res://addons/zylann.hterrain/tools/util/spin_slider.tscn<>res://addons/zylann.hterrain/tools/brush/settings_dialog/brush_settings_dialog.gd<>uid://ng00jipfeucy::::res://addons/zylann.hterrain/tools/brush/settings_dialog/preview_scratchpad.tscn
+preview_painter.gd::GDScript::-1::1756808056::0::1::::<>Node<>::
+preview_scratchpad.gd::GDScript::-1::1756808056::0::1::::<>Control<>::
+preview_scratchpad.tscn::PackedScene::926404289242543740::1756808056::0::1::::<><>::res://addons/zylann.hterrain/tools/brush/settings_dialog/preview_scratchpad.gd<>res://addons/zylann.hterrain/tools/brush/settings_dialog/preview_painter.gd
+::res://addons/zylann.hterrain/tools/brush/shaders/::1756808056
+alpha.gdshader::Shader::-1::1756808056::0::1::::<><>::
+color.gdshader::Shader::-1::1756808056::0::1::::<><>::
+erode.gdshader::Shader::-1::1756808056::0::1::::<><>::
+flatten.gdshader::Shader::-1::1756808056::0::1::::<><>::
+level.gdshader::Shader::-1::1756808056::0::1::::<><>::
+raise.gdshader::Shader::-1::1756808056::0::1::::<><>::
+smooth.gdshader::Shader::-1::1756808056::0::1::::<><>::
+splat4.gdshader::Shader::-1::1756808056::0::1::::<><>::
+splat16.gdshader::Shader::-1::1756808056::0::1::::<><>::
+splat_indexed.gdshader::Shader::-1::1756808056::0::1::::<><>::
+::res://addons/zylann.hterrain/tools/brush/shapes/::1756808173
+acrylic1.exr::CompressedTexture2D::6178269531466466510::1756808056::1756808173::1::::<><>::
+round0.exr::CompressedTexture2D::7460698352545372301::1756808057::1756808173::1::::<><>::
+round1.exr::CompressedTexture2D::2487345591052041236::1756808057::1756808173::1::::<><>::
+round2.exr::CompressedTexture2D::1362044068102355408::1756808057::1756808173::1::::<><>::
+round3.exr::CompressedTexture2D::2403721708315205119::1756808057::1756808173::1::::<><>::
+smoke.exr::CompressedTexture2D::5609866760077604392::1756808057::1756808173::1::::<><>::
+texture1.exr::CompressedTexture2D::8289125372040860787::1756808057::1756808173::1::::<><>::
+thing.exr::CompressedTexture2D::3181761821214358718::1756808057::1756808173::1::::<><>::
+vegetation1.exr::CompressedTexture2D::4835581309141854968::1756808057::1756808172::1::::<><>::
+::res://addons/zylann.hterrain/tools/detail_editor/::1756808057
+detail_editor.gd::GDScript::-1::1756808057::0::1::::<>Control<>::
+detail_editor.tscn::PackedScene::8199880376079389661::1756808057::0::1::::<><>::res://addons/zylann.hterrain/tools/detail_editor/detail_editor.gd
+::res://addons/zylann.hterrain/tools/exporter/::1756808057
+export_image_dialog.gd::GDScript::-1::1756808057::0::1::::<>AcceptDialog<>::
+export_image_dialog.tscn::PackedScene::2555864907826840350::1756808057::0::1::::<><>::res://addons/zylann.hterrain/tools/exporter/export_image_dialog.gd<>res://addons/zylann.hterrain/tools/util/dialog_fitter.tscn
+::res://addons/zylann.hterrain/tools/generator/::1756808057
+generator_dialog.gd::GDScript::-1::1756808057::0::1::::<>AcceptDialog<>::
+generator_dialog.tscn::PackedScene::5205193524991253542::1756808057::0::1::::<><>::res://addons/zylann.hterrain/tools/generator/generator_dialog.gd<>res://addons/zylann.hterrain/tools/inspector/inspector.tscn<>res://addons/zylann.hterrain/tools/terrain_preview.tscn<>res://addons/zylann.hterrain/tools/util/dialog_fitter.tscn
+texture_generator.gd::GDScript::-1::1756808057::0::1::::<>Node<>::
+texture_generator_pass.gd::GDScript::-1::1756808057::0::1::::<>RefCounted<>::
+::res://addons/zylann.hterrain/tools/generator/shaders/::1756808057
+bump2normal.gdshader::Shader::-1::1756808057::0::1::::<><>::
+erode.gdshader::Shader::-1::1756808057::0::1::::<><>::
+perlin_noise.gdshader::Shader::-1::1756808057::0::1::::<><>::
+::res://addons/zylann.hterrain/tools/icons/::1756808174
+empty.png::CompressedTexture2D::1504509058346238879::1756808057::1756808172::1::::<><>::
+icon_anchor_bottom.svg::CompressedTexture2D::827662822451304475::1756808057::1756808172::1::::<><>::
+icon_anchor_bottom_left.svg::CompressedTexture2D::2018265475282929702::1756808057::1756808172::1::::<><>::
+icon_anchor_bottom_right.svg::CompressedTexture2D::6320626977580396292::1756808057::1756808172::1::::<><>::
+icon_anchor_center.svg::CompressedTexture2D::3119727757290223084::1756808057::1756808172::1::::<><>::
+icon_anchor_left.svg::CompressedTexture2D::5664858243243791690::1756808057::1756808172::1::::<><>::
+icon_anchor_right.svg::CompressedTexture2D::6217582571824591791::1756808057::1756808172::1::::<><>::
+icon_anchor_top.svg::CompressedTexture2D::5860998809784716568::1756808057::1756808172::1::::<><>::
+icon_anchor_top_left.svg::CompressedTexture2D::3803367393688732186::1756808057::1756808174::1::::<><>::
+icon_anchor_top_right.svg::CompressedTexture2D::2669409537205675606::1756808057::1756808174::1::::<><>::
+icon_detail_layer_node.svg::CompressedTexture2D::2195168684578199205::1756808057::1756808174::1::::<><>::
+icon_grass.svg::CompressedTexture2D::5772131425710017409::1756808057::1756808174::1::::<><>::
+icon_heightmap_color.svg::CompressedTexture2D::1388045795589487385::1756808057::1756808174::1::::<><>::
+icon_heightmap_data.svg::CompressedTexture2D::5038811707273598147::1756808057::1756808174::1::::<><>::
+icon_heightmap_erode.svg::CompressedTexture2D::5392715747516967210::1756808057::1756808174::1::::<><>::
+icon_heightmap_flatten.svg::CompressedTexture2D::2178743532768832376::1756808057::1756808173::1::::<><>::
+icon_heightmap_level.svg::CompressedTexture2D::6988991732108623247::1756808057::1756808173::1::::<><>::
+icon_heightmap_lower.svg::CompressedTexture2D::7212514977118525616::1756808057::1756808173::1::::<><>::
+icon_heightmap_mask.svg::CompressedTexture2D::3723852266788342045::1756808057::1756808173::1::::<><>::
+icon_heightmap_node.svg::CompressedTexture2D::29238510933076926::1756808057::1756808173::1::::<><>::
+icon_heightmap_node_large.svg::CompressedTexture2D::1269597850676254585::1756808057::1756808173::1::::<><>::
+icon_heightmap_paint.svg::CompressedTexture2D::5241304854740077407::1756808057::1756808173::1::::<><>::
+icon_heightmap_raise.svg::CompressedTexture2D::1786557646911000387::1756808057::1756808173::1::::<><>::
+icon_heightmap_smooth.svg::CompressedTexture2D::4577404558013681814::1756808057::1756808173::1::::<><>::
+icon_heightmap_unmask.svg::CompressedTexture2D::4471487670891958460::1756808058::1756808173::1::::<><>::
+icon_long_arrow_down.svg::CompressedTexture2D::4586811148435106243::1756808058::1756808173::1::::<><>::
+icon_long_arrow_right.svg::CompressedTexture2D::9168395827779287216::1756808058::1756808173::1::::<><>::
+icon_minimap_out_of_range_position.svg::CompressedTexture2D::4975061766210338367::1756808058::1756808161::1::::<><>::
+icon_minimap_position.svg::CompressedTexture2D::6606721521985553641::1756808058::1756808161::1::::<><>::
+icon_small_circle.svg::CompressedTexture2D::2617764172486532982::1756808058::1756808161::1::::<><>::
+white.png::CompressedTexture2D::8080267316172367807::1756808058::1756808161::1::::<><>::
+::res://addons/zylann.hterrain/tools/importer/::1756808058
+importer_dialog.gd::GDScript::-1::1756808058::0::1::::<>AcceptDialog<>::
+importer_dialog.tscn::PackedScene::1011466455515185333::1756808058::0::1::::<><>::res://addons/zylann.hterrain/tools/importer/importer_dialog.gd<>res://addons/zylann.hterrain/tools/inspector/inspector.tscn<>res://addons/zylann.hterrain/tools/util/dialog_fitter.tscn
+::res://addons/zylann.hterrain/tools/inspector/::1756808058
+inspector.gd::GDScript::-1::1756808058::0::1::::<>Control<>::
+inspector.tscn::PackedScene::7529299824556944909::1756808058::0::1::::<><>::res://addons/zylann.hterrain/tools/inspector/inspector.gd
+::res://addons/zylann.hterrain/tools/minimap/::1756808059
+minimap.gd::GDScript::-1::1756808058::0::1::::<>Control<>::
+minimap.tscn::PackedScene::4844931778008575508::1756808058::0::1::::<><>::res://addons/zylann.hterrain/tools/minimap/minimap.gd<>res://addons/zylann.hterrain/tools/minimap/minimap_normal.gdshader<>res://addons/zylann.hterrain/tools/minimap/minimap_overlay.gd<>uid://c1el0dmyvaaij::::res://addons/zylann.hterrain/tools/icons/icon_minimap_position.svg<>uid://cc47smy24m368::::res://addons/zylann.hterrain/tools/icons/icon_minimap_out_of_range_position.svg
+minimap_normal.gdshader::Shader::-1::1756808058::0::1::::<><>::
+minimap_overlay.gd::GDScript::-1::1756808059::0::1::::<>Control<>::
+ratio_container.gd::GDScript::-1::1756808059::0::1::::<>Container<>::
+::res://addons/zylann.hterrain/tools/packed_textures/::1756808059
+packed_texture_util.gd::GDScript::-1::1756808059::0::1::::<>RefCounted<>::
+::res://addons/zylann.hterrain/tools/resize_dialog/::1756808059
+resize_dialog.gd::GDScript::-1::1756808059::0::1::::<>AcceptDialog<>::
+resize_dialog.tscn::PackedScene::462163120376827837::1756808059::0::1::::<><>::res://addons/zylann.hterrain/tools/resize_dialog/resize_dialog.gd<>uid://b4ya0po3a4nqa::::res://addons/zylann.hterrain/tools/icons/icon_heightmap_unmask.svg<>uid://d3vie0tj3ry6k::::res://addons/zylann.hterrain/tools/icons/icon_long_arrow_right.svg<>uid://b6l5dys0awbwd::::res://addons/zylann.hterrain/tools/icons/icon_long_arrow_down.svg<>uid://bdkcgtv1r5j31::::res://addons/zylann.hterrain/tools/icons/icon_small_circle.svg<>res://addons/zylann.hterrain/tools/util/dialog_fitter.tscn
+::res://addons/zylann.hterrain/tools/texture_editor/::1756808059
+display_alpha.gdshader::Shader::-1::1756808059::0::1::::<><>::
+display_alpha_material.tres::ShaderMaterial::-1::1756808059::0::1::::<><>::res://addons/zylann.hterrain/tools/texture_editor/display_alpha.gdshader
+display_alpha_slice.gdshader::Shader::-1::1756808059::0::1::::<><>::
+display_color.gdshader::Shader::-1::1756808059::0::1::::<><>::
+display_color_material.tres::ShaderMaterial::-1::1756808059::0::1::::<><>::res://addons/zylann.hterrain/tools/texture_editor/display_color.gdshader
+display_color_slice.gdshader::Shader::-1::1756808059::0::1::::<><>::
+display_normal.gdshader::Shader::-1::1756808059::0::1::::<><>::
+flow_container.gd::GDScript::-1::1756808059::0::1::::<>Container<>::
+texture_editor.gd::GDScript::-1::1756808059::0::1::::<>Control<>::
+texture_editor.tscn::PackedScene::-1::1756808059::0::1::::<><>::res://addons/zylann.hterrain/tools/texture_editor/texture_editor.gd<>res://addons/zylann.hterrain/tools/texture_editor/texture_list.tscn
+texture_list.gd::GDScript::-1::1756808059::0::1::::<>ScrollContainer<>::
+texture_list.tscn::PackedScene::-1::1756808059::0::1::::<><>::res://addons/zylann.hterrain/tools/texture_editor/texture_list.gd<>res://addons/zylann.hterrain/tools/texture_editor/flow_container.gd
+texture_list_item.gd::GDScript::-1::1756808059::0::1::::<>PanelContainer<>::
+texture_list_item.tscn::PackedScene::7200933304835963974::1756808059::0::1::::<><>::res://addons/zylann.hterrain/tools/texture_editor/texture_list_item.gd
+::res://addons/zylann.hterrain/tools/texture_editor/set_editor/::1756808059
+source_file_item_editor.gd::GDScript::-1::1756808059::0::1::::<>Control<>::
+source_file_item_editor.tscn::PackedScene::8294695479401419868::1756808059::0::1::::<><>::res://addons/zylann.hterrain/tools/texture_editor/set_editor/source_file_item_editor.gd
+texture_set_editor.gd::GDScript::-1::1756808059::0::1::::<>AcceptDialog<>::
+texture_set_editor.tscn::PackedScene::6537777482840653669::1756808059::0::1::::<><>::res://addons/zylann.hterrain/tools/texture_editor/set_editor/texture_set_editor.gd<>res://addons/zylann.hterrain/tools/texture_editor/display_alpha.gdshader<>res://addons/zylann.hterrain/tools/texture_editor/display_color.gdshader<>res://addons/zylann.hterrain/tools/util/dialog_fitter.tscn
+texture_set_import_editor.gd::GDScript::-1::1756808059::0::1::::<>AcceptDialog<>::
+texture_set_import_editor.tscn::PackedScene::1982598452320277064::1756808059::0::1::::<><>::res://addons/zylann.hterrain/tools/util/dialog_fitter.tscn<>uid://dqgaomu3tr1ym::::res://addons/zylann.hterrain/tools/texture_editor/set_editor/source_file_item_editor.tscn<>res://addons/zylann.hterrain/tools/texture_editor/set_editor/texture_set_import_editor.gd
+::res://addons/zylann.hterrain/tools/util/::1756808059
+dialog_fitter.gd::GDScript::-1::1756808059::0::1::::<>Control<>::
+dialog_fitter.tscn::PackedScene::-1::1756808059::0::1::::<><>::res://addons/zylann.hterrain/tools/util/dialog_fitter.gd
+editor_util.gd::GDScript::-1::1756808059::0::1::::<>RefCounted<>::
+interval_slider.gd::GDScript::-1::1756808059::0::1::::<>Control<>::
+resource_importer_texture.gd::GDScript::-1::1756808059::0::1::::<>RefCounted<>::
+resource_importer_texture_layered.gd::GDScript::-1::1756808059::0::1::::<>RefCounted<>::
+result.gd::GDScript::-1::1756808059::0::1::::<>RefCounted<>::
+rich_text_label_hyperlinks.gd::GDScript::-1::1756808059::0::1::::<>RichTextLabel<>::
+spin_slider.gd::GDScript::-1::1756808059::0::1::::<>Control<>::
+spin_slider.tscn::PackedScene::-1::1756808059::0::1::::<><>::res://addons/zylann.hterrain/tools/util/spin_slider.gd
+::res://addons/zylann.hterrain/util/::1756808059
+direct_mesh_instance.gd::GDScript::-1::1756808059::0::1::::<>RefCounted<>::
+direct_multimesh_instance.gd::GDScript::-1::1756808059::0::1::::<>RefCounted<>::
+errors.gd::GDScript::-1::1756808059::0::1::::<>RefCounted<>::
+grid.gd::GDScript::-1::1756808059::0::1::::<>RefCounted<>::
+image_file_cache.gd::GDScript::-1::1756808059::0::1::::<>RefCounted<>::
+logger.gd::GDScript::-1::1756808059::0::1::::<>RefCounted<>::
+util.gd::GDScript::-1::1756808059::0::1::::<>RefCounted<>::
+xyz_format.gd::GDScript::-1::1756808059::0::1::::<>RefCounted<>::
+::res://CREDITS/::1756808161
+GodotCredits.gd::GDScript::-1::1756808009::0::1::::<>Control<>::
+GodotCredits.tscn::PackedScene::5640538567761753761::1756808009::0::1::::<><>::uid://dff4s2fi5dy6i::::res://CREDITS/GodotCredits.gd
+logo64.png::CompressedTexture2D::8219066229151080399::1756808009::1756808161::1::::<><>::
+::res://folder/::1756808161
+color.png::CompressedTexture2D::7901856074718536224::1756808060::1756808161::1::::<><>::
+data.hterrain::Resource::-1::1756808060::0::1::::<><>::
+height.res::Image::4881645990159964138::1756808060::0::1::::<><>::
+normal.png::CompressedTexture2D::4748592765178713097::1756808060::1756808161::1::::<><>::
+splat.png::CompressedTexture2D::2270830763365539378::1756808060::1756808161::1::::<><>::
+::res://folder2/::1756808161
+color.png::CompressedTexture2D::1367646903316613171::1756808060::1756808161::1::::<><>::
+data.hterrain::Resource::-1::1756808060::0::1::::<><>::
+height.res::Image::410986550793392361::1756808060::0::1::::<><>::
+normal.png::CompressedTexture2D::4649674031133565572::1756808060::1756808161::1::::<><>::
+splat.png::CompressedTexture2D::729112923995575156::1756808060::1756808161::1::::<><>::
+::res://Free Easter Eggs 3D Models/::1756808009
+::res://Free Easter Eggs 3D Models/Free Easter Eggs 3D Models/::1756808265
+Easter Egg Textured.glb::PackedScene::1185177803546787355::1756808009::1756808264::0::::<><>::
+Easter Egg Textured_Easter Egg_low_Material 1_BaseColor.png::CompressedTexture2D::2073171998014550975::1756808010::1756808178::1::::<><>::
+Easter Egg Textured_Easter Egg_low_Material 1_Metallic-Easter Egg_low_Material 1_Roughness.png::CompressedTexture2D::5608848675372044038::1756808010::1756808178::1::::<><>::
+Easter Egg Textured_Easter Egg_low_Material 1_Normal.png::CompressedTexture2D::6127712361683769496::1756808011::1756808200::1::::<><>::
+Easter Egg Textured_Easter Egg_low_Material 2_BaseColor.png::CompressedTexture2D::1210416102271319795::1756808011::1756808177::1::::<><>::
+Easter Egg Textured_Easter Egg_low_Material 2_Metallic-Easter Egg_low_Material 2_Roughness.png::CompressedTexture2D::6136141725718319262::1756808011::1756808178::1::::<><>::
+Easter Egg Textured_Easter Egg_low_Material 2_Normal.png::CompressedTexture2D::6996696171015821399::1756808013::1756808224::1::::<><>::
+Easter Egg Textured_Easter Egg_low_Material 3_BaseColor.png::CompressedTexture2D::7506931014026128659::1756808013::1756808200::1::::<><>::
+Easter Egg Textured_Easter Egg_low_Material 3_Metallic-Easter Egg_low_Material 3_Roughness.png::CompressedTexture2D::1435650701492693434::1756808013::1756808198::1::::<><>::
+Easter Egg Textured_Easter Egg_low_Material 3_Normal.png::CompressedTexture2D::8259120795598682424::1756808014::1756808220::1::::<><>::
+Easter Egg.fbx::PackedScene::5835709119995499940::1756808014::1756808265::1::::<><>::
+Free  Easter Eggs 3D Models 1260X1000 Itch Cover.jpg::CompressedTexture2D::7413484584523145597::1756808014::1756808195::1::::<><>::
+::res://Free Easter Eggs 3D Models/Free Easter Eggs 3D Models/Textures (FREE)/::1756808038
+::res://Free Easter Eggs 3D Models/Free Easter Eggs 3D Models/Textures (FREE)/PBR MetalicRoughness/::1756808018
+::res://Free Easter Eggs 3D Models/Free Easter Eggs 3D Models/Textures (FREE)/PBR MetalicRoughness/Plain/::1756808016
+::res://Free Easter Eggs 3D Models/Free Easter Eggs 3D Models/Textures (FREE)/PBR MetalicRoughness/Plain/Material 8/::1756808165
+Easter Egg_low_Material 8_BaseColor.png::CompressedTexture2D::1179943283343296923::1756808014::1756808165::1::::<><>::
+Easter Egg_low_Material 8_Height.png::CompressedTexture2D::5929282794565933093::1756808015::1756808160::1::::<><>::
+Easter Egg_low_Material 8_Metallic.png::CompressedTexture2D::2679438049599490420::1756808015::1756808157::1::::<><>::
+Easter Egg_low_Material 8_Normal.png::CompressedTexture2D::7778443199212677412::1756808016::1756808161::1::::<><>::
+Easter Egg_low_Material 8_Roughness.png::CompressedTexture2D::2754390171215813711::1756808016::1756808160::1::::<><>::
+::res://Free Easter Eggs 3D Models/Free Easter Eggs 3D Models/Textures (FREE)/PBR MetalicRoughness/Plain/Material 9/::1756808176
+Easter Egg_low_Material 9_BaseColor.png::CompressedTexture2D::6921795020828513352::1756808016::1756808160::1::::<><>::
+Easter Egg_low_Material 9_Height.png::CompressedTexture2D::7817617176927738311::1756808016::1756808157::1::::<><>::
+Easter Egg_low_Material 9_Metallic.png::CompressedTexture2D::751299093684811353::1756808016::1756808172::1::::<><>::
+Easter Egg_low_Material 9_Normal.png::CompressedTexture2D::525373103873266589::1756808018::1756808176::1::::<><>::
+Easter Egg_low_Material 9_Roughness.png::CompressedTexture2D::9006637201322398526::1756808018::1756808174::1::::<><>::
+::res://Free Easter Eggs 3D Models/Free Easter Eggs 3D Models/Textures (FREE)/PBR MetalicRoughness/Polka/::1756808021
+::res://Free Easter Eggs 3D Models/Free Easter Eggs 3D Models/Textures (FREE)/PBR MetalicRoughness/Polka/Material 1/::1756808175
+Easter Egg_low_Material 1_BaseColor.png::CompressedTexture2D::5872987481281300953::1756808018::1756808175::1::::<><>::
+Easter Egg_low_Material 1_Height.png::CompressedTexture2D::2674864989768030018::1756808018::1756808172::1::::<><>::
+Easter Egg_low_Material 1_Metallic.png::CompressedTexture2D::8376580192598718706::1756808018::1756808170::1::::<><>::
+Easter Egg_low_Material 1_Normal.png::CompressedTexture2D::3026732725175292437::1756808020::1756808173::1::::<><>::
+Easter Egg_low_Material 1_Roughness.png::CompressedTexture2D::9014236608861327544::1756808020::1756808170::1::::<><>::
+::res://Free Easter Eggs 3D Models/Free Easter Eggs 3D Models/Textures (FREE)/PBR MetalicRoughness/Polka/Material 2/::1756808172
+Easter Egg_low_Material 2_BaseColor.png::CompressedTexture2D::5856671051430715395::1756808020::1756808172::1::::<><>::
+Easter Egg_low_Material 2_Height.png::CompressedTexture2D::6663270620480901531::1756808020::1756808169::1::::<><>::
+Easter Egg_low_Material 2_Metallic.png::CompressedTexture2D::1237843092310335079::1756808020::1756808166::1::::<><>::
+Easter Egg_low_Material 2_Normal.png::CompressedTexture2D::2679005321763416905::1756808021::1756808171::1::::<><>::
+Easter Egg_low_Material 2_Roughness.png::CompressedTexture2D::4272210996587137544::1756808021::1756808169::1::::<><>::
+::res://Free Easter Eggs 3D Models/Free Easter Eggs 3D Models/Textures (FREE)/PBR MetalicRoughness/Polka/Material 3/::1756808167
+Easter Egg_low_Material 3_BaseColor.png::CompressedTexture2D::813172645711550092::1756808021::1756808167::1::::<><>::
+Easter Egg_low_Material 3_Height.png::CompressedTexture2D::3371639004497087917::1756808022::1756808165::1::::<><>::
+Easter Egg_low_Material 3_Metallic.png::CompressedTexture2D::5870605584695563699::1756808022::1756808162::1::::<><>::
+Easter Egg_low_Material 3_Normal.png::CompressedTexture2D::6579644077400748763::1756808023::1756808167::1::::<><>::
+Easter Egg_low_Material 3_Roughness.png::CompressedTexture2D::3242492265878386828::1756808023::1756808165::1::::<><>::
+::res://Free Easter Eggs 3D Models/Free Easter Eggs 3D Models/Textures (FREE)/UE4 (Packed)/::1756808025
+::res://Free Easter Eggs 3D Models/Free Easter Eggs 3D Models/Textures (FREE)/UE4 (Packed)/Plain/::1756808024
+::res://Free Easter Eggs 3D Models/Free Easter Eggs 3D Models/Textures (FREE)/UE4 (Packed)/Plain/Material 8/::1756808232
+Easter Egg_low_Material 8_BaseColor.png::CompressedTexture2D::5526105937219784538::1756808023::1756808167::1::::<><>::
+Easter Egg_low_Material 8_Normal.png::CompressedTexture2D::1835961261483755661::1756808024::1756808232::1::::<><>::
+Easter Egg_low_Material 8_OcclusionRoughnessMetallic.png::CompressedTexture2D::4531202919346007184::1756808024::1756808225::1::::<><>::
+::res://Free Easter Eggs 3D Models/Free Easter Eggs 3D Models/Textures (FREE)/UE4 (Packed)/Plain/Material 9/::1756808231
+Easter Egg_low_Material 9_BaseColor.png::CompressedTexture2D::8923954714476680472::1756808024::1756808225::1::::<><>::
+Easter Egg_low_Material 9_Normal.png::CompressedTexture2D::3614043456760636495::1756808025::1756808231::1::::<><>::
+Easter Egg_low_Material 9_OcclusionRoughnessMetallic.png::CompressedTexture2D::1699285194353498683::1756808025::1756808221::1::::<><>::
+::res://Free Easter Eggs 3D Models/Free Easter Eggs 3D Models/Textures (FREE)/UE4 (Packed)/Polka/::1756808029
+::res://Free Easter Eggs 3D Models/Free Easter Eggs 3D Models/Textures (FREE)/UE4 (Packed)/Polka/Material 1/::1756808225
+Easter Egg_low_Material 1_BaseColor.png::CompressedTexture2D::5366753812846916352::1756808025::1756808221::1::::<><>::
+Easter Egg_low_Material 1_Normal.png::CompressedTexture2D::2326870273178059853::1756808026::1756808225::1::::<><>::
+Easter Egg_low_Material 1_OcclusionRoughnessMetallic.png::CompressedTexture2D::9185415374288467202::1756808026::1756808217::1::::<><>::
+::res://Free Easter Eggs 3D Models/Free Easter Eggs 3D Models/Textures (FREE)/UE4 (Packed)/Polka/Material 2/::1756808220
+Easter Egg_low_Material 2_BaseColor.png::CompressedTexture2D::6373693258151093323::1756808026::1756808217::1::::<><>::
+Easter Egg_low_Material 2_Normal.png::CompressedTexture2D::1872438917128732543::1756808026::1756808220::1::::<><>::
+Easter Egg_low_Material 2_OcclusionRoughnessMetallic.png::CompressedTexture2D::4485478575699016982::1756808028::1756808213::1::::<><>::
+::res://Free Easter Eggs 3D Models/Free Easter Eggs 3D Models/Textures (FREE)/UE4 (Packed)/Polka/Material 3/::1756808215
+Easter Egg_low_Material 3_BaseColor.png::CompressedTexture2D::560597538720218499::1756808029::1756808213::1::::<><>::
+Easter Egg_low_Material 3_Normal.png::CompressedTexture2D::26474744720206261::1756808031::1756808215::1::::<><>::
+Easter Egg_low_Material 3_OcclusionRoughnessMetallic.png::CompressedTexture2D::37277498450230320::1756808031::1756808208::1::::<><>::
+::res://Free Easter Eggs 3D Models/Free Easter Eggs 3D Models/Textures (FREE)/Unity HDRP/::1756808035
+::res://Free Easter Eggs 3D Models/Free Easter Eggs 3D Models/Textures (FREE)/Unity HDRP/Plain/::1756808034
+::res://Free Easter Eggs 3D Models/Free Easter Eggs 3D Models/Textures (FREE)/Unity HDRP/Plain/Material 8/::1756808210
+Easter Egg_low_Material 8_BaseMap.png::CompressedTexture2D::595319128945015905::1756808031::1756808209::1::::<><>::
+Easter Egg_low_Material 8_MaskMap.png::CompressedTexture2D::6238087228288189030::1756808032::1756808205::1::::<><>::
+Easter Egg_low_Material 8_Normal.png::CompressedTexture2D::6003912451938196821::1756808034::1756808210::1::::<><>::
+::res://Free Easter Eggs 3D Models/Free Easter Eggs 3D Models/Textures (FREE)/Unity HDRP/Plain/Material 9/::1756808242
+Easter Egg_low_Material 9_BaseMap.png::CompressedTexture2D::8492359287091544934::1756808034::1756808204::1::::<><>::
+Easter Egg_low_Material 9_MaskMap.png::CompressedTexture2D::544701840412675767::1756808034::1756808204::1::::<><>::
+Easter Egg_low_Material 9_Normal.png::CompressedTexture2D::4046390011970937234::1756808034::1756808242::1::::<><>::
+::res://Free Easter Eggs 3D Models/Free Easter Eggs 3D Models/Textures (FREE)/Unity HDRP/Polka/::1756808037
+::res://Free Easter Eggs 3D Models/Free Easter Eggs 3D Models/Textures (FREE)/Unity HDRP/Polka/Material 1/::1756808240
+Easter Egg_low_Material 1_BaseMap.png::CompressedTexture2D::3902707019263059049::1756808035::1756808238::1::::<><>::
+Easter Egg_low_Material 1_MaskMap.png::CompressedTexture2D::6710468997146063048::1756808035::1756808238::1::::<><>::
+Easter Egg_low_Material 1_Normal.png::CompressedTexture2D::5231701481873734960::1756808036::1756808240::1::::<><>::
+::res://Free Easter Eggs 3D Models/Free Easter Eggs 3D Models/Textures (FREE)/Unity HDRP/Polka/Material 2/::1756808236
+Easter Egg_low_Material 2_BaseMap.png::CompressedTexture2D::254174803015756515::1756808036::1756808235::1::::<><>::
+Easter Egg_low_Material 2_MaskMap.png::CompressedTexture2D::7245647962332045896::1756808037::1756808234::1::::<><>::
+Easter Egg_low_Material 2_Normal.png::CompressedTexture2D::6477725057514296048::1756808037::1756808236::1::::<><>::
+::res://Free Easter Eggs 3D Models/Free Easter Eggs 3D Models/Textures (FREE)/Unity HDRP/Polka/Material 3/::1756808235
+Easter Egg_low_Material 3_BaseMap.png::CompressedTexture2D::6781377947127116456::1756808037::1756808230::1::::<><>::
+Easter Egg_low_Material 3_MaskMap.png::CompressedTexture2D::3466307532601311855::1756808037::1756808229::1::::<><>::
+Easter Egg_low_Material 3_Normal.png::CompressedTexture2D::6662602953384371429::1756808038::1756808235::1::::<><>::
+::res://Free Easter Eggs 3D Models/Free Easter Eggs 3D Models/Textures (FREE)/Unity URP/::1756808046
+::res://Free Easter Eggs 3D Models/Free Easter Eggs 3D Models/Textures (FREE)/Unity URP/Plain/::1756808043
+::res://Free Easter Eggs 3D Models/Free Easter Eggs 3D Models/Textures (FREE)/Unity URP/Plain/Material 8/::1756808239
+Easter Egg_low_Material 8_AlbedoTransparency.png::CompressedTexture2D::8253995443263145220::1756808039::1756808234::1::::<><>::
+Easter Egg_low_Material 8_MetallicSmoothness.png::CompressedTexture2D::5528251381128334469::1756808039::1756808239::1::::<><>::
+Easter Egg_low_Material 8_Normal.png::CompressedTexture2D::3422223805044509326::1756808043::1756808201::1::::<><>::
+::res://Free Easter Eggs 3D Models/Free Easter Eggs 3D Models/Textures (FREE)/Unity URP/Plain/Material 9/::1756808200
+Easter Egg_low_Material 9_AlbedoTransparency.png::CompressedTexture2D::3976740959565010141::1756808043::1756808194::1::::<><>::
+Easter Egg_low_Material 9_MetallicSmoothness.png::CompressedTexture2D::2076458763947635374::1756808043::1756808193::1::::<><>::
+Easter Egg_low_Material 9_Normal.png::CompressedTexture2D::7105811097349090907::1756808046::1756808200::1::::<><>::
+::res://Free Easter Eggs 3D Models/Free Easter Eggs 3D Models/Textures (FREE)/Unity URP/Polka/::1756808047
+::res://Free Easter Eggs 3D Models/Free Easter Eggs 3D Models/Textures (FREE)/Unity URP/Polka/Material 1/::1756808195
+Easter Egg_low_Material 1_AlbedoTransparency.png::CompressedTexture2D::4987154951926459336::1756808046::1756808191::1::::<><>::
+Easter Egg_low_Material 1_MetallicSmoothness.png::CompressedTexture2D::1033581399467850037::1756808046::1756808188::1::::<><>::
+Easter Egg_low_Material 1_Normal.png::CompressedTexture2D::3206727738550375794::1756808046::1756808195::1::::<><>::
+::res://Free Easter Eggs 3D Models/Free Easter Eggs 3D Models/Textures (FREE)/Unity URP/Polka/Material 2/::1756808190
+Easter Egg_low_Material 2_AlbedoTransparency.png::CompressedTexture2D::9100749096772752960::1756808047::1756808188::1::::<><>::
+Easter Egg_low_Material 2_MetallicSmoothness.png::CompressedTexture2D::3067605385359919328::1756808047::1756808184::1::::<><>::
+Easter Egg_low_Material 2_Normal.png::CompressedTexture2D::7518905574419297475::1756808047::1756808190::1::::<><>::
+::res://Free Easter Eggs 3D Models/Free Easter Eggs 3D Models/Textures (FREE)/Unity URP/Polka/Material 3/::1756808187
+Easter Egg_low_Material 3_AlbedoTransparency.png::CompressedTexture2D::4928469242777604158::1756808048::1756808184::1::::<><>::
+Easter Egg_low_Material 3_MetallicSmoothness.png::CompressedTexture2D::8370087863840965035::1756808048::1756808183::1::::<><>::
+Easter Egg_low_Material 3_Normal.png::CompressedTexture2D::4841157773566712258::1756808049::1756808187::1::::<><>::
+::res://iOS/::1756808061
+Empty.txt::TextFile::-1::1756808060::0::1::::<><>::
+::res://iOS/easter-pixel/::1756808062
+::res://iOS/easter-pixel/dylibs/::1756808062
+::res://iOS/easter-pixel/dylibs/addons/::1756808062
+::res://iOS/easter-pixel/dylibs/addons/godot-jolt/::1756808062
+::res://iOS/easter-pixel/dylibs/addons/godot-jolt/ios/::1756808062
+::res://iOS/easter-pixel/dylibs/addons/godot-jolt/ios/godot-jolt_ios.framework/::1756808062
+::res://iOS/easter-pixel/en.lproj/::1756808062
+::res://iOS/easter-pixel/Images.xcassets/::1756808062
+::res://iOS/easter-pixel/Images.xcassets/AppIcon.appiconset/::1756808194
+Contents.json::JSON::-1::1756808061::0::1::::<><>::
+Icon-40.png::CompressedTexture2D::3243737056888177326::1756808062::1756808194::1::::<><>::
+Icon-58.png::CompressedTexture2D::8482242999860349002::1756808062::1756808194::1::::<><>::
+Icon-60.png::CompressedTexture2D::5653377499862805647::1756808062::1756808194::1::::<><>::
+Icon-76.png::CompressedTexture2D::3627140824185610635::1756808062::1756808194::1::::<><>::
+Icon-80.png::CompressedTexture2D::4231114745279025686::1756808062::1756808194::1::::<><>::
+Icon-87.png::CompressedTexture2D::4985294630478206317::1756808062::1756808194::1::::<><>::
+Icon-114.png::CompressedTexture2D::525189766846767007::1756808061::1756808193::1::::<><>::
+Icon-120-1.png::CompressedTexture2D::3743444749867140436::1756808061::1756808193::1::::<><>::
+Icon-120.png::CompressedTexture2D::8987446561938527962::1756808061::1756808193::1::::<><>::
+Icon-128.png::CompressedTexture2D::8791686941146984522::1756808061::1756808193::1::::<><>::
+Icon-136.png::CompressedTexture2D::4819239976852588699::1756808061::1756808193::1::::<><>::
+Icon-152.png::CompressedTexture2D::4545510774259970782::1756808061::1756808193::1::::<><>::
+Icon-167.png::CompressedTexture2D::6986945135542800243::1756808061::1756808193::1::::<><>::
+Icon-180.png::CompressedTexture2D::3498990733012530452::1756808061::1756808193::1::::<><>::
+Icon-192.png::CompressedTexture2D::8342471172843084907::1756808062::1756808148::1::::<><>::
+Icon-1024.png::CompressedTexture2D::8860522365606917880::1756808061::1756808149::1::::<><>::
+::res://iOS/easter-pixel/Images.xcassets/SplashImage.imageset/::1756808149
+Contents.json::JSON::-1::1756808062::0::1::::<><>::
+splash@2x.png::CompressedTexture2D::7486775084592776757::1756808062::1756808148::1::::<><>::
+splash@3x.png::CompressedTexture2D::4586035199390033095::1756808062::1756808149::1::::<><>::
+::res://iOS/easter-pixel.xcframework/::1756808061
+::res://iOS/easter-pixel.xcframework/ios-arm64/::1756808061
+::res://iOS/easter-pixel.xcframework/iOS-arm64_x86_64-simulator/::1756808061
+::res://iOS/easter-pixel.xcodeproj/::1756808061
+::res://iOS/easter-pixel.xcodeproj/project.xcworkspace/::1756808061
+::res://iOS/easter-pixel.xcodeproj/xcshareddata/::1756808061
+::res://iOS/easter-pixel.xcodeproj/xcshareddata/xcschemes/::1756808061
+::res://iOS/MoltenVK.xcframework/::1756808060
+::res://iOS/MoltenVK.xcframework/ios-arm64/::1756808060
+::res://iOS/MoltenVK.xcframework/ios-arm64_x86_64-maccatalyst/::1756808060
+::res://iOS/MoltenVK.xcframework/ios-arm64_x86_64-simulator/::1756808060
+::res://ios_plugins/::1756808062
+::res://ios_plugins/godot_svc/::1756808063
+::res://ios_plugins/godot_svc/bin 3.x/::1756808063
+::res://ios_plugins/godot_svc/bin 3.x/godot_svc.debug.xcframework/::1756808062
+::res://ios_plugins/godot_svc/bin 3.x/godot_svc.debug.xcframework/ios-arm64_armv7/::1756808062
+::res://ios_plugins/godot_svc/bin 3.x/godot_svc.debug.xcframework/ios-arm64_x86_64-simulator/::1756808062
+::res://ios_plugins/godot_svc/bin 3.x/godot_svc.release.xcframework/::1756808063
+::res://ios_plugins/godot_svc/bin 3.x/godot_svc.release.xcframework/ios-arm64_armv7/::1756808063
+::res://ios_plugins/godot_svc/bin 3.x/godot_svc.release.xcframework/ios-arm64_x86_64-simulator/::1756808063
+::res://ios_plugins/godot_svc/src/::1756808063
+::res://scenes/::1756808063
+main.tscn::PackedScene::5572801141387916832::1756808063::0::1::::<><>::uid://jaj4jn61o0dg::::res://scenes/player.tscn<>uid://81qg48odtf4l::::res://scripts/touch_screen_joystick.gd
+player.tscn::PackedScene::632298327936862464::1756808063::0::1::::<><>::uid://c8r75wtm3wunk::::res://scripts/basic_player.gd<>uid://xpampc6i8pvt::::res://icon.svg
+::res://screenshots/::1756808149
+Screenshot_20250120_055038.jpg::CompressedTexture2D::2214810210660381551::1756808063::1756808149::1::::<><>::
+::res://scripts/::1756808063
+basic_player.gd::GDScript::-1::1756808063::0::1::::<>CharacterBody2D<>::
+touch_screen_joystick.gd::GDScript::-1::1756808063::0::1::::TouchScreenJoystick<>Control<>res://touchscreenjoystickicon.png::
+::res://seamless-textured-grass-natural-grass-pattern/::1756808161
+Cartoon_green_texture_grass.jpg::CompressedTexture2D::768434393552749043::1756808064::1756808161::1::::<><>::
+slot0_albedo_bump.png::CompressedTexture2D::5006962046061962823::1756808064::1756808149::1::::<><>::
+slot0_normal_roughness.png::CompressedTexture2D::8425980624471556423::1756808065::1756808149::1::::<><>::
+::res://textures/::1756808065
+::res://textures/VirtualJoystickPack/::1756808149
+Joystick.png::CompressedTexture2D::714529316991251687::1756808065::1756808149::1::::<><>::
+JoystickPack Preview.png::CompressedTexture2D::8295562984833577267::1756808066::1756808149::1::::<><>::
+JoystickPack.png::CompressedTexture2D::4308834749298932761::1756808066::1756808149::1::::<><>::
+JoystickSplitted.png::CompressedTexture2D::2004110437269017147::1756808066::1756808149::1::::<><>::
+LargeHandleFilled.png::CompressedTexture2D::1837047181617941548::1756808066::1756808149::1::::<><>::
+LargeHandleFilledGrey.png::CompressedTexture2D::3932406507709967082::1756808066::1756808149::1::::<><>::
+SmallHandle.png::CompressedTexture2D::8088700533585003582::1756808066::1756808149::1::::<><>::
+SmallHandleFilled.png::CompressedTexture2D::5360347843339018124::1756808066::1756808149::1::::<><>::
+SmallHandleFilledGrey.png::CompressedTexture2D::8462910161479162131::1756808066::1756808149::1::::<><>::

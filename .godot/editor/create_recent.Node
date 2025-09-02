@@ -1,0 +1,8 @@
+DirectionalLight3D
+StaticBody3D
+CollisionShape3D
+Area3D
+AnimationPlayer
+MeshInstance3D
+AnimatableBody3D
+Label3D
