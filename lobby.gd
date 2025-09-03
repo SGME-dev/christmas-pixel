@@ -161,6 +161,8 @@ func _on_next_pressed() -> void:
 		$AnimatableBody3D2/AnimationPlayer.play("move")
 	if $CanvasLayer/TextEdit.text == "At first Joseph did not understand this all but then The angel explained it to him.":
 		$CanvasLayer/TextEdit.text = "Then Joseph did what the angel said."
+	if $CanvasLayer/TextEdit.text == "Some shepards saw a bright light, then a angel appered and said Do not be afraid, the messiah has been born in a barn, then more angels appeared and sang a song.":
+		$CanvasLayer/TextEdit.text = "The Shepards found Jesus and told everyone about it. Mary made sure that she would remember all these things. The Separds came back to the field and praised the lord."
 	
 	
 
@@ -216,3 +218,12 @@ func _on_area_3d_5_body_entered(body: Node3D) -> void:
 
 func _on_area_3d_6_body_entered(body: Node3D) -> void:
 	$CanvasLayer/TextEdit.text = "So Jesus was born in a barn."
+	$Area3D8/CollisionShape3D.set_deferred("disabled", true)
+
+
+func _on_area_3d_7_body_entered(body: Node3D) -> void:
+	$CanvasLayer/TextEdit.text = "Some shepards saw a bright light, then a angel appered and said Do not be afraid, the messiah has been born in a barn, then more angels appeared and sang a song. "
+	$AnimatableBody3D11.show()
+	$AnimatableBody3D12.show()
+	$AnimatableBody3D13.show()
+	$Area3D6/CollisionShape3D.set_deferred("disabled", true)

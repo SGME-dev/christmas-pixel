@@ -1,9 +1,9 @@
+StaticBody3D
 Label3D
 Sprite3D
 MeshInstance3D
 CollisionShape3D
 Area3D
 DirectionalLight3D
-StaticBody3D
 AnimationPlayer
 AnimatableBody3D
