@@ -205,5 +205,14 @@ func _on_area_3d_3_body_entered(body: player) -> void:
 
 
 func _on_area_3d_4_body_entered(body: player) -> void:
-	$CanvasLayer/TextEdit.text = "After that, the ruler of Israel wanted to count how much people was in Israel so he commanded all the people to go to their home. Josephs and Marys hometown was Jerlusalem so they went to Jerlusalem."
+	$CanvasLayer/TextEdit.text = "After that, the ruler of Israel wanted to count how much people was in Israel so he commanded all the people to go to their home. Josephs and Marys hometown was Bethlehem so they went to Bethlehem."
 	body.global_position = $StaticBody3D17.global_position
+
+
+func _on_area_3d_5_body_entered(body: Node3D) -> void:
+	$CanvasLayer/TextEdit.text = "When they arrived, they could not find a place to stay."
+	body.global_position = $StaticBody3D19.global_position
+
+
+func _on_area_3d_6_body_entered(body: Node3D) -> void:
+	$CanvasLayer/TextEdit.text = "So Jesus was born in a barn."
