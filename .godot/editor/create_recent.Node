@@ -1,6 +1,7 @@
+OmniLight3D
+Sprite3D
 StaticBody3D
 Label3D
-Sprite3D
 MeshInstance3D
 CollisionShape3D
 Area3D

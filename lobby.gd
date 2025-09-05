@@ -11,6 +11,7 @@ var actual_port: int = 15780
 var port: int = 15780
 const DEFAULT_SERVER_IP: String = "127.0.0.1" # IPv4 localhost
 const MAX_CONNECTIONS: int = 20
+var Jesus_pass = 0
 
 
 static var peer: ENetMultiplayerPeer = ENetMultiplayerPeer.new()
@@ -163,7 +164,10 @@ func _on_next_pressed() -> void:
 		$CanvasLayer/TextEdit.text = "Then Joseph did what the angel said."
 	if $CanvasLayer/TextEdit.text == "Some shepards saw a bright light, then a angel appered and said Do not be afraid, the messiah has been born in a barn, then more angels appeared and sang a song.":
 		$CanvasLayer/TextEdit.text = "The Shepards found Jesus and told everyone about it. Mary made sure that she would remember all these things. The Separds came back to the field and praised the lord."
-	
+	if $CanvasLayer/TextEdit.text == "When Herod the king ruled, he heard that Jesus is going to be the new king.":
+		$CanvasLayer/TextEdit.text = "So he he lied to the wise men and said to them, i want to praise Jesus so find Jesus."
+	if $CanvasLayer/TextEdit.text == "When the wise men were going to Jesus they followed a star, God told them not to go back to Herod.":
+		$CanvasLayer/TextEdit.text = "When they arrived they Gave Jesus Gifts that is Gold, frankincense and myrrh"
 	
 
 
@@ -227,3 +231,19 @@ func _on_area_3d_7_body_entered(body: Node3D) -> void:
 	$AnimatableBody3D12.show()
 	$AnimatableBody3D13.show()
 	$Area3D6/CollisionShape3D.set_deferred("disabled", true)
+
+
+func _on_area_3d_9_body_entered(body: Node3D) -> void:
+	Jesus_pass += 1
+	if Jesus_pass == 1:
+		$CanvasLayer/TextEdit.text = "When Herod the king ruled, he heard that Jesus is going to be the new king."
+		body.global_position = $StaticBody3D41.global_position
+	
+
+
+func _on_area_3d_10_body_entered(body: Node3D) -> void:
+	body.global_position = $StaticBody3D19.global_position
+	$CanvasLayer/TextEdit.text = "When the wise men were going to Jesus they followed a star, God told them not to go back to Herod."
+	$AnimatableBody3D22.show()
+	$AnimatableBody3D23.show()
+	$AnimatableBody3D24.show()
