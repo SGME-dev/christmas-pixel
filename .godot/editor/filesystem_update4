@@ -1,2 +1,4 @@
+res://parkore_skills.tscn
 res://lobby.tscn
-res://lobby.gd
+res://character_body_3d.tscn
+res://parkore_skills.gd

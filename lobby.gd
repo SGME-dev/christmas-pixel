@@ -7,8 +7,8 @@ class_name lobby
 @onready var lan_ip_label: Label = $CanvasLayer/Label
 @onready var public_ip_label: Label = $CanvasLayer/Label2
 var local_addresses = IP.get_local_addresses()
-var actual_port: int = 15780
-var port: int = 15780
+var actual_port: int = 50170
+var port: int = 50170
 const DEFAULT_SERVER_IP: String = "127.0.0.1" # IPv4 localhost
 const MAX_CONNECTIONS: int = 20
 var Jesus_pass = 0
@@ -45,7 +45,7 @@ func _on_host_pressed() -> void:
 	multiplayer.peer_connected.connect(add_player)
 	add_player()
 	multiplayer.get_peers()
-	
+	$Narrorator/AudioStreamPlayer.play()
 	# Connect the request_completed signal to our handler function.
 	# This signal is emitted when the HTTP request finishes, whether successful or not.
 	http_request.request_completed.connect(_on_http_request_completed)
@@ -67,12 +67,12 @@ func _on_host_pressed() -> void:
 	
 	# --- LAN IP Address Retrieval ---
 	print("--- IPv4 Addresses ---")
-	var local_addresses = IP.get_local_addresses()
+	var local_addresse = IP.get_local_addresses()
 	
 	var found_desired_ipv4 = false
 	var current_lan_ip = "Not Found" 
 	
-	for address in local_addresses:
+	for address in local_addresse:
 		if "." in address and ":" not in address:
 			if address.begins_with("192.168.") or \
 			   address.begins_with("10.") or \
@@ -87,7 +87,7 @@ func _on_host_pressed() -> void:
 	if not found_desired_ipv4:
 		print("No suitable local IPv4 address found (e.g., not in common private ranges).")
 		lan_ip_label.text = "Lan IPV4 address: Not Found"
-	if local_addresses.is_empty():
+	if local_addresse.is_empty():
 		print("No local addresses found at all.")
 		lan_ip_label.text = "Lan IPV4 address: No Addresses"
 	
@@ -111,7 +111,7 @@ func _on_join_pressed(address: String = str(%LineEdit.text), port: int = int(%Li
 		port = actual_port
 	peer.create_client(address, port)
 	multiplayer.multiplayer_peer = peer
-	
+	$Narrorator/AudioStreamPlayer.play()
 	%host.hide()
 	%join.hide()
 	%LineEdit.hide()
@@ -143,6 +143,8 @@ func _on_connected_fail() -> void:
 
 
 func _on_area_3d_body_entered(body: player) -> void:
+	$directions/Sprite3D.hide()
+	$directions/Sprite3D2.show()
 	$Area3D2/CollisionShape3D.set_deferred("disabled", true)
 
 
@@ -158,16 +160,21 @@ func _on_next_pressed() -> void:
 	var timer = Timer.new()
 	var story: int = 0
 	if $CanvasLayer/TextEdit.text == "There was a woman called Mary. She was engaged to marry a man called Joseph.":
+		$Narrorator/AudioStreamPlayer2.play()
 		$CanvasLayer/TextEdit.text = "Then when she whent home, a angel called gabriel appered. The angel Gabriel told Mary she was favored by God, would conceive and give birth to a son named Jesus, who would be great and called the Son of the Most High, and would reign forever. Gabriel also explained that the Holy Spirit would come upon her, and the power of God would overshadow her, enabling this miraculous conception."
 		$AnimatableBody3D2/AnimationPlayer.play("move")
 	if $CanvasLayer/TextEdit.text == "At first Joseph did not understand this all but then The angel explained it to him.":
 		$CanvasLayer/TextEdit.text = "Then Joseph did what the angel said."
-	if $CanvasLayer/TextEdit.text == "Some shepards saw a bright light, then a angel appered and said Do not be afraid, the messiah has been born in a barn, then more angels appeared and sang a song.":
+		$Narrorator/AudioStreamPlayer6.play()
+	if $CanvasLayer/TextEdit.text == "Some shepards saw a bright light, then a angel appered and said Do not be afraid, the messiah has been born in a barn, then more angels appeared and sang a song. ":
 		$CanvasLayer/TextEdit.text = "The Shepards found Jesus and told everyone about it. Mary made sure that she would remember all these things. The Separds came back to the field and praised the lord."
+		$Narrorator/AudioStreamPlayer10.play()
 	if $CanvasLayer/TextEdit.text == "When Herod the king ruled, he heard that Jesus is going to be the new king.":
 		$CanvasLayer/TextEdit.text = "So he he lied to the wise men and said to them, i want to praise Jesus so find Jesus."
+		$Narrorator/AudioStreamPlayer13.play()
 	if $CanvasLayer/TextEdit.text == "When the wise men were going to Jesus they followed a star, God told them not to go back to Herod.":
 		$CanvasLayer/TextEdit.text = "When they arrived they Gave Jesus Gifts that is Gold, frankincense and myrrh"
+		$Narrorator/AudioStreamPlayer15.play()
 	
 
 
@@ -207,25 +214,39 @@ func _on_http_request_completed(result: int, response_code: int, headers: Packed
 
 
 func _on_area_3d_3_body_entered(body: player) -> void:
+	$Narrorator/AudioStreamPlayer5.play()
 	$CanvasLayer/TextEdit.text = "At first Joseph did not understand this all but then The angel explained it to him."
 
 
 func _on_area_3d_4_body_entered(body: player) -> void:
+	set_active_environment($WorldEnvironment2)
+	$Narrorator/AudioStreamPlayer12.play()
 	$CanvasLayer/TextEdit.text = "After that, the ruler of Israel wanted to count how much people was in Israel so he commanded all the people to go to their home. Josephs and Marys hometown was Bethlehem so they went to Bethlehem."
 	body.global_position = $StaticBody3D17.global_position
 
 
-func _on_area_3d_5_body_entered(body: Node3D) -> void:
+func _on_area_3d_5_body_entered(body: player) -> void:
+	$directions/Sprite3D3.show()
+	$directions/Sprite3D2.hide()
+	$Narrorator/AudioStreamPlayer7.play()
 	$CanvasLayer/TextEdit.text = "When they arrived, they could not find a place to stay."
 	body.global_position = $StaticBody3D19.global_position
 
 
 func _on_area_3d_6_body_entered(body: Node3D) -> void:
 	$CanvasLayer/TextEdit.text = "So Jesus was born in a barn."
+	$Narrorator/AudioStreamPlayer8.play()
+	
+	$directions/Sprite3D4.show()
+	$directions/Sprite3D3.hide()
 	$Area3D8/CollisionShape3D.set_deferred("disabled", true)
+	$Area3D6/CollisionShape3D.set_deferred("disabled", true)
 
 
-func _on_area_3d_7_body_entered(body: Node3D) -> void:
+func _on_area_3d_7_body_entered(body: player) -> void:
+	$directions/Sprite3D5.show()
+	$directions/Sprite3D4.hide()
+	$Narrorator/AudioStreamPlayer9.play()
 	$CanvasLayer/TextEdit.text = "Some shepards saw a bright light, then a angel appered and said Do not be afraid, the messiah has been born in a barn, then more angels appeared and sang a song. "
 	$AnimatableBody3D11.show()
 	$AnimatableBody3D12.show()
@@ -233,17 +254,35 @@ func _on_area_3d_7_body_entered(body: Node3D) -> void:
 	$Area3D6/CollisionShape3D.set_deferred("disabled", true)
 
 
-func _on_area_3d_9_body_entered(body: Node3D) -> void:
+func _on_area_3d_9_body_entered(body: player) -> void:
 	Jesus_pass += 1
 	if Jesus_pass == 1:
+		
 		$CanvasLayer/TextEdit.text = "When Herod the king ruled, he heard that Jesus is going to be the new king."
+		$Narrorator/AudioStreamPlayer11.play()
 		body.global_position = $StaticBody3D41.global_position
+	if Jesus_pass == 2:
+		$CanvasLayer/TextEdit.text = "Herod was angry because the wise men did not come back so he dicided to kill all babys in Jerlusalem. God warned Joseph about this so they moved to Eygypt until herod was gone, then they went to nasareth because herods son was in Jerlusalem"
+		set_active_environment($WorldEnvironment)
+		$Narrorator/AudioStreamPlayer16.play()
+		body.global_position = $StaticBody3D53.global_position
 	
 
 
-func _on_area_3d_10_body_entered(body: Node3D) -> void:
+func _on_area_3d_10_body_entered(body: player) -> void:
+	$directions/Sprite3D6.show()
+	$directions/Sprite3D5.hide()
 	body.global_position = $StaticBody3D19.global_position
 	$CanvasLayer/TextEdit.text = "When the wise men were going to Jesus they followed a star, God told them not to go back to Herod."
+	$Narrorator/AudioStreamPlayer14.play()
 	$AnimatableBody3D22.show()
 	$AnimatableBody3D23.show()
 	$AnimatableBody3D24.show()
+
+
+func _on_audio_stream_player_2_finished() -> void:
+	$Narrorator/AudioStreamPlayer3.play()
+
+
+func _on_audio_stream_player_3_finished() -> void:
+	$Narrorator/AudioStreamPlayer4.play()

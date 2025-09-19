@@ -1,10 +1,26 @@
-[gd_scene load_steps=83 format=3 uid="uid://o3a1kb7lx1ux"]
+[gd_scene load_steps=82 format=3 uid="uid://o3a1kb7lx1ux"]
 
 [ext_resource type="Script" uid="uid://byta5gcbtshf6" path="res://lobby.gd" id="1_ll2xe"]
 [ext_resource type="PackedScene" uid="uid://d0vuotcp6ec3s" path="res://character_body_3d.tscn" id="2_xrgmn"]
 [ext_resource type="Texture2D" uid="uid://d2ly8njwmn3i6" path="res://mesh_instance_3d_0 (6).png" id="3_4yef1"]
 [ext_resource type="Texture2D" uid="uid://c6g4x04xjihjp" path="res://delete.png" id="3_bufr4"]
 [ext_resource type="Texture2D" uid="uid://be04qwfr8u0sk" path="res://mesh_instance_3d_0 (5).png" id="4_j0ewg"]
+[ext_resource type="AudioStream" uid="uid://c3c4y4n2lwmir" path="res://1.mp3" id="7_67n5t"]
+[ext_resource type="AudioStream" uid="uid://be3vu24unxi1d" path="res://2.mp3" id="8_012qf"]
+[ext_resource type="AudioStream" uid="uid://jbbimfv4hxit" path="res://3.mp3" id="9_rbflv"]
+[ext_resource type="AudioStream" uid="uid://cvsyew17a3qbi" path="res://4.mp3" id="10_acn02"]
+[ext_resource type="AudioStream" uid="uid://b4y2lbmvdq0wx" path="res://5.mp3" id="11_ei5hh"]
+[ext_resource type="AudioStream" uid="uid://cwq57c6kgel7m" path="res://6.mp3" id="12_l6pk4"]
+[ext_resource type="AudioStream" uid="uid://bbxnlholamkk7" path="res://7.mp3" id="13_r3afw"]
+[ext_resource type="AudioStream" uid="uid://bgmkgaushnn3k" path="res://8.mp3" id="14_1mtu8"]
+[ext_resource type="AudioStream" uid="uid://irk2crb56gkw" path="res://9.mp3" id="15_67n5t"]
+[ext_resource type="AudioStream" uid="uid://dlp0dwom6nfdg" path="res://10.mp3" id="16_67n5t"]
+[ext_resource type="AudioStream" uid="uid://204mo8o4fw8c" path="res://11.mp3" id="17_012qf"]
+[ext_resource type="AudioStream" uid="uid://cduaa3w07mtru" path="res://12.mp3" id="18_ei5hh"]
+[ext_resource type="AudioStream" uid="uid://b5ht0u6005b3g" path="res://13.mp3" id="19_l6pk4"]
+[ext_resource type="AudioStream" uid="uid://dpv5fi8rn3syb" path="res://14.mp3" id="20_67n5t"]
+[ext_resource type="AudioStream" uid="uid://dmrxntlvj8xfk" path="res://15.mp3" id="21_012qf"]
+[ext_resource type="AudioStream" uid="uid://c0wtilo0y1bda" path="res://16.mp3" id="22_ei5hh"]
 [ext_resource type="Texture2D" uid="uid://bdg0umnf2krnc" path="res://New Piskel (8) (3).png" id="25_q8u18"]
 [ext_resource type="Texture2D" uid="uid://c0vqyhe5p2kdg" path="res://New Piskel (8) (2).png" id="26_2d81i"]
 [ext_resource type="Texture2D" uid="uid://866tlxfhivde" path="res://New Piskel (8) (4).png" id="26_4gsoq"]
@@ -14,26 +30,8 @@
 [ext_resource type="Texture2D" uid="uid://cbo5e5l3eni13" path="res://mesh_instance_3d_0 (1).png" id="31_67n5t"]
 [ext_resource type="Texture2D" uid="uid://hu2fw7v71cd8" path="res://mesh_instance_3d_0 (2).png" id="32_012qf"]
 [ext_resource type="Texture2D" uid="uid://cn3oxvvff0fyi" path="res://mesh_instance_3d_0 (3).png" id="33_ei5hh"]
+[ext_resource type="Texture2D" uid="uid://cux3c5m6et524" path="res://360_F_1296260291_X28UdsL2IB2k81Ssm1WzFi2EeFkxTQAy.jpg" id="37_67n5t"]
 [ext_resource type="Texture2D" uid="uid://b5egc5pfxc2eo" path="res://New Piskel (22).png" id="48_hvsjf"]
-[ext_resource type="AudioStream" uid="uid://dgxl78u4d1uls" path="res://17427356878139nw8z7h-voicemaker.in-speech.mp3" id="49_t25p0"]
-[ext_resource type="AudioStream" uid="uid://knllsxe1rrnc" path="res://1742735805457fqbx6815-voicemaker.in-speech.mp3" id="50_n7lo3"]
-[ext_resource type="AudioStream" uid="uid://cap5m84e7fmy8" path="res://17427358744982bmfxf7r-voicemaker.in-speech.mp3" id="51_1mh2o"]
-[ext_resource type="AudioStream" uid="uid://cgr2jqiy1k7ph" path="res://1742735926109uij4nh8-voicemaker.in-speech.mp3" id="52_t4ch1"]
-[ext_resource type="AudioStream" uid="uid://dfun35vk4dmoq" path="res://1742735970692jtc9ihoh-voicemaker.in-speech.mp3" id="53_qwy64"]
-[ext_resource type="AudioStream" uid="uid://dlmue48or71ng" path="res://1742736017516lb08e2i4-voicemaker.in-speech.mp3" id="54_qwy64"]
-[ext_resource type="AudioStream" uid="uid://cueqis3v4dn5x" path="res://17427361058546r0yysa-voicemaker.in-speech.mp3" id="55_mxp0x"]
-[ext_resource type="AudioStream" uid="uid://ck1lkak8pl74m" path="res://1742736361073l0ccqa2q-voicemaker.in-speech.mp3" id="56_nad3d"]
-[ext_resource type="AudioStream" uid="uid://chlhn33cll22o" path="res://1742736419277pfm0im6l-voicemaker.in-speech.mp3" id="57_cjgvy"]
-[ext_resource type="AudioStream" uid="uid://4d7n8h8afec0" path="res://1742736482732nbrpnkwh-voicemaker.in-speech.mp3" id="58_cjgvy"]
-[ext_resource type="AudioStream" uid="uid://ditpoi6ovdw2x" path="res://1742736536148n8bgfmoc-voicemaker.in-speech.mp3" id="59_6bxf5"]
-[ext_resource type="AudioStream" uid="uid://csktbyu15txak" path="res://1742736591377agdcnt4xk-voicemaker.in-speech.mp3" id="60_6bxf5"]
-[ext_resource type="AudioStream" uid="uid://b414hd1qruqbj" path="res://1742736647141hh17iykr-voicemaker.in-speech.mp3" id="61_qnk3q"]
-[ext_resource type="AudioStream" uid="uid://rku727dtsmul" path="res://1742736720393lh2hqafe-voicemaker.in-speech.mp3" id="62_g5omf"]
-[ext_resource type="AudioStream" uid="uid://dy51powjaot8f" path="res://1742736798184ysav72gs-voicemaker.in-speech.mp3" id="63_7pk01"]
-[ext_resource type="AudioStream" uid="uid://bgctcsba4110h" path="res://1742736856853j6qlo2vi-voicemaker.in-speech.mp3" id="64_uk5xf"]
-[ext_resource type="AudioStream" uid="uid://bkxbkq5nwk2ff" path="res://17427369036139190u7lr-voicemaker.in-speech.mp3" id="65_cpd56"]
-[ext_resource type="AudioStream" uid="uid://bcsu42kc1gmoq" path="res://1742737005996zwumfpfs-voicemaker.in-speech.mp3" id="66_ltbjh"]
-[ext_resource type="AudioStream" uid="uid://0lkxwja7hcb4" path="res://1742737060189jtju47jh-voicemaker.in-speech.mp3" id="67_4s2kc"]
 [ext_resource type="AudioStream" uid="uid://bx1ww06fett1h" path="res://Screen Recording 2025-03-23 144438.mp3" id="68_4s2kc"]
 [ext_resource type="PackedScene" uid="uid://bbgttfso3p6n1" path="res://fps.tscn" id="69_uick8"]
 
@@ -69,12 +67,12 @@ sky = SubResource("Sky_2wvic")
 
 [sub_resource type="PhysicalSkyMaterial" id="PhysicalSkyMaterial_o6dcp"]
 
-[sub_resource type="Sky" id="Sky_nds6m"]
+[sub_resource type="Sky" id="Sky_rbflv"]
 sky_material = SubResource("PhysicalSkyMaterial_o6dcp")
 
 [sub_resource type="Environment" id="Environment_g26o6"]
 background_mode = 2
-sky = SubResource("Sky_nds6m")
+sky = SubResource("Sky_rbflv")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1fkpe"]
 albedo_color = Color(1, 1, 0, 1)
@@ -200,6 +198,9 @@ size = Vector3(0.001, 35.2095, 44.8019)
 
 [sub_resource type="BoxMesh" id="BoxMesh_kxcl2"]
 material = SubResource("StandardMaterial3D_bufr4")
+
+[sub_resource type="BoxOccluder3D" id="BoxOccluder3D_67n5t"]
+size = Vector3(354.33, 85.3311, 1)
 
 [node name="lobby" type="Node3D"]
 script = ExtResource("1_ll2xe")
@@ -395,6 +396,25 @@ visibility_range_end = 100.0
 mesh = SubResource("BoxMesh_xrgmn")
 
 [node name="MeshInstance3D2" type="MeshInstance3D" parent="StaticBody3D19"]
+transform = Transform3D(10, 0, 0, 0, 0.5, 0, 0, 0, 6.25392, 0, 0.1405, 0)
+lod_bias = 100.0
+visibility_range_end = 100.0
+mesh = SubResource("BoxMesh_bufr4")
+
+[node name="StaticBody3D53" type="StaticBody3D" parent="."]
+transform = Transform3D(-1.82714e-07, 0, 4.3, 0, 1, 0, -4.18, 0, -1.87959e-07, 26.0762, 0, -395.222)
+collision_layer = 2
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D53"]
+shape = SubResource("BoxShape3D_r5v3i")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D53"]
+transform = Transform3D(10, 0, 0, 0, 0.5, 0, 0, 0, 10, 0, 0, 0)
+lod_bias = 100.0
+visibility_range_end = 100.0
+mesh = SubResource("BoxMesh_xrgmn")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="StaticBody3D53"]
 transform = Transform3D(10, 0, 0, 0, 0.5, 0, 0, 0, 6.25392, 0, 0.1405, 0)
 lod_bias = 100.0
 visibility_range_end = 100.0
@@ -620,6 +640,108 @@ collision_layer = 2
 shape = SubResource("BoxShape3D_r5v3i")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D26"]
+transform = Transform3D(10, 0, 0, 0, 0.5, 0, 0, 0, 10, 0, 0, 0)
+lod_bias = 100.0
+visibility_range_end = 100.0
+mesh = SubResource("BoxMesh_xrgmn")
+
+[node name="StaticBody3D47" type="StaticBody3D" parent="."]
+transform = Transform3D(-1.44972e-14, -1, 2.38419e-07, -1.82714e-07, 3.05538e-30, 4.3, -4.18, 6.15957e-17, -1.87959e-07, 47.1725, 14.2045, -397.466)
+collision_layer = 2
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D47"]
+shape = SubResource("BoxShape3D_r5v3i")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D47"]
+transform = Transform3D(10, 0, 0, 0, 0.5, 0, 0, 0, 10, 0, 0, 0)
+lod_bias = 100.0
+visibility_range_end = 100.0
+mesh = SubResource("BoxMesh_xrgmn")
+
+[node name="Sprite3D" type="Sprite3D" parent="StaticBody3D47"]
+transform = Transform3D(5, 2.24831e-07, 9.82769e-15, 1.52466e-20, -2.18557e-07, 5, 2.24831e-07, -5, -2.18557e-07, 2.98465, 0.340429, 1.70384)
+texture = ExtResource("3_bufr4")
+
+[node name="Sprite3D2" type="Sprite3D" parent="StaticBody3D47"]
+transform = Transform3D(5, 2.24831e-07, 9.82769e-15, 2.20229e-20, -2.18557e-07, 5, 2.24831e-07, -5, -2.18557e-07, -1.80149, 0.340431, 1.70384)
+texture = ExtResource("3_bufr4")
+
+[node name="Label3D" type="Label3D" parent="StaticBody3D47"]
+transform = Transform3D(-1, -2.71204e-08, 4.07587e-08, 4.07587e-08, -1.19209e-07, 1, -2.71204e-08, 1, 8.31693e-08, 0.80426, 0.275604, 3.5449)
+text = "Jesus' house"
+font_size = 100
+
+[node name="Label3D2" type="Label3D" parent="StaticBody3D47"]
+transform = Transform3D(-1, -2.71204e-08, 4.07587e-08, 4.07587e-08, -1.19209e-07, 1, -2.71204e-08, 1, 8.31693e-08, 0.80426, 0.275604, -1.1453)
+text = "SOLD OUT"
+font_size = 100
+
+[node name="Label3D3" type="Label3D" parent="StaticBody3D47"]
+transform = Transform3D(-1, -2.71204e-08, 4.07587e-08, 4.07587e-08, -1.19209e-07, 1, -2.71204e-08, 1, 8.31693e-08, -0.331978, -35.1579, -1.1453)
+text = "If you are reading this, you are me
+the game dev, a cheater or a hacker"
+font_size = 100
+
+[node name="StaticBody3D48" type="StaticBody3D" parent="."]
+transform = Transform3D(-1.82714e-07, 4.37114e-08, 4.3, 2.24839e-14, 1, -4.26378e-07, -4.18, 6.15957e-17, -1.87959e-07, 66.7276, 0.0275955, -397.466)
+collision_layer = 2
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D48"]
+shape = SubResource("BoxShape3D_r5v3i")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D48"]
+transform = Transform3D(10, 0, 0, 0, 0.5, 0, 0, 0, 10, 0, 0, 0)
+lod_bias = 100.0
+visibility_range_end = 100.0
+mesh = SubResource("BoxMesh_xrgmn")
+
+[node name="StaticBody3D49" type="StaticBody3D" parent="."]
+transform = Transform3D(-1.82714e-07, 4.37114e-08, 4.3, 2.24839e-14, 1, -4.26378e-07, -4.18, 6.15957e-17, -1.87959e-07, 66.7715, 36.2422, -397.466)
+collision_layer = 2
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D49"]
+shape = SubResource("BoxShape3D_r5v3i")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D49"]
+transform = Transform3D(10, 0, 0, 0, 0.5, 0, 0, 0, 10, 0, 0, 0)
+lod_bias = 100.0
+visibility_range_end = 100.0
+mesh = SubResource("BoxMesh_xrgmn")
+
+[node name="StaticBody3D50" type="StaticBody3D" parent="."]
+transform = Transform3D(3.04706e-14, 1, -6.14336e-07, 1.82714e-07, -8.74228e-08, -4.3, -4.18, 6.15956e-17, -1.87959e-07, 88.3545, 15.0244, -397.466)
+collision_layer = 2
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D50"]
+shape = SubResource("BoxShape3D_r5v3i")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D50"]
+transform = Transform3D(10, 0, 0, 0, 0.5, 0, 0, 0, 10, 0, 0, 0)
+lod_bias = 100.0
+visibility_range_end = 100.0
+mesh = SubResource("BoxMesh_xrgmn")
+
+[node name="StaticBody3D51" type="StaticBody3D" parent="."]
+transform = Transform3D(4.18, -4.37114e-08, 1.87959e-07, 1.82714e-07, -8.74228e-08, -4.3, 1.82714e-07, 1, -6.14337e-07, 68.3835, 15.0244, -377.594)
+collision_layer = 2
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D51"]
+shape = SubResource("BoxShape3D_r5v3i")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D51"]
+transform = Transform3D(10, 0, 0, 0, 0.5, 0, 0, 0, 10, 0, 0, 0)
+lod_bias = 100.0
+visibility_range_end = 100.0
+mesh = SubResource("BoxMesh_xrgmn")
+
+[node name="StaticBody3D52" type="StaticBody3D" parent="."]
+transform = Transform3D(4.18, -4.37114e-08, 1.87959e-07, 1.82714e-07, -8.74228e-08, -4.3, 1.82714e-07, 1, -6.14337e-07, 68.1069, 15.0244, -415.282)
+collision_layer = 2
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D52"]
+shape = SubResource("BoxShape3D_r5v3i")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D52"]
 transform = Transform3D(10, 0, 0, 0, 0.5, 0, 0, 0, 10, 0, 0, 0)
 lod_bias = 100.0
 visibility_range_end = 100.0
@@ -993,79 +1115,67 @@ texture = ExtResource("48_hvsjf")
 [node name="Narrorator" type="Node" parent="."]
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="Narrorator"]
-stream = ExtResource("49_t25p0")
+stream = ExtResource("7_67n5t")
 volume_db = 5.0
 
 [node name="AudioStreamPlayer2" type="AudioStreamPlayer" parent="Narrorator"]
-stream = ExtResource("50_n7lo3")
+stream = ExtResource("8_012qf")
 volume_db = 5.0
 
 [node name="AudioStreamPlayer3" type="AudioStreamPlayer" parent="Narrorator"]
-stream = ExtResource("51_1mh2o")
+stream = ExtResource("9_rbflv")
 volume_db = 5.0
 
 [node name="AudioStreamPlayer4" type="AudioStreamPlayer" parent="Narrorator"]
-stream = ExtResource("52_t4ch1")
+stream = ExtResource("10_acn02")
 volume_db = 5.0
 
 [node name="AudioStreamPlayer5" type="AudioStreamPlayer" parent="Narrorator"]
-stream = ExtResource("53_qwy64")
+stream = ExtResource("11_ei5hh")
 volume_db = 5.0
 
 [node name="AudioStreamPlayer6" type="AudioStreamPlayer" parent="Narrorator"]
-stream = ExtResource("54_qwy64")
+stream = ExtResource("12_l6pk4")
 volume_db = 5.0
 
 [node name="AudioStreamPlayer7" type="AudioStreamPlayer" parent="Narrorator"]
-stream = ExtResource("55_mxp0x")
+stream = ExtResource("13_r3afw")
 volume_db = 5.0
 
 [node name="AudioStreamPlayer8" type="AudioStreamPlayer" parent="Narrorator"]
-stream = ExtResource("56_nad3d")
+stream = ExtResource("14_1mtu8")
 volume_db = 5.0
 
 [node name="AudioStreamPlayer9" type="AudioStreamPlayer" parent="Narrorator"]
-stream = ExtResource("57_cjgvy")
+stream = ExtResource("15_67n5t")
 volume_db = 5.0
 
 [node name="AudioStreamPlayer10" type="AudioStreamPlayer" parent="Narrorator"]
-stream = ExtResource("58_cjgvy")
+stream = ExtResource("16_67n5t")
 volume_db = 5.0
 
 [node name="AudioStreamPlayer11" type="AudioStreamPlayer" parent="Narrorator"]
-stream = ExtResource("59_6bxf5")
+stream = ExtResource("17_012qf")
 volume_db = 5.0
 
 [node name="AudioStreamPlayer12" type="AudioStreamPlayer" parent="Narrorator"]
-stream = ExtResource("60_6bxf5")
+stream = ExtResource("18_ei5hh")
 volume_db = 5.0
 
 [node name="AudioStreamPlayer13" type="AudioStreamPlayer" parent="Narrorator"]
-stream = ExtResource("61_qnk3q")
+stream = ExtResource("19_l6pk4")
 volume_db = 5.0
 
 [node name="AudioStreamPlayer14" type="AudioStreamPlayer" parent="Narrorator"]
-stream = ExtResource("62_g5omf")
+stream = ExtResource("20_67n5t")
 volume_db = 5.0
 
 [node name="AudioStreamPlayer15" type="AudioStreamPlayer" parent="Narrorator"]
-stream = ExtResource("63_7pk01")
+stream = ExtResource("21_012qf")
 volume_db = 5.0
 
 [node name="AudioStreamPlayer16" type="AudioStreamPlayer" parent="Narrorator"]
-stream = ExtResource("64_uk5xf")
-volume_db = 5.0
-
-[node name="AudioStreamPlayer17" type="AudioStreamPlayer" parent="Narrorator"]
-stream = ExtResource("65_cpd56")
-volume_db = 5.0
-
-[node name="AudioStreamPlayer18" type="AudioStreamPlayer" parent="Narrorator"]
-stream = ExtResource("66_ltbjh")
-volume_db = 5.0
-
-[node name="AudioStreamPlayer19" type="AudioStreamPlayer" parent="Narrorator"]
-stream = ExtResource("67_4s2kc")
+stream = ExtResource("22_ei5hh")
 volume_db = 5.0
 
 [node name="Music" type="Node" parent="."]
@@ -1126,6 +1236,26 @@ collision_layer = 2
 shape = SubResource("CapsuleShape3D_msvey")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="AnimatableBody3D7"]
+mesh = SubResource("CapsuleMesh_7bhu6")
+
+[node name="AnimatableBody3D25" type="AnimatableBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 36.9143, 1.16466, -404.703)
+collision_layer = 2
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="AnimatableBody3D25"]
+shape = SubResource("CapsuleShape3D_msvey")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="AnimatableBody3D25"]
+mesh = SubResource("CapsuleMesh_y81st")
+
+[node name="AnimatableBody3D26" type="AnimatableBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 36.9143, 1.16466, -389.189)
+collision_layer = 2
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="AnimatableBody3D26"]
+shape = SubResource("CapsuleShape3D_msvey")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="AnimatableBody3D26"]
 mesh = SubResource("CapsuleMesh_7bhu6")
 
 [node name="AnimatableBody3D8" type="AnimatableBody3D" parent="."]
@@ -1219,6 +1349,16 @@ collision_layer = 2
 shape = SubResource("CapsuleShape3D_msvey")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="AnimatableBody3D10"]
+mesh = SubResource("CapsuleMesh_4yef1")
+
+[node name="AnimatableBody3D27" type="AnimatableBody3D" parent="."]
+transform = Transform3D(-2.18557e-08, 2.98023e-08, -0.5, 1.33227e-15, 0.5, 2.98023e-08, 0.5, 0, -2.18557e-08, 33.1908, 0.753292, -398.744)
+collision_layer = 2
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="AnimatableBody3D27"]
+shape = SubResource("CapsuleShape3D_msvey")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="AnimatableBody3D27"]
 mesh = SubResource("CapsuleMesh_4yef1")
 
 [node name="AnimatableBody3D9" type="AnimatableBody3D" parent="."]
@@ -1457,9 +1597,97 @@ mesh = SubResource("BoxMesh_kxcl2")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.25195, 0)
 text = "Next"
 
+[node name="directions" type="Node3D" parent="."]
+
+[node name="Sprite3D" type="Sprite3D" parent="directions"]
+transform = Transform3D(-1.49194e-07, 1, 0, 0, 0, 1, 3.41317, 4.37114e-08, 0, -8.73836, 0.326349, 10.6576)
+texture = ExtResource("37_67n5t")
+
+[node name="Sprite3D4" type="Sprite3D" parent="directions"]
+transform = Transform3D(-3.41317, 8.74228e-08, 0, 0, 0, 1, 2.98388e-07, 1, 0, 12.2481, 0.993034, -243.032)
+visible = false
+texture = ExtResource("37_67n5t")
+
+[node name="Sprite3D6" type="Sprite3D" parent="directions/Sprite3D4"]
+transform = Transform3D(-3.28515, -2.56134e-08, 0, 9.80249e-07, -1, 0, 0, 0, 1, -3.83902, -29.6563, 0)
+texture = ExtResource("37_67n5t")
+
+[node name="Sprite3D5" type="Sprite3D" parent="directions/Sprite3D4"]
+transform = Transform3D(-8.31368e-08, 0.292983, 0, -6.49167, -4.37114e-08, 0, 0, 0, 1, 2.81605, -15.8003, 0)
+texture = ExtResource("37_67n5t")
+
+[node name="Sprite3D5" type="Sprite3D" parent="directions"]
+transform = Transform3D(-3.41317, 8.74228e-08, 0, 0, 0, 1, 2.98388e-07, 1, 0, 12.2481, 0.993034, -243.032)
+visible = false
+flip_h = true
+texture = ExtResource("37_67n5t")
+
+[node name="Sprite3D6" type="Sprite3D" parent="directions/Sprite3D5"]
+transform = Transform3D(-3.28515, -2.56134e-08, 0, 9.80249e-07, -1, 0, 0, 0, 1, -3.83902, -29.6563, 0)
+flip_h = true
+texture = ExtResource("37_67n5t")
+
+[node name="Sprite3D7" type="Sprite3D" parent="directions/Sprite3D5"]
+transform = Transform3D(1.64257, 0.866025, 0, -2.84502, 0.5, 0, 0, 0, 1, -3.83902, 8.73602, 0)
+flip_h = true
+texture = ExtResource("37_67n5t")
+
+[node name="Sprite3D5" type="Sprite3D" parent="directions/Sprite3D5"]
+transform = Transform3D(-8.31368e-08, 0.292983, 0, -6.49167, -4.37114e-08, 0, 0, 0, 1, 2.81605, -15.8003, 0)
+flip_h = true
+texture = ExtResource("37_67n5t")
+
+[node name="Sprite3D6" type="Sprite3D" parent="directions"]
+transform = Transform3D(-3.41317, 8.74228e-08, 0, 0, 0, 1, 2.98388e-07, 1, 0, 12.2481, 0.993034, -243.032)
+visible = false
+flip_h = true
+texture = ExtResource("37_67n5t")
+
+[node name="Sprite3D7" type="Sprite3D" parent="directions/Sprite3D6"]
+transform = Transform3D(1.64257, 0.866025, 0, -2.84502, 0.5, 0, 0, 0, 1, -3.83902, 8.73602, 0)
+flip_h = true
+texture = ExtResource("37_67n5t")
+
+[node name="Sprite3D5" type="Sprite3D" parent="directions/Sprite3D6"]
+transform = Transform3D(-2.9813e-07, 0.292983, 0, -23.2792, -4.37114e-08, 0, 0, 0, 1, 2.81604, -42.3468, 0)
+flip_h = true
+texture = ExtResource("37_67n5t")
+
+[node name="Sprite3D3" type="Sprite3D" parent="directions"]
+transform = Transform3D(-1.26765e-06, 5.2632, 0, 0, 0, 1, 29.0005, 2.30062e-07, 0, 0.652964, 0.943256, -290.055)
+visible = false
+texture = ExtResource("37_67n5t")
+
+[node name="Sprite3D4" type="Sprite3D" parent="directions/Sprite3D3"]
+transform = Transform3D(-1.57116e-08, -0.0844498, 0, 1.98053, -2.03399e-08, 0, 0, 0, 1, 2.1526, 1.08394, 0)
+texture = ExtResource("37_67n5t")
+
+[node name="Sprite3D2" type="Sprite3D" parent="directions"]
+transform = Transform3D(4.47583e-07, -1, 0, 0, 0, 1, -3.41317, -1.31134e-07, 0, -8.73836, 0.326349, -7.81627)
+visible = false
+texture = ExtResource("37_67n5t")
+
+[node name="OccluderInstance3D" type="OccluderInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -56.5244)
+occluder = SubResource("BoxOccluder3D_67n5t")
+
+[node name="OccluderInstance3D2" type="OccluderInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 62.8217, 0, -191.157)
+occluder = SubResource("BoxOccluder3D_67n5t")
+
+[node name="OccluderInstance3D3" type="OccluderInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 62.8217, 0, -367.57)
+occluder = SubResource("BoxOccluder3D_67n5t")
+
+[node name="OccluderInstance3D4" type="OccluderInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 62.8217, 0, -443.766)
+occluder = SubResource("BoxOccluder3D_67n5t")
+
 [connection signal="pressed" from="CanvasLayer/TextEdit/Next" to="." method="_on_next_pressed"]
 [connection signal="pressed" from="CanvasLayer/Panel/host" to="." method="_on_host_pressed"]
 [connection signal="pressed" from="CanvasLayer/Panel/join" to="." method="_on_join_pressed"]
+[connection signal="finished" from="Narrorator/AudioStreamPlayer2" to="." method="_on_audio_stream_player_2_finished"]
+[connection signal="finished" from="Narrorator/AudioStreamPlayer3" to="." method="_on_audio_stream_player_3_finished"]
 [connection signal="body_entered" from="Area3D" to="." method="_on_area_3d_body_entered"]
 [connection signal="body_entered" from="Area3D3" to="." method="_on_area_3d_3_body_entered"]
 [connection signal="body_entered" from="Area3D6" to="." method="_on_area_3d_6_body_entered"]
