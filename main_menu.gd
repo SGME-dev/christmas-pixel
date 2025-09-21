@@ -40,7 +40,7 @@ func open_website(url: String):
 
 
 func _on_bible_verses_pressed() -> void:
-	open_website("https://sites.google.com/view/easter-pixel/home/easter-bible-verses")
+	open_website("https://sites.google.com/view/easter-pixel/home/christmas-bible-verses")
 
 
 func _on_website_pressed() -> void:

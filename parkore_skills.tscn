@@ -1,11 +1,13 @@
-[gd_scene load_steps=29 format=3 uid="uid://b3ck15dp4fuhq"]
+[gd_scene load_steps=31 format=3 uid="uid://b3ck15dp4fuhq"]
 
 [ext_resource type="Script" uid="uid://bsjljvlhai5t3" path="res://parkore_skills.gd" id="1_hms1p"]
 [ext_resource type="PackedScene" uid="uid://d0vuotcp6ec3s" path="res://character_body_3d.tscn" id="2_iovwy"]
 [ext_resource type="Texture2D" uid="uid://b7y0y6wna7set" path="res://download (1).jpg" id="3_hk5eo"]
 [ext_resource type="Texture2D" uid="uid://b5egc5pfxc2eo" path="res://New Piskel (22).png" id="5_h5fcd"]
 [ext_resource type="AudioStream" uid="uid://bx1ww06fett1h" path="res://Screen Recording 2025-03-23 144438.mp3" id="6_hk5eo"]
+[ext_resource type="Texture2D" uid="uid://dcyjsxagfaiee" path="res://New Piskel (20).png" id="7_53riv"]
 [ext_resource type="PackedScene" uid="uid://bbgttfso3p6n1" path="res://fps.tscn" id="7_o7h4h"]
+[ext_resource type="Texture2D" uid="uid://ba431u8vpn66l" path="res://New Piskel (24) (1).png" id="8_53riv"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_iovwy"]
 
@@ -18,11 +20,11 @@ material = SubResource("StandardMaterial3D_wn5o4")
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_5d5jq"]
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_h5fcd"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_o7h4h"]
 albedo_color = Color(0.239, 0.437, 100, 1)
 
 [sub_resource type="BoxMesh" id="BoxMesh_hk5eo"]
-material = SubResource("StandardMaterial3D_h5fcd")
+material = SubResource("StandardMaterial3D_o7h4h")
 
 [sub_resource type="Animation" id="Animation_53riv"]
 length = 0.001
@@ -41,7 +43,7 @@ tracks/0/keys = {
 
 [sub_resource type="Animation" id="Animation_o7h4h"]
 resource_name = "rotate"
-length = 5.0
+length = 15.0
 loop_mode = 1
 tracks/0/type = "value"
 tracks/0/imported = false
@@ -50,7 +52,7 @@ tracks/0/path = NodePath(".:rotation")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
-"times": PackedFloat32Array(0, 2.5, 5),
+"times": PackedFloat32Array(0, 7.5, 15),
 "transitions": PackedFloat32Array(1, 1, 1),
 "update": 0,
 "values": [Vector3(0, 0, 0), Vector3(0, 1.5708, 0), Vector3(0, 3.14159, 0)]
@@ -164,10 +166,10 @@ properties/26/replication_mode = 2
 [sub_resource type="BoxShape3D" id="BoxShape3D_hk5eo"]
 size = Vector3(12.3079, 2.0249, 1)
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_o7h4h"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_53riv"]
 
 [sub_resource type="PrismMesh" id="PrismMesh_53riv"]
-material = SubResource("StandardMaterial3D_o7h4h")
+material = SubResource("StandardMaterial3D_53riv")
 
 [sub_resource type="PhysicalSkyMaterial" id="PhysicalSkyMaterial_hk5eo"]
 
@@ -3353,6 +3355,715 @@ mesh = SubResource("PrismMesh_53riv")
 
 [node name="WorldEnvironment2" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_o7h4h")
+
+[node name="Sprite3D" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, 6.63319, 0)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D2" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, 6.63319, -23.2192)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D3" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, 6.63319, -47.9341)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D4" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, 6.63319, -71.1533)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D5" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, 6.63319, -80.4946)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D6" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, 6.63319, -103.714)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D66" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, 6.63319, -650.119)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D67" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, 6.63319, -673.338)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D68" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, 6.63319, -698.053)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D69" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, 6.63319, -721.272)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D70" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, 6.63319, -730.613)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D71" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, 6.63319, -753.833)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D72" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, 28.9058, -650.119)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D73" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, 28.9058, -673.338)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D74" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, 28.9058, -698.053)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D75" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, 28.9058, -721.272)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D76" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, 28.9058, -730.613)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D77" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, 28.9058, -753.833)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D78" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, 56.7072, -650.119)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D79" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, 56.7072, -673.338)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D80" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, 56.7072, -698.053)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D81" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, 56.7072, -721.272)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D82" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, 56.7072, -730.613)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D83" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, 56.7072, -753.833)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D84" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, 56.7072, -700.212)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D85" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, 56.7072, -723.431)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D86" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, 56.7072, -748.146)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D87" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, 56.7072, -771.365)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D88" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, 56.7072, -780.706)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D89" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, 56.7072, -803.926)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D7" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, 6.63319, -128.429)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D8" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, 6.63319, -151.648)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D9" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, 6.63319, -175.321)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D10" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, 6.63319, -198.54)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D11" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, 6.63319, -223.255)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D12" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, 6.63319, -246.474)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D13" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, 6.63319, -255.816)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D14" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, 6.63319, -279.035)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D15" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, 6.63319, -303.75)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D16" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, 6.63319, -326.969)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D17" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, 6.63319, -324.144)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D18" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, 6.63319, -347.363)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D19" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, 6.63319, -372.078)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D20" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, 6.63319, -395.297)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D21" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, 6.63319, -404.639)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D22" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, 6.63319, -427.858)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D23" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, 6.63319, -452.573)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D24" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, 6.63319, -475.792)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D25" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, 6.63319, -499.465)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D26" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, 6.63319, -522.684)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D27" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, 6.63319, -547.399)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D28" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, 6.63319, -570.618)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D29" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, 6.63319, -579.96)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D30" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, 6.63319, -603.179)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D31" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, 6.63319, -627.894)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D32" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, 6.63319, -651.113)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D33" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, -16.3325, -324.144)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D34" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, -16.3325, -347.363)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D35" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, -16.3325, -372.078)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D36" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, -16.3325, -395.297)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D37" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, -16.3325, -404.639)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D39" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, -16.3325, -427.858)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D40" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, -16.3325, -452.573)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D41" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, -16.3325, -475.792)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D42" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, -16.3325, -499.465)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D43" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, -16.3325, -522.684)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D44" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, -16.3325, -547.399)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D45" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, -16.3325, -570.618)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D46" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, -16.3325, -579.96)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D47" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, -16.3325, -603.179)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D48" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, -16.3325, -627.894)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D49" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, -16.3325, -651.113)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D50" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, -37.8923, -324.144)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D51" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, -37.8923, -347.363)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D52" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, -37.8923, -372.078)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D53" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, -37.8923, -395.297)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D54" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, -37.8923, -404.639)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D55" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, -37.8923, -427.858)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D56" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, -37.8923, -452.573)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D57" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, -37.8923, -475.792)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D58" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, -37.8923, -499.465)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D59" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, -37.8923, -522.684)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D60" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, -37.8923, -547.399)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D61" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, -37.8923, -570.618)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D62" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, -37.8923, -579.96)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D63" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, -37.8923, -603.179)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D64" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, -37.8923, -627.894)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D65" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, -11.3868, -37.8923, -651.113)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D90" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, 6.63319, 0)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D91" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, 6.63319, -23.2192)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D92" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, 6.63319, -47.9341)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D93" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, 6.63319, -71.1533)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D94" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, 6.63319, -80.4946)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D95" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, 6.63319, -103.714)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D96" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, 6.63319, -650.119)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D97" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, 6.63319, -673.338)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D98" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, 6.63319, -698.053)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D99" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, 6.63319, -721.272)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D100" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, 6.63319, -730.613)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D101" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, 6.63319, -753.833)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D102" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, 28.9058, -650.119)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D103" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, 28.9058, -673.338)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D104" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, 28.9058, -698.053)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D105" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, 28.9058, -721.272)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D106" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, 28.9058, -730.613)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D107" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, 28.9058, -753.833)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D108" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, 56.7072, -650.119)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D109" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, 56.7072, -673.338)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D110" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, 56.7072, -698.053)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D111" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, 56.7072, -721.272)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D112" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, 56.7072, -730.613)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D113" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, 56.7072, -753.833)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D114" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, 56.7072, -700.212)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D115" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, 56.7072, -723.431)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D116" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, 56.7072, -748.146)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D117" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, 56.7072, -771.365)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D118" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, 56.7072, -780.706)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D119" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, 56.7072, -803.926)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D120" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, 6.63319, -128.429)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D121" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, 6.63319, -151.648)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D122" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, 6.63319, -175.321)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D123" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, 6.63319, -198.54)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D124" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, 6.63319, -223.255)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D125" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, 6.63319, -246.474)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D126" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, 6.63319, -255.816)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D127" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, 6.63319, -279.035)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D128" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, 6.63319, -303.75)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D129" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, 6.63319, -326.969)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D130" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, 6.63319, -324.144)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D131" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, 6.63319, -347.363)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D132" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, 6.63319, -372.078)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D133" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, 6.63319, -395.297)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D134" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, 6.63319, -404.639)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D135" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, 6.63319, -427.858)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D136" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, 6.63319, -452.573)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D137" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, 6.63319, -475.792)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D138" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, 6.63319, -499.465)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D139" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, 6.63319, -522.684)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D140" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, 6.63319, -547.399)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D141" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, 6.63319, -570.618)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D142" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, 6.63319, -579.96)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D143" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, 6.63319, -603.179)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D144" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, 6.63319, -627.894)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D145" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, 6.63319, -651.113)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D146" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, -16.3325, -324.144)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D147" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, -16.3325, -347.363)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D148" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, -16.3325, -372.078)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D149" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, -16.3325, -395.297)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D150" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, -16.3325, -404.639)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D151" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, -16.3325, -427.858)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D152" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, -16.3325, -452.573)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D153" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, -16.3325, -475.792)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D154" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, -16.3325, -499.465)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D155" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, -16.3325, -522.684)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D156" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, -16.3325, -547.399)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D157" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, -16.3325, -570.618)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D158" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, -16.3325, -579.96)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D159" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, -16.3325, -603.179)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D160" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, -16.3325, -627.894)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D161" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, -16.3325, -651.113)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D162" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, -37.8923, -324.144)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D163" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, -37.8923, -347.363)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D164" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, -37.8923, -372.078)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D165" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, -37.8923, -395.297)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D166" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, -37.8923, -404.639)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D167" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, -37.8923, -427.858)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D168" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, -37.8923, -452.573)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D169" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, -37.8923, -475.792)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D170" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, -37.8923, -499.465)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D171" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, -37.8923, -522.684)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D172" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, -37.8923, -547.399)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D173" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, -37.8923, -570.618)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D174" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, -37.8923, -579.96)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D175" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, -37.8923, -603.179)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D176" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, -37.8923, -627.894)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D177" type="Sprite3D" parent="."]
+transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, -37.8923, -651.113)
+texture = ExtResource("7_53riv")
+
+[node name="Sprite3D178" type="Sprite2D" parent="."]
+position = Vector2(574, 322.5)
+scale = Vector2(1.12891, 1.2832)
+texture = ExtResource("8_53riv")
 
 [connection signal="pressed" from="CanvasLayer/Panel/host" to="." method="_on_host_pressed"]
 [connection signal="pressed" from="CanvasLayer/Panel/join" to="." method="_on_join_pressed"]

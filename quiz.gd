@@ -29,8 +29,10 @@ func  _ready() -> void:
 		%LineEdit2.hide()
 		$Sprite3D59.hide()
 		$CanvasLayer/Panel.hide()
+		$Sprite3D22.hide()
 
 func _on_host_pressed() -> void:
+	$Sprite3D22.hide()
 	
 	peer.create_server(port, MAX_CONNECTIONS)
 	multiplayer.multiplayer_peer = peer
@@ -96,6 +98,7 @@ func _on_host_pressed() -> void:
 
 
 func _on_join_pressed(address: String = str(%LineEdit.text)) -> void:
+	$Sprite3D22.hide()
 	if address.is_empty() or address == "localhost":
 		address = DEFAULT_SERVER_IP
 	peer.create_client(address, int(%LineEdit2.text))
@@ -161,3 +164,7 @@ func _on_http_request_completed(result: int, response_code: int, headers: Packed
 		#     print("Error: Could not resolve host (no internet connection or DNS issue).")
 		# if response_code == 404:
 		#     print("Error: Service URL not found.")
+
+
+func _on_area_3d_25_body_entered(body: Node3D) -> void:
+	body.global_position = Vector3(0, 0, 0)

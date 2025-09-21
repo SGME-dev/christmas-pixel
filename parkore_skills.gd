@@ -35,10 +35,11 @@ func _ready() -> void:
 		%LineEdit2.hide()
 		$Sprite3D38.hide()
 		$CanvasLayer/Panel.hide()
+		$Sprite3D178.hide()
 
 
 func _on_host_pressed() -> void:
-	
+	$Sprite3D178.hide()
 	peer.create_server(port, MAX_CONNECTIONS)
 	multiplayer.multiplayer_peer = peer
 	multiplayer.peer_connected.connect(add_player)
@@ -104,6 +105,7 @@ func _on_host_pressed() -> void:
 
 
 func _on_join_pressed(address: String = str(%LineEdit.text)) -> void:
+	$Sprite3D178.hide()
 	if address.is_empty() or address == "localhost":
 		address = DEFAULT_SERVER_IP
 	peer.create_client(address, int(%LineEdit2.text))

@@ -1,4 +1,4 @@
-[gd_scene load_steps=82 format=3 uid="uid://o3a1kb7lx1ux"]
+[gd_scene load_steps=83 format=3 uid="uid://o3a1kb7lx1ux"]
 
 [ext_resource type="Script" uid="uid://byta5gcbtshf6" path="res://lobby.gd" id="1_ll2xe"]
 [ext_resource type="PackedScene" uid="uid://d0vuotcp6ec3s" path="res://character_body_3d.tscn" id="2_xrgmn"]
@@ -30,6 +30,7 @@
 [ext_resource type="Texture2D" uid="uid://cbo5e5l3eni13" path="res://mesh_instance_3d_0 (1).png" id="31_67n5t"]
 [ext_resource type="Texture2D" uid="uid://hu2fw7v71cd8" path="res://mesh_instance_3d_0 (2).png" id="32_012qf"]
 [ext_resource type="Texture2D" uid="uid://cn3oxvvff0fyi" path="res://mesh_instance_3d_0 (3).png" id="33_ei5hh"]
+[ext_resource type="Texture2D" uid="uid://ba431u8vpn66l" path="res://New Piskel (24) (1).png" id="35_acn02"]
 [ext_resource type="Texture2D" uid="uid://cux3c5m6et524" path="res://360_F_1296260291_X28UdsL2IB2k81Ssm1WzFi2EeFkxTQAy.jpg" id="37_67n5t"]
 [ext_resource type="Texture2D" uid="uid://b5egc5pfxc2eo" path="res://New Piskel (22).png" id="48_hvsjf"]
 [ext_resource type="AudioStream" uid="uid://bx1ww06fett1h" path="res://Screen Recording 2025-03-23 144438.mp3" id="68_4s2kc"]
@@ -1682,6 +1683,11 @@ occluder = SubResource("BoxOccluder3D_67n5t")
 [node name="OccluderInstance3D4" type="OccluderInstance3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 62.8217, 0, -443.766)
 occluder = SubResource("BoxOccluder3D_67n5t")
+
+[node name="Sprite3D" type="Sprite2D" parent="."]
+position = Vector2(574, 324)
+scale = Vector2(1.12891, 1.27734)
+texture = ExtResource("35_acn02")
 
 [connection signal="pressed" from="CanvasLayer/TextEdit/Next" to="." method="_on_next_pressed"]
 [connection signal="pressed" from="CanvasLayer/Panel/host" to="." method="_on_host_pressed"]
