@@ -16,7 +16,7 @@ config/tags=PackedStringArray("3d", "christ", "god", "jesus", "network")
 run/main_scene="res://signin.tscn"
 config/use_custom_user_dir=true
 config/custom_user_dir_name="christmas-pixel"
-config/features=PackedStringArray("4.4", "GL Compatibility")
+config/features=PackedStringArray("4.5", "GL Compatibility")
 boot_splash/image="uid://cnff6ihfrr4m2"
 config/icon="res://icon.svg"
 
@@ -29,6 +29,10 @@ Firebase="*res://addons/godot-firebase/firebase/firebase.tscn"
 window/size/mode=4
 window/stretch/mode="canvas_items"
 window/vsync/vsync_mode=0
+
+[dotnet]
+
+project/assembly_name="Christmas Pixel"
 
 [editor]
 

@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+android/build/build/intermediates/merged_jni_libs/standardDebug/mergeStandardDebugJniLibFolders/out/godot-lib.template_debug.aar filter=lfs diff=lfs merge=lfs -text
+android/build/build/outputs/apk/standard/debug/android_debug.apk filter=lfs diff=lfs merge=lfs -text
+android/build/libs/debug/godot-lib.template_debug.apk filter=lfs diff=lfs merge=lfs -text
+android/build/libs/debug/godot-lib.template_debug.aar filter=lfs diff=lfs merge=lfs -text

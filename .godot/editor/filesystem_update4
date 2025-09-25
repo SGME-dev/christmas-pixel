@@ -1,10 +1,1 @@
 res://main_menu.tscn
-res://lobby.tscn
-res://character_body_3d.tscn
-res://parkore_skills.tscn
-res://quiz.tscn
-res://signin.tscn
-res://quiz.gd
-res://parkore_skills.gd
-res://lobby.gd
-res://main_menu.gd
