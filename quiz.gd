@@ -5,7 +5,7 @@ class_name lobby_quiz
 @onready var http_request: HTTPRequest = $CanvasLayer/HTTPRequest
 @onready var lan_ip_label: Label = $CanvasLayer/Label
 @onready var public_ip_label: Label = $CanvasLayer/Label2
-var port: int = 15780
+var port: int = 50170
 const DEFAULT_SERVER_IP: String = "127.0.0.1" # IPv4 localhost
 const MAX_CONNECTIONS: int = 20
 
@@ -101,6 +101,8 @@ func _on_join_pressed(address: String = str(%LineEdit.text)) -> void:
 	$Sprite3D22.hide()
 	if address.is_empty() or address == "localhost":
 		address = DEFAULT_SERVER_IP
+	if %LineEdit2.text.is_empty():
+		%LineEdit2.text = 50170
 	peer.create_client(address, int(%LineEdit2.text))
 	multiplayer.multiplayer_peer = peer
 	%host.hide()
