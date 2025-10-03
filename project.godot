@@ -18,7 +18,7 @@ config/use_custom_user_dir=true
 config/custom_user_dir_name="christmas-pixel"
 config/features=PackedStringArray("4.5", "GL Compatibility")
 boot_splash/image="uid://cnff6ihfrr4m2"
-config/icon="res://icon.svg"
+config/icon="uid://6ne3s4k1q8hb"
 
 [autoload]
 
