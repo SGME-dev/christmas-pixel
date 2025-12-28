@@ -15,7 +15,7 @@ var id: int = $".".get_multiplayer_authority()
 var checkpoint: Marker3D
 var checkpoint2: Marker3D
 var checkpoint3: Marker3D
-const SPEED = 7.25
+var SPEED = 7.25
 const JUMP_VELOCITY = 6
 var platform_name: String = OS.get_name()
 @onready var label_3d: Label3D = %Label3D
@@ -95,6 +95,15 @@ func _physics_process(delta: float) -> void:
 			if is_multiplayer_authority():
 				cam_2.set_current(true)
 				cam.set_current(false)
+		
+		if Input.is_action_just_pressed("RUN"):
+			if is_multiplayer_authority():
+				if SPEED == 7.25:
+					SPEED = 14.5
+					return
+				if SPEED == 14.25:
+					SPEED = 7.5
+					return
 		
 		if get_tree().current_scene.scene_file_path == "res://parkore_skills.tscn":
 			$Label2.show()

@@ -1,3 +1,7 @@
+Timer
+Button
+LineEdit
+TextEdit
 Sprite3D
 MeshInstance3D
 CollisionShape3D
@@ -9,5 +13,3 @@ OmniLight3D
 StaticBody3D
 Label3D
 DirectionalLight3D
-AnimationPlayer
-AnimatableBody3D
