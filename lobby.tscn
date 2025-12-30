@@ -1,4 +1,4 @@
-[gd_scene load_steps=83 format=3 uid="uid://o3a1kb7lx1ux"]
+[gd_scene load_steps=85 format=3 uid="uid://o3a1kb7lx1ux"]
 
 [ext_resource type="Script" uid="uid://byta5gcbtshf6" path="res://lobby.gd" id="1_ll2xe"]
 [ext_resource type="PackedScene" uid="uid://d0vuotcp6ec3s" path="res://character_body_3d.tscn" id="2_xrgmn"]
@@ -202,6 +202,14 @@ material = SubResource("StandardMaterial3D_bufr4")
 
 [sub_resource type="BoxOccluder3D" id="BoxOccluder3D_67n5t"]
 size = Vector3(354.33, 85.3311, 1)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_acn02"]
+size = Vector3(1, 4.968628, 2.7249146)
+
+[sub_resource type="SceneReplicationConfig" id="SceneReplicationConfig_acn02"]
+properties/0/path = NodePath(".:dedserver")
+properties/0/spawn = true
+properties/0/replication_mode = 1
 
 [node name="lobby" type="Node3D"]
 script = ExtResource("1_ll2xe")
@@ -1136,7 +1144,7 @@ spawn_path = NodePath("..")
 environment = SubResource("Environment_g26o6")
 
 [node name="Sprite3D38" type="Sprite2D" parent="."]
-position = Vector2(1765, 799)
+position = Vector2(573, 326)
 scale = Vector2(10.013, 10.0231)
 texture = ExtResource("48_hvsjf")
 
@@ -1712,9 +1720,19 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 62.8217, 0, -443.766)
 occluder = SubResource("BoxOccluder3D_67n5t")
 
 [node name="Sprite3D" type="Sprite2D" parent="."]
-position = Vector2(1776, 128.00002)
+position = Vector2(575, 326)
 scale = Vector2(1.12891, 1.27734)
 texture = ExtResource("35_acn02")
+
+[node name="Area3D15" type="Area3D" parent="."]
+collision_layer = 2
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D15"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.984314, 0.05026245)
+shape = SubResource("BoxShape3D_acn02")
+
+[node name="MultiplayerSynchronizer" type="MultiplayerSynchronizer" parent="."]
+replication_config = SubResource("SceneReplicationConfig_acn02")
 
 [connection signal="pressed" from="CanvasLayer/TextEdit/Next" to="." method="_on_next_pressed"]
 [connection signal="pressed" from="CanvasLayer/Panel/host" to="." method="_on_host_pressed"]
@@ -1731,3 +1749,4 @@ texture = ExtResource("35_acn02")
 [connection signal="body_entered" from="Area3D5" to="." method="_on_area_3d_5_body_entered"]
 [connection signal="body_entered" from="Area3D9" to="." method="_on_area_3d_9_body_entered"]
 [connection signal="body_entered" from="Area3D10" to="." method="_on_area_3d_10_body_entered"]
+[connection signal="body_entered" from="Area3D15" to="." method="_on_area_3d_15_body_entered"]

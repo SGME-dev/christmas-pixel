@@ -108,3 +108,8 @@ texture = ExtResource("6_obynr")
 
 [node name="MultiplayerSynchronizer" type="MultiplayerSynchronizer" parent="."]
 replication_config = SubResource("SceneReplicationConfig_obynr")
+
+[node name="Save" type="Timer" parent="."]
+autostart = true
+
+[connection signal="timeout" from="Save" to="." method="_on_save_timeout"]
