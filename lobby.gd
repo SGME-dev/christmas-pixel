@@ -10,7 +10,7 @@ var local_addresses = IP.get_local_addresses()
 var actual_port: int = 50170
 var port: int = 50170
 const DEFAULT_SERVER_IP: String = "127.0.0.1" # IPv4 localhost
-const MAX_CONNECTIONS: int = 20
+var MAX_CONNECTIONS: int = 20
 var Jesus_pass = 0
 var user = FileAccess.open("user://username.save", FileAccess.READ).get_line()
 @export var dedserver: bool = false
@@ -37,6 +37,14 @@ func _ready() -> void:
 		%LineEdit2.hide()
 		$Sprite3D.hide()
 		dedserver = true
+		var path = OS.get_executable_path().get_base_dir() + "max_players.limit"
+		
+		if FileAccess.file_exists(path):
+			var file = FileAccess.open(path, FileAccess.READ)
+			var player_limit = file.get_line()
+			file.close()
+			if int(player_limit) > 0 and int(player_limit) < 101:
+				MAX_CONNECTIONS = int(player_limit)
 	
 	
 
