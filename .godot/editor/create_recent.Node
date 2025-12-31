@@ -1,9 +1,10 @@
+HTTPRequest
+Button
+LineEdit
 MultiplayerSynchronizer
 CollisionShape3D
 Area3D
 Timer
-Button
-LineEdit
 TextEdit
 Sprite3D
 MeshInstance3D
