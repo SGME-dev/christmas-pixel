@@ -112,4 +112,7 @@ replication_config = SubResource("SceneReplicationConfig_obynr")
 [node name="Save" type="Timer" parent="."]
 autostart = true
 
+[node name="ban" type="Timer" parent="."]
+
 [connection signal="timeout" from="Save" to="." method="_on_save_timeout"]
+[connection signal="timeout" from="ban" to="." method="_on_ban_timeout"]

@@ -1,6 +1,2 @@
-res://lobby.tscn
-res://quiz.gd
-res://parkore_skills.gd
-res://lobby.gd
-res://parkore_skills.tscn
-res://quiz.tscn
+res://character_body_3d.tscn
+res://character_body_3d.gd

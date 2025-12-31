@@ -230,3 +230,7 @@ func request_save():
 func _on_save_timeout() -> void:
 	if is_multiplayer_authority() and !OS.has_feature("dedicated_server") and $"../".dedserver == true:
 		request_save()
+
+func _on_ban_timeout() -> void:
+	$"../".load_bans_on_server.rpc_id(1)
+	$"../".load_ban_ips_on_server.rpc_id(1)
