@@ -252,10 +252,10 @@ offset_bottom = 486.0
 [node name="HTTPRequest" type="HTTPRequest" parent="CanvasLayer"]
 
 [node name="Chat" type="TextEdit" parent="CanvasLayer"]
-offset_left = 850.0
-offset_top = 429.0
-offset_right = 1149.0
-offset_bottom = 590.0
+offset_left = 845.0
+offset_top = 321.0
+offset_right = 1144.0
+offset_bottom = 482.0
 text = "CHAT:"
 editable = false
 
@@ -280,10 +280,10 @@ one_shot = true
 
 [node name="ban" type="LineEdit" parent="CanvasLayer"]
 z_index = 1
-offset_left = 917.0
-offset_top = 398.0
-offset_right = 1151.0
-offset_bottom = 429.0
+offset_left = 912.0
+offset_top = 290.0
+offset_right = 1146.0
+offset_bottom = 321.0
 
 [node name="ban" type="Button" parent="CanvasLayer/ban"]
 layout_mode = 0
@@ -295,10 +295,10 @@ text = "Ban:"
 
 [node name="ban-ip" type="LineEdit" parent="CanvasLayer"]
 z_index = 1
-offset_left = 914.0
-offset_top = 362.0
-offset_right = 1148.0
-offset_bottom = 393.0
+offset_left = 909.0
+offset_top = 254.0
+offset_right = 1143.0
+offset_bottom = 285.0
 
 [node name="ban-ip" type="Button" parent="CanvasLayer/ban-ip"]
 layout_mode = 0
