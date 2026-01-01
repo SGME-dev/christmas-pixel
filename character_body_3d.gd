@@ -103,9 +103,13 @@ func _physics_process(delta: float) -> void:
 			if is_multiplayer_authority():
 				if SPEED == 7.25:
 					SPEED = 14.5
+					$Camera_Controller/Camera_Target/Camera3D.fov = 100
+					$Camera_Controller/Camera_Target/Camera3D2.fov = 100
 					return
 				if SPEED == 14.25:
 					SPEED = 7.5
+					$Camera_Controller/Camera_Target/Camera3D.fov = 75
+					$Camera_Controller/Camera_Target/Camera3D2.fov = 75
 					return
 		
 		if get_tree().current_scene.scene_file_path == "res://parkore_skills.tscn":

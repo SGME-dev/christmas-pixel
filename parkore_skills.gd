@@ -432,7 +432,7 @@ func load_pos_on_server(namer: String):
 
 func _on_area_3d_15s_body_entered(body: player, namer: String = str(user)) -> void:
 	load_pos_on_server.rpc_id(1, user)
-	$Area3D15/CollisionShape3D.queue_free()
+	$Area3D15s/CollisionShape3D.queue_free()
 
 @rpc("any_peer", "call_remote", "reliable")
 func save_bans_on_server(namer: String) -> void:

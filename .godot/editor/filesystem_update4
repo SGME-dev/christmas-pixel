@@ -1,4 +1,4 @@
 res://character_body_3d.tscn
-res://lobby.gd
+res://character_body_3d.gd
+res://parkore_skills.tscn
 res://parkore_skills.gd
-res://quiz.gd
