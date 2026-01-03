@@ -1,9 +1,5 @@
-res://easteregghunt.tscn
-res://easteregghunt.gd
-res://character_body_3d.tscn
-res://character_body_3d.gd
-res://meaningofeaster.tscn
-res://new_array_mesh.tres
-res://meaningofeaster.gd
 res://main_menu.tscn
-res://main_menu.gd
+res://new_array_mesh.tres
+res://meaningofeaster.tscn
+res://quiz.tscn
+res://signin.tscn
