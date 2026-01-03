@@ -100,4 +100,8 @@ func _on_roadtoemmaus_pressed() -> void:
 
 
 func _on_resurection_gardens_pressed() -> void:
+	pass
+
+
+func _on_meaningofchristmas_pressed() -> void:
 	get_tree().change_scene_to_file("res://meaningofeaster.tscn")

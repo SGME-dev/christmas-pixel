@@ -106,8 +106,8 @@ func _physics_process(delta: float) -> void:
 					$Camera_Controller/Camera_Target/Camera3D.fov = 100
 					$Camera_Controller/Camera_Target/Camera3D2.fov = 100
 					return
-				if SPEED == 14.25:
-					SPEED = 7.5
+				if SPEED == 14.5:
+					SPEED = 7.25
 					$Camera_Controller/Camera_Target/Camera3D.fov = 75
 					$Camera_Controller/Camera_Target/Camera3D2.fov = 75
 					return
@@ -115,6 +115,10 @@ func _physics_process(delta: float) -> void:
 		if get_tree().current_scene.scene_file_path == "res://parkore_skills.tscn":
 			$Label2.show()
 		
+		if get_tree().current_scene.scene_file_path == "res://easteregghunt.tscn":
+			$SpotLight3D.show()
+			$SpotLight3D2.show()
+			$SpotLight3D3.show()
 		
 		if Input.is_action_just_pressed("third_person"):
 			if is_multiplayer_authority():

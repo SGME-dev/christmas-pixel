@@ -1,10 +1,11 @@
-[gd_scene load_steps=10 format=3 uid="uid://d0vuotcp6ec3s"]
+[gd_scene load_steps=11 format=3 uid="uid://d0vuotcp6ec3s"]
 
 [ext_resource type="Script" uid="uid://i8ydn102b2o4" path="res://character_body_3d.gd" id="1_iwpo4"]
 [ext_resource type="Material" uid="uid://bqp5pf30o4mqv" path="res://character_body_3d.tres" id="2_c7tqt"]
 [ext_resource type="Script" uid="uid://dm0tucvr3n8rr" path="res://mesh_instance_3d.gd" id="3_nl27k"]
 [ext_resource type="Script" uid="uid://81qg48odtf4l" path="res://scripts/touch_screen_joystick.gd" id="3_vd578"]
 [ext_resource type="Texture2D" uid="uid://b4imyx34sic7q" path="res://New Piskel (26).png" id="4_c7tqt"]
+[ext_resource type="Texture2D" uid="uid://rp8ynhe4g4re" path="res://run.png" id="6_jvo56"]
 [ext_resource type="Texture2D" uid="uid://shlroab6kika" path="res://New Piskel (28).png" id="6_obynr"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_bu0v1"]
@@ -100,6 +101,11 @@ scale = Vector2(0.059375, 0.0575)
 texture_normal = ExtResource("4_c7tqt")
 action = "ui_accept"
 
+[node name="TouchScreenButton2" type="TouchScreenButton" parent="CanvasLayer"]
+position = Vector2(779, 493)
+texture_normal = ExtResource("6_jvo56")
+action = "RUN"
+
 [node name="Sprite3D" type="Sprite3D" parent="."]
 transform = Transform3D(41.437, 0, 0, 0, 2.36869, -1.27621, 0, 43.4, 0.0696532, 0, 11.1433, 0)
 visible = false
@@ -108,3 +114,14 @@ texture = ExtResource("6_obynr")
 
 [node name="MultiplayerSynchronizer" type="MultiplayerSynchronizer" parent="."]
 replication_config = SubResource("SceneReplicationConfig_obynr")
+
+[node name="Save" type="Timer" parent="."]
+autostart = true
+
+[node name="ban" type="Timer" parent="."]
+wait_time = 5.0
+one_shot = true
+autostart = true
+
+[connection signal="timeout" from="Save" to="." method="_on_save_timeout"]
+[connection signal="timeout" from="ban" to="." method="_on_ban_timeout"]

@@ -123,5 +123,17 @@ wait_time = 5.0
 one_shot = true
 autostart = true
 
+[node name="SpotLight3D" type="SpotLight3D" parent="."]
+transform = Transform3D(-1, -8.742278e-08, 4.371139e-08, 4.371139e-08, 1.9106855e-15, 1, -8.742278e-08, 1, 1.9106855e-15, 0, 2.8451028, 0)
+visible = false
+
+[node name="SpotLight3D2" type="SpotLight3D" parent="."]
+transform = Transform3D(-1, 8.742278e-08, 0, -8.742278e-08, -1, 0, 0, 0, 1, 0, -0.1454246, 4.115915)
+visible = false
+
+[node name="SpotLight3D3" type="SpotLight3D" parent="."]
+transform = Transform3D(1, 8.742278e-08, -8.742278e-08, 8.742278e-08, -1, 0, -8.742278e-08, -7.642742e-15, -1, 0, -0.1454246, -3.5858335)
+visible = false
+
 [connection signal="timeout" from="Save" to="." method="_on_save_timeout"]
 [connection signal="timeout" from="ban" to="." method="_on_ban_timeout"]
