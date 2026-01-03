@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Christmas Pixel"
-config/version="1.3.0"
+config/version="1.7.0"
 config/tags=PackedStringArray("3d", "christ", "god", "jesus", "network")
 run/main_scene="res://signin.tscn"
 config/use_custom_user_dir=true

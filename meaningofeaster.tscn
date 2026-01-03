@@ -13,16 +13,6 @@
 [ext_resource type="Texture2D" uid="uid://ba431u8vpn66l" path="res://New Piskel (24) (1).png" id="12_eoagw"]
 [ext_resource type="AudioStream" uid="uid://bx1ww06fett1h" path="res://Screen Recording 2025-03-23 144438.mp3" id="18_4yko1"]
 
-[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_pxtyn"]
-
-[sub_resource type="Sky" id="Sky_pbp4j"]
-sky_material = SubResource("ProceduralSkyMaterial_pxtyn")
-
-[sub_resource type="Environment" id="Environment_t5w83"]
-background_mode = 2
-sky = SubResource("Sky_pbp4j")
-glow_enabled = true
-
 [sub_resource type="SceneReplicationConfig" id="SceneReplicationConfig_v4co0"]
 properties/0/path = NodePath("Label3:text")
 properties/0/spawn = true
@@ -103,6 +93,15 @@ material = SubResource("StandardMaterial3D_x1bx4")
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_x1bx4"]
 size = Vector3(2.2260132, 4.3442383, 1)
+
+[sub_resource type="PhysicalSkyMaterial" id="PhysicalSkyMaterial_eoagw"]
+
+[sub_resource type="Sky" id="Sky_nds6m"]
+sky_material = SubResource("PhysicalSkyMaterial_eoagw")
+
+[sub_resource type="Environment" id="Environment_rtwnq"]
+background_mode = 2
+sky = SubResource("Sky_nds6m")
 
 [node name="easteregghunt" type="Node3D"]
 script = ExtResource("1_bqp6u")
@@ -235,9 +234,6 @@ spawn_path = NodePath("..")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, -0.707107, 0.707107, 0, -0.707107, -0.707107, 0, 2, 0)
-
-[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
-environment = SubResource("Environment_t5w83")
 
 [node name="FPS" parent="." instance=ExtResource("5_ci642")]
 
@@ -1415,6 +1411,9 @@ transform = Transform3D(20, 0, 0, 0, 20, 0, 0, 0, 20, -16.906181, -35.939285, -1
 position = Vector2(577.50006, 325)
 scale = Vector2(1.1376954, 1.2851563)
 texture = ExtResource("12_eoagw")
+
+[node name="WorldEnvironment2" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_rtwnq")
 
 [connection signal="pressed" from="CanvasLayer/Panel/host" to="." method="_on_host_pressed"]
 [connection signal="pressed" from="CanvasLayer/Panel/join" to="." method="_on_join_pressed"]
