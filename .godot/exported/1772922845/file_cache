@@ -278,7 +278,7 @@ res://17427358744982bmfxf7r-voicemaker.in-speech.mp3::1eddd9c904159d0f91f248eb6b
 res://17427361058546r0yysa-voicemaker.in-speech.mp3::027975ff1f2758fec43e09c6ec2d8b7e94d6ef6c385c93130f44836a7c63bb0d::1757952097::
 res://17427369036139190u7lr-voicemaker.in-speech.mp3::ff4bd624b9ed3828a55e256e1b8862a018714284f6f0fd89a7a5ed0ff5749890::1757952097::
 res://character_body_3d.tres::ab596673d4ff4c7c70c50131daffe1b6::1757952104::
-res://character_body_3d.tscn::aaeceaa1ed5c7bbeb882ec1665939da1::1767362007::
+res://character_body_3d.tscn::b69f38fcbd3381621d08d0d9f963bfc8::1767379987::
 res://color.png::d43121ea304856643627c0d5df34d8b728e2327954a63d344751dfb97f7dae04::1757952104::
 res://craiyon_192454_low_poly_seamless_grass_texture.png::1aa25698e56805d4b01c3b7d47fd20edcfea5916c9780fe317eda5cb33f2db8c::1757952104::
 res://data.hterrain::272b9d9e8fb40620cac6b70133044364::1757952104::
@@ -289,7 +289,7 @@ res://donkey_New Piskel (13).png::9191a870f6dddab75571cb13813bed9d64a361f8ea8ec9
 res://donkey_New Piskel (14).png::fe7332ab4eeeefe44756b68b7191ce653a38772e9f1960133b0766469253f825::1757952104::
 res://download (1).jpg::72bc868d734323e2c95fbd085bfd10f3a6dae510d1485b44dc148ee9c8705460::1758227931::
 res://download.jpg::a573768b490a8aba17188d6a01c587225cf1ba446539a9fc7459d507c2063bc0::1758227923::
-res://easteregghunt.tscn::eb2f29afc81b8b14822996892c281533::1757952104::
+res://easteregghunt.tscn::0ce8bc692c0f107735ee58ddf984c1a7::1767442635::
 res://easter_egg_textured.tscn::618f63826da84445a32c6ca59860900f::1757952104::
 res://electric-shock-97989.mp3::9b3856c01271bcae681e22bd585fd5e6d1976fa0cb9fa5e21c5759fbc841004b::1757952104::
 res://fps.tscn::6bbd2acd0ef755c24280fafd68559c57::1757952104::
@@ -305,8 +305,8 @@ res://jerusalem_1st._temple_period_Image_1.jpg::127dc75238e6def17b641568b14fbf71
 res://jerusalem_1_st__temple_period__blmj_museummod.tscn::236de021c270a975dca4db9c19b8d4f8::1757952105::
 res://large_tree_voxel.glb::81062ab26fe1a064c2cb521dfc888e19a3932d33b4af0ecb854a8fcefff97a31::1757952105::
 res://lobby.tscn::226b473373ccf80d8f7a370b748f9313::1767284881::
-res://main_menu.tscn::a1c0978f31def5c9d1a9f69d9c08d138::1758481175::
-res://meaningofeaster.tscn::1ec282d5a7fd4c3eca9cf5e344a947b9::1757952105::
+res://main_menu.tscn::d3194bc1563a1538e27ca6dea0325a5c::1767468843::
+res://meaningofeaster.tscn::05cf607aba9bae932ed7290bea310c3b::1770925250::
 res://MeshInstance3D.glb::7bacccff277d74886242c8924c69a79bd6cf5bcc9682bac97739e80ed02371e0::1757952103::
 res://MeshInstance3D_0.png::1e28ef1cce60b044bf938bb30f3dd71aac0981440743c5c7565c08b04b91589c::1757952103::
 res://mesh_instance_3d.glb::da70b552136d9925dfa59e390da7654270429d248a23b7aa279ab22863218963::1757952105::
@@ -390,7 +390,7 @@ res://New Piskel (27).png::d721e652e49545e719af6392d5bb6e010e4da4254d73ab77ecaa7
 res://New Piskel (28).png::e09acc076c1235eb4852801e833fd3019df353653da8995ef53380afb5466850::1757952103::
 res://New Piskel (29).png::60ac5dce5f710ba04367c05a5d5aeb43903cca9c98f5f5a369b462ccd8ca709a::1757952103::
 res://New Piskel.png::07ba5249db38799a07f4d42658acf3bf55392e6fbf83c1017964132a7cc3eb39::1757952103::
-res://new_array_mesh.tres::3a9923f7222b7802a680f752d88eb8be::1757952105::
+res://new_array_mesh.tres::deaad968ccfc52f2b92a6e7c753b30c9::1770925250::
 res://new_standard_material_3d.tres::5454ed33a73a5c9d22eb6d573f70b81a::1757952105::
 res://node_3d.tscn::6f4a107ecf217369fb2b47827687f60f::1757952105::
 res://normal.png::c32ea492661ad8c3fdca46482a7fa06f7daf6981ae7b625e86f761f886e0b770::1757952105::
@@ -416,10 +416,9 @@ res://pixel-speech-bubble (17).png::70c5d7bbd0899446d7b9a5f8e99ea24c7f1f17bbe4da
 res://pixel-speech-bubble (18).png::41bee03dd073c07e8598893e7bfb1a2e661c7fc8fba170954eadfc643062803e::1757952105::
 res://pixel-speech-bubble (19).png::ddcc1ba44f67c89ef97ea704703d316727b77a01364ed2c9b784173b719a6526::1757952105::
 res://pixel-speech-bubble.png::e79f1da23e2b86b1889ee93e4a60c6fd19b151a8064b3543e65386dc777f291f::1757952105::
-res://quiz.tscn::dbcfa8d5eb54e56174dedfd82163efc8::1767284516::
+res://quiz.tscn::dbcfa8d5eb54e56174dedfd82163efc8::1767451734::
 res://resized_Screenshot 2025-03-23 170241.png::0711bc3061fcb40c0d10770719eecc115d06e6a011b379d7772f0375976bb628::1757952105::
 res://resized_Screenshot 2025-03-23 170336.png::695e66d12650a9e2025d324ea551f4dbd19fa6a771ec4085ada17660db1a47f6::1757952105::
-res://road_to_emmaus.tscn::099d86f027a1100d69526f72d9432e41::1757952105::
 res://Screen Recording 2025-03-23 144438.mp3::d594c70cee3ac050652f668ab9ebdf86490fd54e043b9ae8806449d21a597321::1757952103::
 res://Screenshot 2025-03-23 170143.png::2ebba76ac0ae3ed6b37200f6d3ea1f7703ae64ccf18104d22e99e126ff06a4af::1757952103::
 res://Screenshot 2025-03-23 170215.png::b071a64432b7a536a656ac0c1a0e656909c1d6fc65f219535a9ba8263caaa8bd::1757952103::
@@ -428,7 +427,7 @@ res://server_info.tscn::19e86440cb483f0014b602f2f5918501::1757952105::
 res://server_info_item.tscn::2047013acb14fa5f8ae0efa588bb4482::1757952105::
 res://SGME.png::cd5e5537935ca9148be73bb527af0c67b48995acf18e2cc519aba90cc3ffc008::1757952103::
 res://signin-button.png::31683fdda55973b4dfb4dd828ae05127745155f61e99de9de6818e442a27ac89::1757952105::
-res://signin.tscn::b49141182bbb5f790f78f97a45094c02::1758401218::
+res://signin.tscn::7cf72446fd4b49a6a7f2452177b70cc3::1767452325::
 res://sketchfab_scene.tscn::286577e0fca94cd19e1339f40eba155d::1757952105::
 res://slot0_albedo_bump.png::ee8b4d28f3b3f4813bea791eedd2f5d10f5f30dac27bfe1eda076273437a13c6::1757952105::
 res://slot0_normal_roughness.png::2af9764f8ba578c18e9fbe7b319884a254a8277ebdf69026667daa4d3e4bc399::1757952105::
@@ -437,3 +436,9 @@ res://the_easter_hunt.gdshader::1fde945c68d25b6c88752dbc55cbb0f5::1757952105::
 res://touchscreenjoystickicon.png::5f95f4b6bc83da8e5d9bed2bde0da05796982c7ef59ff4b302dd0a1325fe8005::1757952105::
 res://New Piskel (30).png::bb3cf721fe022f007c6e016e48a0db23117d5b9c82100cad76ad309708df3324::1759511684::
 res://run.png::ca98ef607d9ccb5bc3d862eab465b106e31d605e5605ce1bea397c29f8e6da6c::1767284572::
+res://daydream_3/Daydream DEMO.otf::e3cd7a995c2949a486aa83be5049546feb693e284592a9a54e6f25a947a3aa55::1767451315::
+res://minecraft-christmas-tree-free/source/model.gltf::c72ae0ad8b071db53e22580ff24fe4cd63dde7586966e4cfc87b7c3bc96630a5::1767444320::
+res://minecraft-christmas-tree-free/source/model_0.png::4db2b1eff5ebdf5679cbdc7d6338ce3531c06da5eea958044339b85287986dd2::1767444331::
+res://minecraft-christmas-tree-free/textures/gltf_embedded_0.png::ec49a54e28be420b3209166d661d518fec14865c21beee429996249a6222d2ed::1767444320::
+res://minecraft-christmas-tree-free/textures/internal_ground_ao_texture.jpeg::905e84c657bf95e174514a95d89d15aada33f3bbfd665ec9d5f18aaacbb22662::1767444320::
+res://new_theme.tres::d86e18fcf1dd76dfb11e829b95bacb8f::1767450524::

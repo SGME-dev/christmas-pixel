@@ -3,7 +3,7 @@
     package="com.sgme.easterchris_pixel"
     android:installLocation="auto"
     android:versionCode="4"
-    android:versionName="1.3.0" >
+    android:versionName="1.7.0" >
 
     <uses-sdk
         android:minSdkVersion="24"
@@ -48,33 +48,38 @@
             android:value="mobile" />
         <meta-data
             android:name="org.godotengine.editor.version"
-            android:value="4.5.1.stable" />
+            android:value="4.6.stable" />
 
         <activity
             android:name="com.godot.game.GodotApp"
             android:configChanges="layoutDirection|locale|orientation|keyboardHidden|screenSize|smallestScreenSize|density|keyboard|navigation|screenLayout|uiMode"
             android:excludeFromRecents="false"
-            android:exported="true"
-            android:label="@string/godot_project_name_string"
+            android:exported="false"
             android:launchMode="singleInstancePerTask"
             android:resizeableActivity="true"
             android:screenOrientation="landscape"
             android:theme="@style/GodotAppSplashTheme"
             android:windowSoftInputMode="adjustResize" >
+        </activity>
+
+        <activity-alias
+            android:name="com.godot.game.GodotAppLauncher"
+            android:exported="true"
+            android:targetActivity="com.godot.game.GodotApp" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
+        </activity-alias>
 
         <profileable
             android:enabled="true"
             android:shell="true" /> <!-- Records the version of the Godot library -->
         <meta-data
             android:name="org.godotengine.library.version"
-            android:value="4.5.1.stable" />
+            android:value="4.6.0.stable" />
 
         <service android:name="org.godotengine.godot.GodotDownloaderService" />
 
