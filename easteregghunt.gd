@@ -8,7 +8,7 @@ class_name easteregghunt
 @onready var lan_ip_label: Label = $CanvasLayer/Label
 @onready var public_ip_label: Label = $CanvasLayer/Label2
 @export var easter_egg: int = 0
-var port: int = 15780
+var port: int = 50170
 const DEFAULT_SERVER_IP: String = "127.0.0.1" # IPv4 localhost
 var MAX_CONNECTIONS: int = 20
 var user = FileAccess.open("user://username.save", FileAccess.READ).get_line()

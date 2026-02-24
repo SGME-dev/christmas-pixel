@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://d0vuotcp6ec3s"]
+[gd_scene format=3 uid="uid://d0vuotcp6ec3s"]
 
 [ext_resource type="Script" uid="uid://i8ydn102b2o4" path="res://character_body_3d.gd" id="1_iwpo4"]
 [ext_resource type="Material" uid="uid://bqp5pf30o4mqv" path="res://character_body_3d.tres" id="2_c7tqt"]
@@ -30,45 +30,49 @@ properties/4/path = NodePath("Label3D:text")
 properties/4/spawn = true
 properties/4/replication_mode = 1
 
-[node name="CharacterBody3D" type="CharacterBody3D"]
+[node name="CharacterBody3D" type="CharacterBody3D" unique_id=1024195396]
 collision_mask = 14
 script = ExtResource("1_iwpo4")
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1014394084]
 shape = SubResource("CapsuleShape3D_bu0v1")
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=115897826]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0, 0)
 mesh = SubResource("CapsuleMesh_iwpo4")
 script = ExtResource("3_nl27k")
 
-[node name="Camera_Controller" type="Node3D" parent="."]
+[node name="Camera_Controller" type="Node3D" parent="." unique_id=1598414694]
 
-[node name="Camera_Target" type="Node3D" parent="Camera_Controller"]
+[node name="Camera_Target" type="Node3D" parent="Camera_Controller" unique_id=456676068]
 
-[node name="Camera3D" type="Camera3D" parent="Camera_Controller/Camera_Target"]
+[node name="Camera3D" type="Camera3D" parent="Camera_Controller/Camera_Target" unique_id=1112001355]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.361185, 0)
 cull_mask = 1048573
 
-[node name="Camera3D2" type="Camera3D" parent="Camera_Controller/Camera_Target"]
+[node name="Camera3D2" type="Camera3D" parent="Camera_Controller/Camera_Target" unique_id=423858398]
 transform = Transform3D(1, 0, 0, 0, 0.981242, 0.192779, 0, -0.192779, 0.981242, 0, 1.2391, 2.96892)
 cull_mask = 1048573
 
-[node name="Label" type="TextEdit" parent="."]
+[node name="SpotLight3D" type="SpotLight3D" parent="Camera_Controller/Camera_Target" unique_id=745854608]
+transform = Transform3D(-1, 8.742278e-08, 0, -8.742278e-08, -1, 0, 0, 0, 1, 0, 0.2705965, 0)
+light_energy = 16.0
+
+[node name="Label" type="TextEdit" parent="." unique_id=941854774]
 visible = false
 offset_right = 353.0
 offset_bottom = 273.0
 text = "Collected bible verses:"
 editable = false
 
-[node name="Label3" type="TextEdit" parent="."]
+[node name="Label3" type="TextEdit" parent="." unique_id=1726943753]
 visible = false
 offset_right = 353.0
 offset_bottom = 273.0
 text = "Collected easter eggs:"
 editable = false
 
-[node name="Label2" type="Label" parent="."]
+[node name="Label2" type="Label" parent="." unique_id=1106249184]
 visible = false
 offset_left = 591.0
 offset_top = 15.0
@@ -76,14 +80,14 @@ offset_right = 727.0
 offset_bottom = 89.0
 text = "COLLECT ALL 50 BIBLE VERSES from the yellow cubes"
 
-[node name="Label3D" type="Label3D" parent="."]
+[node name="Label3D" type="Label3D" parent="." unique_id=336503195]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 1.11206, 0.0104508)
 text = "username"
 
-[node name="CanvasLayer" type="CanvasLayer" parent="."]
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1807365820]
 visible = false
 
-[node name="TouchScreenJoystick" type="Control" parent="CanvasLayer"]
+[node name="TouchScreenJoystick" type="Control" parent="CanvasLayer" unique_id=130361979]
 layout_mode = 3
 anchors_preset = 0
 offset_left = 119.0
@@ -95,45 +99,45 @@ script = ExtResource("3_vd578")
 use_input_actions = true
 metadata/_custom_type_script = "uid://81qg48odtf4l"
 
-[node name="TouchScreenButton" type="TouchScreenButton" parent="CanvasLayer"]
+[node name="TouchScreenButton" type="TouchScreenButton" parent="CanvasLayer" unique_id=1271476435]
 position = Vector2(929, 438)
 scale = Vector2(0.059375, 0.0575)
 texture_normal = ExtResource("4_c7tqt")
 action = "ui_accept"
 
-[node name="TouchScreenButton2" type="TouchScreenButton" parent="CanvasLayer"]
+[node name="TouchScreenButton2" type="TouchScreenButton" parent="CanvasLayer" unique_id=1826755753]
 position = Vector2(779, 493)
 texture_normal = ExtResource("6_jvo56")
 action = "RUN"
 
-[node name="Sprite3D" type="Sprite3D" parent="."]
+[node name="Sprite3D" type="Sprite3D" parent="." unique_id=169255381]
 transform = Transform3D(41.437, 0, 0, 0, 2.36869, -1.27621, 0, 43.4, 0.0696532, 0, 11.1433, 0)
 visible = false
 layers = 2
 texture = ExtResource("6_obynr")
 
-[node name="MultiplayerSynchronizer" type="MultiplayerSynchronizer" parent="."]
+[node name="MultiplayerSynchronizer" type="MultiplayerSynchronizer" parent="." unique_id=1193196252]
 replication_config = SubResource("SceneReplicationConfig_obynr")
 
-[node name="Save" type="Timer" parent="."]
+[node name="Save" type="Timer" parent="." unique_id=125901556]
 autostart = true
 
-[node name="ban" type="Timer" parent="."]
+[node name="ban" type="Timer" parent="." unique_id=1000148665]
 wait_time = 5.0
 one_shot = true
 autostart = true
 
-[node name="SpotLight3D" type="SpotLight3D" parent="."]
+[node name="SpotLight3D" type="SpotLight3D" parent="." unique_id=1063037084]
 transform = Transform3D(-1, -8.742278e-08, 4.371139e-08, 4.371139e-08, 1.9106855e-15, 1, -8.742278e-08, 1, 1.9106855e-15, 0, 2.8451028, 0)
-visible = false
+light_energy = 16.0
 
-[node name="SpotLight3D2" type="SpotLight3D" parent="."]
+[node name="SpotLight3D2" type="SpotLight3D" parent="." unique_id=1295292811]
 transform = Transform3D(-1, 8.742278e-08, 0, -8.742278e-08, -1, 0, 0, 0, 1, 0, -0.1454246, 4.115915)
-visible = false
+light_energy = 16.0
 
-[node name="SpotLight3D3" type="SpotLight3D" parent="."]
+[node name="SpotLight3D3" type="SpotLight3D" parent="." unique_id=1367101368]
 transform = Transform3D(1, 8.742278e-08, -8.742278e-08, 8.742278e-08, -1, 0, -8.742278e-08, -7.642742e-15, -1, 0, -0.1454246, -3.5858335)
-visible = false
+light_energy = 16.0
 
 [connection signal="timeout" from="Save" to="." method="_on_save_timeout"]
 [connection signal="timeout" from="ban" to="." method="_on_ban_timeout"]

@@ -3,6 +3,7 @@ extends Control
 var skintrue: bool = false
 
 func _ready() -> void:
+	
 	if OS.has_feature("dedicated_server"):
 		# 1. Get all arguments passed to the .exe
 		var args = OS.get_cmdline_args()
@@ -121,7 +122,3 @@ func _on_roadtoemmaus_pressed() -> void:
 
 func _on_resurection_gardens_pressed() -> void:
 	pass
-
-
-func _on_meaningofchristmas_pressed() -> void:
-	get_tree().change_scene_to_file("res://meaningofeaster.tscn")

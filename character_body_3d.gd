@@ -116,6 +116,7 @@ func _physics_process(delta: float) -> void:
 			$Label2.show()
 		
 		if get_tree().current_scene.scene_file_path == "res://easteregghunt.tscn":
+			$Camera_Controller/Camera_Target/SpotLight3D.show()
 			$SpotLight3D.show()
 			$SpotLight3D2.show()
 			$SpotLight3D3.show()
@@ -174,6 +175,7 @@ func _physics_process(delta: float) -> void:
 		if input_dir != Vector2(0,0):
 			$MeshInstance3D.rotation_degrees.y = $Camera_Controller.rotation_degrees.y + 90 -rad_to_deg(input_dir.angle())
 			$Label3D.rotation_degrees.y = $Camera_Controller.rotation_degrees.y + 90 -rad_to_deg(input_dir.angle())
+			$Camera_Controller/Camera_Target/SpotLight3D.rotation_degrees.y = $Camera_Controller.rotation_degrees.y + 90 -rad_to_deg(input_dir.angle())
 		
 		
 		

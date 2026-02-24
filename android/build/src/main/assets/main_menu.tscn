@@ -1,10 +1,11 @@
-[gd_scene load_steps=4 format=3 uid="uid://dwd41ws6yd1el"]
+[gd_scene format=3 uid="uid://dwd41ws6yd1el"]
 
 [ext_resource type="Script" uid="uid://bd6gq5hkci1mr" path="res://main_menu.gd" id="1_06t4h"]
 [ext_resource type="Texture2D" uid="uid://ba431u8vpn66l" path="res://New Piskel (24) (1).png" id="2_fu7sn"]
 [ext_resource type="PackedScene" uid="uid://bbgttfso3p6n1" path="res://fps.tscn" id="3_fu7sn"]
+[ext_resource type="Script" uid="uid://bysdc4gdjnds2" path="res://birthgardens.gd" id="3_jix8l"]
 
-[node name="main menu" type="Control"]
+[node name="main menu" type="Control" unique_id=877016349]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -13,90 +14,91 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_06t4h")
 
-[node name="Sprite3D" type="Sprite2D" parent="."]
+[node name="Sprite3D" type="Sprite2D" parent="." unique_id=285043848]
 position = Vector2(574, 325.5)
 scale = Vector2(1.12891, 1.27148)
 texture = ExtResource("2_fu7sn")
 
-[node name="CanvasLayer" type="CanvasLayer" parent="."]
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=39073345]
 
-[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer"]
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer" unique_id=850539257]
 offset_left = 246.0
 offset_top = 103.0
 offset_right = 963.0
 offset_bottom = 529.0
 theme_override_constants/separation = 20
 
-[node name="Label" type="Label" parent="CanvasLayer/VBoxContainer"]
+[node name="Label" type="Label" parent="CanvasLayer/VBoxContainer" unique_id=701832348]
 layout_mode = 2
 theme_override_colors/font_color = Color(0, 0.419608, 1, 1)
 theme_override_font_sizes/font_size = 50
 text = "Christmas Pixel"
 
-[node name="play" type="Button" parent="CanvasLayer/VBoxContainer"]
+[node name="play" type="Button" parent="CanvasLayer/VBoxContainer" unique_id=870640240]
 layout_mode = 2
 text = "play"
 
-[node name="support" type="Button" parent="CanvasLayer/VBoxContainer"]
+[node name="support" type="Button" parent="CanvasLayer/VBoxContainer" unique_id=1522928312]
 layout_mode = 2
 text = "support"
 
-[node name="quit" type="Button" parent="CanvasLayer/VBoxContainer"]
+[node name="quit" type="Button" parent="CanvasLayer/VBoxContainer" unique_id=1054816739]
 layout_mode = 2
 text = "quit
 "
 
-[node name="settings" type="Button" parent="CanvasLayer/VBoxContainer"]
+[node name="settings" type="Button" parent="CanvasLayer/VBoxContainer" unique_id=1161553209]
 layout_mode = 2
 text = "settings"
 
-[node name="Bible Verses" type="Button" parent="CanvasLayer/VBoxContainer"]
+[node name="Bible Verses" type="Button" parent="CanvasLayer/VBoxContainer" unique_id=909191412]
 layout_mode = 2
 text = "Bible Verses"
 
-[node name="website" type="Button" parent="CanvasLayer/VBoxContainer"]
+[node name="website" type="Button" parent="CanvasLayer/VBoxContainer" unique_id=408416776]
 layout_mode = 2
 text = "Website"
 
-[node name="Credits" type="Button" parent="CanvasLayer/VBoxContainer"]
+[node name="Credits" type="Button" parent="CanvasLayer/VBoxContainer" unique_id=559961537]
 layout_mode = 2
 text = "Credits
 "
 
-[node name="TextEdit" type="TextEdit" parent="CanvasLayer"]
+[node name="TextEdit" type="TextEdit" parent="CanvasLayer" unique_id=920479154]
 visible = false
 offset_right = 1152.0
 offset_bottom = 639.0
 editable = false
 
-[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/TextEdit"]
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/TextEdit" unique_id=1486654026]
 layout_mode = 0
 offset_left = 356.0
 offset_top = 272.0
 offset_right = 786.0
 offset_bottom = 443.0
 
-[node name="Button" type="Button" parent="CanvasLayer/TextEdit/VBoxContainer"]
+[node name="Button" type="Button" parent="CanvasLayer/TextEdit/VBoxContainer" unique_id=1838422190]
 layout_mode = 2
 text = "The Christmas Story"
 
-[node name="Parkore" type="Button" parent="CanvasLayer/TextEdit/VBoxContainer"]
+[node name="Parkore" type="Button" parent="CanvasLayer/TextEdit/VBoxContainer" unique_id=222104521]
 layout_mode = 2
 text = "Bible Verse Parkore"
 
-[node name="Quiz" type="Button" parent="CanvasLayer/TextEdit/VBoxContainer"]
+[node name="Quiz" type="Button" parent="CanvasLayer/TextEdit/VBoxContainer" unique_id=1282399962]
 layout_mode = 2
 text = "Christmas Bible Parkore Quiz"
 
-[node name="easteregghunt" type="Button" parent="CanvasLayer/TextEdit/VBoxContainer"]
+[node name="easteregghunt" type="Button" parent="CanvasLayer/TextEdit/VBoxContainer" unique_id=314976970]
 layout_mode = 2
 text = "Easter Egg Bible Verse Poem Hunt: For Christmas Pixel!"
 
-[node name="meaningofchristmas" type="Button" parent="CanvasLayer/TextEdit/VBoxContainer"]
+[node name="birthgardens" type="Button" parent="CanvasLayer/TextEdit/VBoxContainer" unique_id=249309738]
 layout_mode = 2
 text = "Birth Gardens"
+script = ExtResource("3_jix8l")
 
-[node name="back" type="Button" parent="CanvasLayer/TextEdit"]
+[node name="back" type="Button" parent="CanvasLayer/TextEdit" unique_id=1674866826]
 layout_mode = 0
 offset_left = 6.0
 offset_top = 605.0
@@ -104,44 +106,44 @@ offset_right = 51.0
 offset_bottom = 636.0
 text = "Back"
 
-[node name="settings" type="TextEdit" parent="CanvasLayer"]
+[node name="settings" type="TextEdit" parent="CanvasLayer" unique_id=112383045]
 visible = false
 offset_right = 1152.0
 offset_bottom = 639.0
 editable = false
 
-[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/settings"]
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/settings" unique_id=60835251]
 layout_mode = 0
 offset_left = 522.0
 offset_top = 305.0
 offset_right = 656.0
 offset_bottom = 345.0
 
-[node name="Button" type="Button" parent="CanvasLayer/settings/VBoxContainer"]
+[node name="Button" type="Button" parent="CanvasLayer/settings/VBoxContainer" unique_id=1610656000]
 layout_mode = 2
 text = "Log out"
 
-[node name="Button2" type="Button" parent="CanvasLayer/settings/VBoxContainer"]
+[node name="Button2" type="Button" parent="CanvasLayer/settings/VBoxContainer" unique_id=1277440756]
 layout_mode = 2
 text = "Delete Account"
 
-[node name="username" type="LineEdit" parent="CanvasLayer/settings/VBoxContainer"]
+[node name="username" type="LineEdit" parent="CanvasLayer/settings/VBoxContainer" unique_id=1856829096]
 layout_mode = 2
 placeholder_text = "username"
 
-[node name="Button3" type="Button" parent="CanvasLayer/settings/VBoxContainer"]
+[node name="Button3" type="Button" parent="CanvasLayer/settings/VBoxContainer" unique_id=1947078973]
 layout_mode = 2
 text = "apply username"
 
-[node name="LineEdit" type="LineEdit" parent="CanvasLayer/settings/VBoxContainer"]
+[node name="LineEdit" type="LineEdit" parent="CanvasLayer/settings/VBoxContainer" unique_id=423843423]
 layout_mode = 2
 placeholder_text = "skin texture"
 
-[node name="Button4" type="Button" parent="CanvasLayer/settings/VBoxContainer"]
+[node name="Button4" type="Button" parent="CanvasLayer/settings/VBoxContainer" unique_id=194354933]
 layout_mode = 2
 text = "save skin"
 
-[node name="back" type="Button" parent="CanvasLayer/settings"]
+[node name="back" type="Button" parent="CanvasLayer/settings" unique_id=729122233]
 layout_mode = 0
 offset_left = 6.0
 offset_top = 605.0
@@ -149,7 +151,7 @@ offset_right = 51.0
 offset_bottom = 636.0
 text = "Back"
 
-[node name="FPS" parent="." instance=ExtResource("3_fu7sn")]
+[node name="FPS" parent="." unique_id=851101326 instance=ExtResource("3_fu7sn")]
 layout_mode = 0
 anchors_preset = 0
 anchor_right = 0.0
@@ -170,7 +172,7 @@ grow_vertical = 1
 [connection signal="pressed" from="CanvasLayer/TextEdit/VBoxContainer/Parkore" to="." method="_on_parkore_pressed"]
 [connection signal="pressed" from="CanvasLayer/TextEdit/VBoxContainer/Quiz" to="." method="_on_quiz_pressed"]
 [connection signal="pressed" from="CanvasLayer/TextEdit/VBoxContainer/easteregghunt" to="." method="_on_easteregghunt_pressed"]
-[connection signal="pressed" from="CanvasLayer/TextEdit/VBoxContainer/meaningofchristmas" to="." method="_on_meaningofchristmas_pressed"]
+[connection signal="pressed" from="CanvasLayer/TextEdit/VBoxContainer/birthgardens" to="CanvasLayer/TextEdit/VBoxContainer/birthgardens" method="_on_pressed"]
 [connection signal="pressed" from="CanvasLayer/TextEdit/back" to="." method="_on_back_pressed"]
 [connection signal="pressed" from="CanvasLayer/settings/VBoxContainer/Button" to="." method="_on_button1_pressed"]
 [connection signal="pressed" from="CanvasLayer/settings/VBoxContainer/Button2" to="." method="_on_button_2_pressed"]

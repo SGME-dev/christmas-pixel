@@ -156,7 +156,7 @@ offset_left = 7.0
 offset_top = 120.0
 offset_right = 275.0
 offset_bottom = 151.0
-placeholder_text = "Default Port: 15780"
+placeholder_text = "Default Port: 50170"
 metadata/_edit_use_anchors_ = true
 
 [node name="Label" type="Label" parent="CanvasLayer" unique_id=689440093]
