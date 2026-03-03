@@ -1,4 +1,3 @@
-res://main_menu.tscn
+res://lighthunt.tscn
 res://new_array_mesh.tres
-res://main_menu.gd
-res://birthgardens.gd
+res://lighthunt.gd

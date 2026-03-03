@@ -1,9 +1,9 @@
+OmniLight3D
+SpotLight3D
 Button
 Camera3D
 SubViewportContainer
 SubViewport
-SpotLight3D
-OmniLight3D
 TouchScreenButton
 Timer
 HTTPRequest
