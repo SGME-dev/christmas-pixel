@@ -238,6 +238,8 @@ material = SubResource("StandardMaterial3D_qwngk")
 [sub_resource type="BoxShape3D" id="BoxShape3D_kuvxw"]
 size = Vector3(2.2260132, 4.3442383, 1)
 
+[sub_resource type="AudioStreamMicrophone" id="AudioStreamMicrophone_fxkh0"]
+
 [node name="easteregghunt" type="Node3D" unique_id=1973505605]
 script = ExtResource("1_o7ytj")
 player_scene = ExtResource("2_pxtyn")
@@ -709,6 +711,22 @@ render_target_update_mode = 4
 [node name="Camera3D" type="Camera3D" parent="SubViewportContainer2/SubViewport" unique_id=1553203154]
 transform = Transform3D(1, 0, 0, 0, 0.022722274, 0.99974185, 0, -0.99974185, 0.022722274, 234.19199, 749.6709, -66.88532)
 
+[node name="send_recording_timer" type="Timer" parent="." unique_id=1185995842]
+wait_time = 0.1
+autostart = true
+
+[node name="recs" type="Timer" parent="." unique_id=2120384713]
+wait_time = 0.5
+autostart = true
+
+[node name="AudioStreamPlayer2" type="AudioStreamPlayer" parent="." unique_id=759472495]
+volume_db = 10.478
+
+[node name="AudioStreamRecord" type="AudioStreamPlayer" parent="." unique_id=112077708]
+stream = SubResource("AudioStreamMicrophone_fxkh0")
+autoplay = true
+bus = &"record"
+
 [connection signal="pressed" from="CanvasLayer/Panel/host" to="." method="_on_host_pressed"]
 [connection signal="pressed" from="CanvasLayer/Panel/join" to="." method="_on_join_pressed"]
 [connection signal="pressed" from="CanvasLayer/Chat/LineEdit/Button" to="." method="_on_buttons_pressed"]
@@ -730,3 +748,4 @@ transform = Transform3D(1, 0, 0, 0, 0.022722274, 0.99974185, 0, -0.99974185, 0.0
 [connection signal="body_entered" from="Area3D6" to="." method="_on_area_3d_6_body_entered"]
 [connection signal="body_entered" from="Area3D13" to="." method="_on_area_3d_13_body_entered"]
 [connection signal="body_entered" from="Area3D15" to="." method="_on_area_3d_15_body_entered"]
+[connection signal="timeout" from="send_recording_timer" to="." method="_on_send_recording_timer_timeout"]

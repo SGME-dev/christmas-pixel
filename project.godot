@@ -24,6 +24,11 @@ config/features=PackedStringArray("4.6", "GL Compatibility")
 boot_splash/image="uid://cnff6ihfrr4m2"
 config/icon="uid://6ne3s4k1q8hb"
 
+[audio]
+
+buses/default_bus_layout="uid://dvxl5h4bbkv5p"
+driver/enable_input=true
+
 [autoload]
 
 Firebase="*uid://cvb26atjckwlq"

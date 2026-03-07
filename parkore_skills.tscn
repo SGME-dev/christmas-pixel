@@ -186,6 +186,8 @@ sky = SubResource("Sky_nds6m")
 [sub_resource type="BoxShape3D" id="BoxShape3D_53riv"]
 size = Vector3(1, 4.968628, 2.7249146)
 
+[sub_resource type="AudioStreamMicrophone" id="AudioStreamMicrophone_53riv"]
+
 [node name="Parkore_skills" type="Node3D" unique_id=1635486862]
 script = ExtResource("1_hms1p")
 player_scene = ExtResource("2_iovwy")
@@ -4117,6 +4119,22 @@ collision_layer = 2
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.984314, 0.05026245)
 shape = SubResource("BoxShape3D_53riv")
 
+[node name="send_recording_timer" type="Timer" parent="." unique_id=519547094]
+wait_time = 0.1
+autostart = true
+
+[node name="recs" type="Timer" parent="." unique_id=342132868]
+wait_time = 0.5
+autostart = true
+
+[node name="AudioStreamPlayer2" type="AudioStreamPlayer" parent="." unique_id=271567381]
+volume_db = 10.478
+
+[node name="AudioStreamRecord" type="AudioStreamPlayer" parent="." unique_id=1512615949]
+stream = SubResource("AudioStreamMicrophone_53riv")
+autoplay = true
+bus = &"record"
+
 [connection signal="pressed" from="CanvasLayer/Panel/host" to="." method="_on_host_pressed"]
 [connection signal="pressed" from="CanvasLayer/Panel/join" to="." method="_on_join_pressed"]
 [connection signal="pressed" from="CanvasLayer/Chat/LineEdit/Button" to="." method="_on_buttons_pressed"]
@@ -4181,3 +4199,4 @@ shape = SubResource("BoxShape3D_53riv")
 [connection signal="body_entered" from="Area3D42" to="." method="_on_laser_3d_body_entered"]
 [connection signal="body_entered" from="Area3D43" to="." method="_on_laser_3d_body_entered"]
 [connection signal="body_entered" from="Area3D15s" to="." method="_on_area_3d_15s_body_entered"]
+[connection signal="timeout" from="send_recording_timer" to="." method="_on_send_recording_timer_timeout"]
