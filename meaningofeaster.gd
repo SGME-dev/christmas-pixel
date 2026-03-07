@@ -131,7 +131,7 @@ func _on_join_pressed(address: String = str(%LineEdit.text)) -> void:
 	if address.is_empty() or address == "localhost":
 		address = DEFAULT_SERVER_IP
 	if %LineEdit2.text.is_empty():
-		%LineEdit2.text = str(port)
+		%LineEdit2.text = port
 	peer.create_client(address, int(%LineEdit2.text))
 	multiplayer.multiplayer_peer = peer
 	%host.hide()

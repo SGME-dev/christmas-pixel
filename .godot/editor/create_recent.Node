@@ -1,5 +1,3 @@
-AudioStreamPlayer
-Timer
 OmniLight3D
 SpotLight3D
 Button
@@ -7,6 +5,7 @@ Camera3D
 SubViewportContainer
 SubViewport
 TouchScreenButton
+Timer
 HTTPRequest
 LineEdit
 MultiplayerSynchronizer
