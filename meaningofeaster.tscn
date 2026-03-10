@@ -3,6 +3,7 @@
 [ext_resource type="Script" uid="uid://dp786gfhs2qy" path="res://meaningofeaster.gd" id="1_bqp6u"]
 [ext_resource type="PackedScene" uid="uid://d0vuotcp6ec3s" path="res://character_body_3d.tscn" id="2_b0vhp"]
 [ext_resource type="Texture2D" uid="uid://b5egc5pfxc2eo" path="res://New Piskel (22).png" id="3_p0biy"]
+[ext_resource type="Texture2D" uid="uid://slm3rcabges4" path="res://unmute.png" id="4_rtwnq"]
 [ext_resource type="Script" uid="uid://37ha5rs7kt0o" path="res://addons/zylann.hterrain/hterrain.gd" id="5_417tr"]
 [ext_resource type="PackedScene" uid="uid://bbgttfso3p6n1" path="res://fps.tscn" id="5_ci642"]
 [ext_resource type="Resource" uid="uid://dmert2f2gtta7" path="res://folder2/data.hterrain" id="6_2h63l"]
@@ -229,6 +230,22 @@ offset_bottom = 31.0
 text = "Ban-IP:"
 
 [node name="HTTPRequest2" type="HTTPRequest" parent="CanvasLayer" unique_id=1665400618]
+
+[node name="mute" type="Button" parent="CanvasLayer" unique_id=98142068]
+offset_left = 1125.0
+offset_top = 479.0
+offset_right = 1150.0
+offset_bottom = 511.0
+icon = ExtResource("4_rtwnq")
+expand_icon = true
+
+[node name="mute2" type="Button" parent="CanvasLayer" unique_id=93585259]
+offset_left = 1038.0
+offset_top = 484.0
+offset_right = 1121.0
+offset_bottom = 509.0
+text = "Mute ALL"
+expand_icon = true
 
 [node name="MultiplayerSpawner" type="MultiplayerSpawner" parent="." unique_id=217131712]
 _spawnable_scenes = PackedStringArray("uid://d0vuotcp6ec3s")
@@ -6537,6 +6554,8 @@ bus = &"record"
 [connection signal="pressed" from="CanvasLayer/ban/ban" to="." method="_on_ban_pressed"]
 [connection signal="pressed" from="CanvasLayer/ban-ip/ban-ip" to="." method="_on_banip_pressed"]
 [connection signal="request_completed" from="CanvasLayer/HTTPRequest2" to="." method="_on_http_request_2_request_completed"]
+[connection signal="pressed" from="CanvasLayer/mute" to="." method="_on_mute_pressed"]
+[connection signal="pressed" from="CanvasLayer/mute2" to="." method="_on_mute_2_pressed"]
 [connection signal="body_entered" from="Area3D" to="." method="_on_area_3d_body_entered"]
 [connection signal="body_entered" from="Area3D2" to="." method="_on_area_3d_2_body_entered"]
 [connection signal="body_entered" from="Area3D3" to="." method="_on_area_3d_3_body_entered"]

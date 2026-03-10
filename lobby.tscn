@@ -5,6 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://d2ly8njwmn3i6" path="res://mesh_instance_3d_0 (6).png" id="3_4yef1"]
 [ext_resource type="Texture2D" uid="uid://c6g4x04xjihjp" path="res://delete.png" id="3_bufr4"]
 [ext_resource type="Texture2D" uid="uid://be04qwfr8u0sk" path="res://mesh_instance_3d_0 (5).png" id="4_j0ewg"]
+[ext_resource type="Texture2D" uid="uid://slm3rcabges4" path="res://unmute.png" id="6_8voin"]
 [ext_resource type="AudioStream" uid="uid://c3c4y4n2lwmir" path="res://1.mp3" id="7_67n5t"]
 [ext_resource type="AudioStream" uid="uid://be3vu24unxi1d" path="res://2.mp3" id="8_012qf"]
 [ext_resource type="AudioStream" uid="uid://jbbimfv4hxit" path="res://3.mp3" id="9_rbflv"]
@@ -1167,6 +1168,22 @@ text = "Ban-ip:"
 
 [node name="HTTPRequest2" type="HTTPRequest" parent="CanvasLayer" unique_id=867228668]
 
+[node name="mute" type="Button" parent="CanvasLayer" unique_id=173341987]
+offset_left = 1126.0
+offset_top = 448.0
+offset_right = 1151.0
+offset_bottom = 480.0
+icon = ExtResource("6_8voin")
+expand_icon = true
+
+[node name="mute2" type="Button" parent="CanvasLayer" unique_id=620692911]
+offset_left = 1039.0
+offset_top = 453.0
+offset_right = 1122.0
+offset_bottom = 478.0
+text = "Mute ALL"
+expand_icon = true
+
 [node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1533230361]
 environment = SubResource("Environment_tftiq")
 
@@ -1791,6 +1808,8 @@ bus = &"record"
 [connection signal="pressed" from="CanvasLayer/ban/ban" to="." method="_on_ban_pressed"]
 [connection signal="pressed" from="CanvasLayer/ban-ip/ban-ip" to="." method="_on_banip_pressed"]
 [connection signal="request_completed" from="CanvasLayer/HTTPRequest2" to="." method="_on_http_request_2_request_completed"]
+[connection signal="pressed" from="CanvasLayer/mute" to="." method="_on_mute_pressed"]
+[connection signal="pressed" from="CanvasLayer/mute2" to="." method="_on_mute_2_pressed"]
 [connection signal="finished" from="Narrorator/AudioStreamPlayer2" to="." method="_on_audio_stream_player_2_finished"]
 [connection signal="finished" from="Narrorator/AudioStreamPlayer3" to="." method="_on_audio_stream_player_3_finished"]
 [connection signal="body_entered" from="Area3D" to="." method="_on_area_3d_body_entered"]

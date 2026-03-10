@@ -2,6 +2,7 @@
 
 [ext_resource type="Script" uid="uid://bsjljvlhai5t3" path="res://parkore_skills.gd" id="1_hms1p"]
 [ext_resource type="PackedScene" uid="uid://d0vuotcp6ec3s" path="res://character_body_3d.tscn" id="2_iovwy"]
+[ext_resource type="Texture2D" uid="uid://slm3rcabges4" path="res://unmute.png" id="3_ceupg"]
 [ext_resource type="Texture2D" uid="uid://b7y0y6wna7set" path="res://download (1).jpg" id="3_hk5eo"]
 [ext_resource type="Texture2D" uid="uid://b5egc5pfxc2eo" path="res://New Piskel (22).png" id="5_h5fcd"]
 [ext_resource type="AudioStream" uid="uid://bx1ww06fett1h" path="res://Screen Recording 2025-03-23 144438.mp3" id="6_hk5eo"]
@@ -311,6 +312,22 @@ offset_bottom = 30.0
 text = "Ban-ip:"
 
 [node name="HTTPRequest2" type="HTTPRequest" parent="CanvasLayer" unique_id=1537552009]
+
+[node name="mute" type="Button" parent="CanvasLayer" unique_id=568561413]
+offset_left = 1124.0
+offset_top = 477.0
+offset_right = 1149.0
+offset_bottom = 509.0
+icon = ExtResource("3_ceupg")
+expand_icon = true
+
+[node name="mute2" type="Button" parent="CanvasLayer" unique_id=618776212]
+offset_left = 1037.0
+offset_top = 482.0
+offset_right = 1120.0
+offset_bottom = 507.0
+text = "Mute ALL"
+expand_icon = true
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=921731676]
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 6, 0)
@@ -4142,6 +4159,8 @@ bus = &"record"
 [connection signal="pressed" from="CanvasLayer/ban/ban" to="." method="_on_ban_pressed"]
 [connection signal="pressed" from="CanvasLayer/ban-ip/ban-ip" to="." method="_on_banip_pressed"]
 [connection signal="request_completed" from="CanvasLayer/HTTPRequest2" to="." method="_on_http_request_2_request_completed"]
+[connection signal="pressed" from="CanvasLayer/mute" to="." method="_on_mute_pressed"]
+[connection signal="pressed" from="CanvasLayer/mute2" to="." method="_on_mute_2_pressed"]
 [connection signal="body_entered" from="StaticBody3D35/Area3D" to="." method="_on_laser_3d_body_entered"]
 [connection signal="body_entered" from="StaticBody3D37/Area3D" to="." method="_on_laser_3d_body_entered"]
 [connection signal="body_entered" from="StaticBody3D38/Area3D" to="." method="_on_laser_3d_body_entered"]

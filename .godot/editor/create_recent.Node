@@ -1,8 +1,8 @@
+Button
 AudioStreamPlayer
 Timer
 OmniLight3D
 SpotLight3D
-Button
 Camera3D
 SubViewportContainer
 SubViewport
@@ -12,4 +12,3 @@ LineEdit
 MultiplayerSynchronizer
 CollisionShape3D
 Area3D
-TextEdit
