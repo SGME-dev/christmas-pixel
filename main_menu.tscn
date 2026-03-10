@@ -4,6 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://ba431u8vpn66l" path="res://New Piskel (24) (1).png" id="2_fu7sn"]
 [ext_resource type="PackedScene" uid="uid://bbgttfso3p6n1" path="res://fps.tscn" id="3_fu7sn"]
 [ext_resource type="Script" uid="uid://bysdc4gdjnds2" path="res://birthgardens.gd" id="3_jix8l"]
+[ext_resource type="Script" uid="uid://cme5ng7d7r8wy" path="res://light_hunt.gd" id="4_glbon"]
 
 [node name="main menu" type="Control" unique_id=877016349]
 layout_mode = 3
@@ -98,6 +99,11 @@ layout_mode = 2
 text = "Birth Gardens"
 script = ExtResource("3_jix8l")
 
+[node name="Light hunt" type="Button" parent="CanvasLayer/TextEdit/VBoxContainer" unique_id=299298335]
+layout_mode = 2
+text = "Bible Verse light Hunt"
+script = ExtResource("4_glbon")
+
 [node name="back" type="Button" parent="CanvasLayer/TextEdit" unique_id=1674866826]
 layout_mode = 0
 offset_left = 6.0
@@ -173,6 +179,7 @@ grow_vertical = 1
 [connection signal="pressed" from="CanvasLayer/TextEdit/VBoxContainer/Quiz" to="." method="_on_quiz_pressed"]
 [connection signal="pressed" from="CanvasLayer/TextEdit/VBoxContainer/easteregghunt" to="." method="_on_easteregghunt_pressed"]
 [connection signal="pressed" from="CanvasLayer/TextEdit/VBoxContainer/birthgardens" to="CanvasLayer/TextEdit/VBoxContainer/birthgardens" method="_on_pressed"]
+[connection signal="pressed" from="CanvasLayer/TextEdit/VBoxContainer/Light hunt" to="CanvasLayer/TextEdit/VBoxContainer/Light hunt" method="_on_pressed"]
 [connection signal="pressed" from="CanvasLayer/TextEdit/back" to="." method="_on_back_pressed"]
 [connection signal="pressed" from="CanvasLayer/settings/VBoxContainer/Button" to="." method="_on_button1_pressed"]
 [connection signal="pressed" from="CanvasLayer/settings/VBoxContainer/Button2" to="." method="_on_button_2_pressed"]

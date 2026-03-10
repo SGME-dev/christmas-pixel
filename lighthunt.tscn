@@ -11,6 +11,7 @@
 [ext_resource type="Script" uid="uid://cjhewyn1w1awa" path="res://addons/zylann.hterrain/hterrain_texture_set.gd" id="8_0tyif"]
 [ext_resource type="Texture2D" uid="uid://bi174epcpilpk" path="res://slot0_albedo_bump.png" id="8_mtgld"]
 [ext_resource type="PackedScene" uid="uid://ej0lf4txyhi8" path="res://minecraft-christmas-tree-free/source/model.gltf" id="10_mtgld"]
+[ext_resource type="Texture2D" uid="uid://ba431u8vpn66l" path="res://New Piskel (24) (1).png" id="12_eyvty"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_pxtyn"]
 sky_top_color = Color(0.061016247, 0.08264003, 0.11144177, 1)
@@ -280,7 +281,7 @@ offset_left = 7.0
 offset_top = 120.0
 offset_right = 275.0
 offset_bottom = 151.0
-placeholder_text = "Default Port: 15780"
+placeholder_text = "Default Port: 50170"
 metadata/_edit_use_anchors_ = true
 
 [node name="Label" type="Label" parent="CanvasLayer" unique_id=802426976]
@@ -14788,6 +14789,11 @@ volume_db = 10.478
 stream = SubResource("AudioStreamMicrophone_mtgld")
 autoplay = true
 bus = &"record"
+
+[node name="NewPiskel(24)(1)" type="Sprite2D" parent="." unique_id=400059898]
+position = Vector2(577.50006, 325)
+scale = Vector2(1.1376954, 1.2851563)
+texture = ExtResource("12_eyvty")
 
 [connection signal="pressed" from="CanvasLayer/Panel/host" to="." method="_on_host_pressed"]
 [connection signal="pressed" from="CanvasLayer/Panel/join" to="." method="_on_join_pressed"]
