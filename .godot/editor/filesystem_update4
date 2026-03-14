@@ -1,7 +1,2 @@
-res://default_bus_layout.tres
-res://lighthunt.tscn
+res://splash.tscn
 res://new_array_mesh.tres
-res://lighthunt.gd
-res://main_menu.gd
-res://light_hunt.gd
-res://main_menu.tscn

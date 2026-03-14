@@ -21,8 +21,8 @@ run/main_scene="res://signin.tscn"
 config/use_custom_user_dir=true
 config/custom_user_dir_name="christmas-pixel"
 config/features=PackedStringArray("4.6", "GL Compatibility")
-boot_splash/image="uid://cnff6ihfrr4m2"
 config/icon="uid://6ne3s4k1q8hb"
+boot_splash/minimum_display_time=10
 
 [audio]
 
