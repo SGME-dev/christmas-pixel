@@ -4,7 +4,6 @@
 [ext_resource type="PackedScene" uid="uid://d0vuotcp6ec3s" path="res://character_body_3d.tscn" id="2_iovwy"]
 [ext_resource type="Texture2D" uid="uid://slm3rcabges4" path="res://unmute.png" id="3_ceupg"]
 [ext_resource type="Texture2D" uid="uid://b7y0y6wna7set" path="res://download (1).jpg" id="3_hk5eo"]
-[ext_resource type="Texture2D" uid="uid://b5egc5pfxc2eo" path="res://New Piskel (22).png" id="5_h5fcd"]
 [ext_resource type="AudioStream" uid="uid://bx1ww06fett1h" path="res://Screen Recording 2025-03-23 144438.mp3" id="6_hk5eo"]
 [ext_resource type="Texture2D" uid="uid://dcyjsxagfaiee" path="res://New Piskel (20).png" id="7_53riv"]
 [ext_resource type="PackedScene" uid="uid://bbgttfso3p6n1" path="res://fps.tscn" id="7_o7h4h"]
@@ -1750,9 +1749,9 @@ offset_bottom = 634.0
 text = "Exit"
 
 [node name="Sprite3D38" type="Sprite2D" parent="." unique_id=102707640]
-position = Vector2(575.25, 322.25)
-scale = Vector2(10.013, 10.0231)
-texture = ExtResource("5_h5fcd")
+position = Vector2(577, 327.49997)
+scale = Vector2(1.1289064, 1.2910155)
+texture = ExtResource("8_53riv")
 
 [node name="Music" type="Node" parent="." unique_id=1665396406]
 
@@ -4123,11 +4122,6 @@ texture = ExtResource("7_53riv")
 [node name="Sprite3D177" type="Sprite3D" parent="." unique_id=73801302]
 transform = Transform3D(-4.37114e-06, 0, 100, 0, 100, 0, -100, 0, -4.37114e-06, 25.6336, -37.8923, -651.113)
 texture = ExtResource("7_53riv")
-
-[node name="Sprite3D178" type="Sprite2D" parent="." unique_id=1914013628]
-position = Vector2(574, 322.5)
-scale = Vector2(1.12891, 1.2832)
-texture = ExtResource("8_53riv")
 
 [node name="Area3D15s" type="Area3D" parent="." unique_id=789136180]
 collision_layer = 2

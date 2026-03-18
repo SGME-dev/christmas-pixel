@@ -278,7 +278,7 @@ res://17427358744982bmfxf7r-voicemaker.in-speech.mp3::1eddd9c904159d0f91f248eb6b
 res://17427361058546r0yysa-voicemaker.in-speech.mp3::027975ff1f2758fec43e09c6ec2d8b7e94d6ef6c385c93130f44836a7c63bb0d::1757952097::
 res://17427369036139190u7lr-voicemaker.in-speech.mp3::ff4bd624b9ed3828a55e256e1b8862a018714284f6f0fd89a7a5ed0ff5749890::1757952097::
 res://character_body_3d.tres::ab596673d4ff4c7c70c50131daffe1b6::1757952104::
-res://character_body_3d.tscn::86059214f1537895e16c58d97646b857::1771779656::
+res://character_body_3d.tscn::d10312b0d8d051b2b02428f3a18f121e::1773168536::
 res://color.png::d43121ea304856643627c0d5df34d8b728e2327954a63d344751dfb97f7dae04::1757952104::
 res://craiyon_192454_low_poly_seamless_grass_texture.png::1aa25698e56805d4b01c3b7d47fd20edcfea5916c9780fe317eda5cb33f2db8c::1757952104::
 res://data.hterrain::272b9d9e8fb40620cac6b70133044364::1757952104::
@@ -289,7 +289,7 @@ res://donkey_New Piskel (13).png::9191a870f6dddab75571cb13813bed9d64a361f8ea8ec9
 res://donkey_New Piskel (14).png::fe7332ab4eeeefe44756b68b7191ce653a38772e9f1960133b0766469253f825::1757952104::
 res://download (1).jpg::72bc868d734323e2c95fbd085bfd10f3a6dae510d1485b44dc148ee9c8705460::1758227931::
 res://download.jpg::a573768b490a8aba17188d6a01c587225cf1ba446539a9fc7459d507c2063bc0::1758227923::
-res://easteregghunt.tscn::793b52717a57c6514a393c933608618c::1771779723::
+res://easteregghunt.tscn::7857753291d5d187b3ca1b87bd8c3226::1773166781::
 res://easter_egg_textured.tscn::618f63826da84445a32c6ca59860900f::1757952104::
 res://electric-shock-97989.mp3::9b3856c01271bcae681e22bd585fd5e6d1976fa0cb9fa5e21c5759fbc841004b::1757952104::
 res://fps.tscn::6bbd2acd0ef755c24280fafd68559c57::1757952104::
@@ -304,9 +304,9 @@ res://jerusalem_1st._temple_period_Image_0.jpg::9703a86738a57db3ee332af11a4fccab
 res://jerusalem_1st._temple_period_Image_1.jpg::127dc75238e6def17b641568b14fbf718279bbf27351d183fe375dbefdb58dd8::1757952105::
 res://jerusalem_1_st__temple_period__blmj_museummod.tscn::236de021c270a975dca4db9c19b8d4f8::1757952105::
 res://large_tree_voxel.glb::81062ab26fe1a064c2cb521dfc888e19a3932d33b4af0ecb854a8fcefff97a31::1757952105::
-res://lobby.tscn::4f2632a54dc41abb7f37fc0f82baa996::1771779420::
-res://main_menu.tscn::3c81a78e518e31b7c33293bf0b14c0c2::1771952908::
-res://meaningofeaster.tscn::c520653e32facd66ea4af836d8e404f3::1771779314::
+res://lobby.tscn::08676c90b494ecc8de1f5bde7923440a::1773167160::
+res://main_menu.tscn::0410e421e213d9ca49fcddba0c09227d::1773171204::
+res://meaningofeaster.tscn::f61606df153d78bd993fab1040ec9157::1773166733::
 res://MeshInstance3D.glb::7bacccff277d74886242c8924c69a79bd6cf5bcc9682bac97739e80ed02371e0::1757952103::
 res://MeshInstance3D_0.png::1e28ef1cce60b044bf938bb30f3dd71aac0981440743c5c7565c08b04b91589c::1757952103::
 res://mesh_instance_3d.glb::da70b552136d9925dfa59e390da7654270429d248a23b7aa279ab22863218963::1757952105::
@@ -390,11 +390,11 @@ res://New Piskel (27).png::d721e652e49545e719af6392d5bb6e010e4da4254d73ab77ecaa7
 res://New Piskel (28).png::e09acc076c1235eb4852801e833fd3019df353653da8995ef53380afb5466850::1757952103::
 res://New Piskel (29).png::60ac5dce5f710ba04367c05a5d5aeb43903cca9c98f5f5a369b462ccd8ca709a::1757952103::
 res://New Piskel.png::07ba5249db38799a07f4d42658acf3bf55392e6fbf83c1017964132a7cc3eb39::1757952103::
-res://new_array_mesh.tres::deaad968ccfc52f2b92a6e7c753b30c9::1771862115::
+res://new_array_mesh.tres::deaad968ccfc52f2b92a6e7c753b30c9::1773778997::
 res://new_standard_material_3d.tres::5454ed33a73a5c9d22eb6d573f70b81a::1757952105::
 res://node_3d.tscn::6f4a107ecf217369fb2b47827687f60f::1757952105::
 res://normal.png::c32ea492661ad8c3fdca46482a7fa06f7daf6981ae7b625e86f761f886e0b770::1757952105::
-res://parkore_skills.tscn::9fcb120c7b20558638b5670a26a910cf::1771779388::
+res://parkore_skills.tscn::548a5ebcadd2daab9ce4c566484d2902::1773779335::
 res://pixel-background-games-concept-background-resizable-seamless-pattern-grass-vector.jpg::bca7204afff2f1617456e8576befb3e2f596793cfee9461b1b70a82080753848::1757952105::
 res://pixel-speech-bubble (1).png::a60a1f00c571f1959be9ddd14a7040b43cdfd3e68b9da558c648b78d4335e90e::1757952105::
 res://pixel-speech-bubble (2).png::47974b94e4970f82b489ef45b3f600a797a12983c1ec7effc013cc7400159e1c::1757952105::
@@ -416,7 +416,7 @@ res://pixel-speech-bubble (17).png::70c5d7bbd0899446d7b9a5f8e99ea24c7f1f17bbe4da
 res://pixel-speech-bubble (18).png::41bee03dd073c07e8598893e7bfb1a2e661c7fc8fba170954eadfc643062803e::1757952105::
 res://pixel-speech-bubble (19).png::ddcc1ba44f67c89ef97ea704703d316727b77a01364ed2c9b784173b719a6526::1757952105::
 res://pixel-speech-bubble.png::e79f1da23e2b86b1889ee93e4a60c6fd19b151a8064b3543e65386dc777f291f::1757952105::
-res://quiz.tscn::447f4ed26050f229d4d5ba3169b38ab5::1771779328::
+res://quiz.tscn::8bb8616193f9be8d9941c35a461d44b4::1773166974::
 res://resized_Screenshot 2025-03-23 170241.png::0711bc3061fcb40c0d10770719eecc115d06e6a011b379d7772f0375976bb628::1757952105::
 res://resized_Screenshot 2025-03-23 170336.png::695e66d12650a9e2025d324ea551f4dbd19fa6a771ec4085ada17660db1a47f6::1757952105::
 res://Screen Recording 2025-03-23 144438.mp3::d594c70cee3ac050652f668ab9ebdf86490fd54e043b9ae8806449d21a597321::1757952103::
@@ -442,3 +442,36 @@ res://minecraft-christmas-tree-free/source/model_0.png::4db2b1eff5ebdf5679cbdc7d
 res://minecraft-christmas-tree-free/textures/gltf_embedded_0.png::ec49a54e28be420b3209166d661d518fec14865c21beee429996249a6222d2ed::1767444320::
 res://minecraft-christmas-tree-free/textures/internal_ground_ao_texture.jpeg::905e84c657bf95e174514a95d89d15aada33f3bbfd665ec9d5f18aaacbb22662::1767444320::
 res://new_theme.tres::d86e18fcf1dd76dfb11e829b95bacb8f::1767450524::
+res://SGME-anim/SGME2.png::5e89884ab910788d37b5e6cf909f1ede00e54b5eb023e4507dffd3f9e469e520::1773484608::
+res://SGME-anim/SGME3.png::ff1d2c479dcbeea5392766151a697ecd2e69eba80e20efbd21d20ce7b547e98c::1773484626::
+res://SGME-anim/SGME4.png::7be1781aecd44a24e55e070f0241c6067ff5312fa82eaf4e289665bb68e14716::1773484641::
+res://SGME-anim/SGME5.png::cff4bbd970c9e5ed3f8f256f816bd1c2833d00b78c08e43b96c650d29d7ffd4a::1773484653::
+res://SGME-anim/SGME6.png::7a14813e71d981de0b5104383ca0a22b08d29c42b999f372cf614767ca6f51aa::1773484675::
+res://SGME-anim/SGME7.png::28bc3e02120bad9d4beaa7cd00c188c340cf5f1a320cefdee261c1dbdd4f97f8::1773484685::
+res://SGME-anim/SGME8.png::b4b75782bad9f84c3952de53da000c4a6e3669f05e2f8e8d1f8a63f146acfd88::1773484697::
+res://SGME-anim/SGME9.png::3e22f1deeb2e4131564bed4e2cf66cb155219f966d33bffa7fd319fb4cc32157::1773484713::
+res://SGME-anim/SGME10.png::a43a9757497371ccaf9cd37cf9e7648e17584107952c44ab54b989275ceceec4::1773484737::
+res://SGME-anim/SGME11.png::b874ff5822d5e522b7f3a9d6c14f24ebf292f8d908fa8a9356f47be2b0b311f7::1773484755::
+res://SGME-anim/SGME12.png::8f42dc786dbb12fa7e5c730206a88e75749e6678269e6b047e4b333b18865399::1773484765::
+res://SGME-anim/SGME13.png::b36d4be068e5c1bbf44adff9fe2c657356abc474f9520f0a1fe37875cfbb69ec::1773484781::
+res://SGME-anim/SGME14.png::593fe08e7135f64b89e6b8f5df3a150611f9772b9eb2e55376d55bbe3d07b815::1773484799::
+res://SGME-anim/SGME15.png::a1bbbab5c6a50f4ad28d9828d4a954623fda7d5df14bd5af2321ff5a7f7044c5::1773484811::
+res://SGME-anim/SGME16.png::d9459a2b974bd217f8a4303d39fcb3b00dbcb5a0b5b502923a7e642447bba31d::1773484828::
+res://SGME-anim/SGME17.png::4ba1f59447077b4f7353a8aac862ee1b33f5f7b791066878fd28036082cdd52f::1773484845::
+res://SGME-anim/SGME18.png::5784d45fee7ecc4c0374a4661a44b965975bd1b73f083dc743c0a572c5a0ed3c::1773484866::
+res://SGME-anim/SGME19.png::d83d2afd0177ea98de9a63d58272203a59ae0e0049ed93bd5a45616224ddf72a::1773484883::
+res://SGME-anim/SGME20.png::706e5d3cd79e54eadba3d036b5e6bc8e6a7d55dba7c409e1d2fdcf6672894d44::1773484896::
+res://SGME-anim/SGME21.png::2ce71a152bf9f3aab3bdd9c0c70498ddd40518e4a54db776fd989be962902f6e::1773484972::
+res://SGME-anim/SGME22.png::e4b3e7a6b565c156619631d46c3087bc4a552dbf41575f4010dda93f305d1ae6::1773485016::
+res://SGME-anim/SGME23.png::706e5d3cd79e54eadba3d036b5e6bc8e2207c48eda5cbfbe1ef44e5b36ba2c7c::1773485036::
+res://SGME-anim/SGME.png::1d0f704dcf587a6086dae43848bc22608e7a9b04d9b1d5c1885f3dfd90ea35d1::1773484582::
+res://terr/color.png::d43121ea304856643627c0d5df34d8b7ad2c4f085c86ef22b6537aac1d6ca010::1772054872::
+res://terr/data.hterrain::29cd1399c0ede3ee8d204799c9906bbc::1772055183::
+res://terr/height.res::46eea36826aa9dcd066ac4a73e4cadf0::1772055183::
+res://terr/normal.png::eaabd7709eb6840da8e1b61a0e2888d4d592a0b30cf9b92ff3508a371a75ca7a::1772054872::
+res://terr/splat.png::815a1deddda6c0094aabeb94b0c4fdfeff7601a7f0a8e6581861a31fcbaa2448::1772054872::
+res://default_bus_layout.tres::3720306e3dc12218f27498d03f3df7fc::1773778939::
+res://lighthunt.tscn::d1c91f433609a4f1d5ca10b42ca352fc::1773779181::
+res://mute.png::41fc33958c3179ae3577e83652d2a52c74a4a49d6ece3418a120b4b7dd896e6b::1772895189::
+res://splash.tscn::485eeafde1e7925d89922176cd559c98::1773604744::
+res://unmute.png::2accec1661e3373adbb6204e886a0c1d7228a8de5cdb504013ba399e5c4af874::1772895142::

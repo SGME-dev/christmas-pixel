@@ -1,3 +1,5 @@
-res://default_bus_layout.tres
-res://splash.tscn
+res://lighthunt.tscn
 res://new_array_mesh.tres
+res://lighthunt.gd
+res://parkore_skills.tscn
+res://parkore_skills.gd

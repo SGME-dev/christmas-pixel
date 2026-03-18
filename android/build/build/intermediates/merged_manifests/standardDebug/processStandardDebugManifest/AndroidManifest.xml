@@ -3,7 +3,7 @@
     package="com.sgme.easterchris_pixel"
     android:installLocation="auto"
     android:versionCode="4"
-    android:versionName="1.7.0" >
+    android:versionName="1.8.0" >
 
     <uses-sdk
         android:minSdkVersion="24"

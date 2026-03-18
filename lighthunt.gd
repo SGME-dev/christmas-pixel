@@ -89,7 +89,7 @@ func _on_host_pressed() -> void:
 	multiplayer.peer_connected.connect(add_player)
 	add_player()
 	multiplayer.get_peers()
-	$"NewPiskel(24)(1)".hide()
+	
 	http_request.request_completed.connect(_on_http_request_completed)
 	
 	print("--- Attempting to get Public WAN IPv4 Address ---")
@@ -147,7 +147,7 @@ func _on_join_pressed(address: String = str(%LineEdit.text)) -> void:
 	%LineEdit2.hide()
 	$Sprite3D38.hide()
 	$CanvasLayer/Panel.hide()
-	$"NewPiskel(24)(1)".hide()
+	
 	print(user + " joined the game")
 	$CanvasLayer/Timer.start()
 

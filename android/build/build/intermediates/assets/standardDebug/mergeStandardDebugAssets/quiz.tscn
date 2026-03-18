@@ -3,6 +3,7 @@
 [ext_resource type="Script" uid="uid://d2ix02cqc3pe2" path="res://quiz.gd" id="1_kninm"]
 [ext_resource type="PackedScene" uid="uid://d0vuotcp6ec3s" path="res://character_body_3d.tscn" id="2_k7kv1"]
 [ext_resource type="Texture2D" uid="uid://dok5p3g7ob8op" path="res://New Piskel (21).png" id="3_i0i4q"]
+[ext_resource type="Texture2D" uid="uid://slm3rcabges4" path="res://unmute.png" id="3_p60ki"]
 [ext_resource type="Texture2D" uid="uid://b5egc5pfxc2eo" path="res://New Piskel (22).png" id="4_rmnlm"]
 [ext_resource type="AudioStream" uid="uid://bx1ww06fett1h" path="res://Screen Recording 2025-03-23 144438.mp3" id="5_ngcn3"]
 [ext_resource type="PackedScene" uid="uid://bbgttfso3p6n1" path="res://fps.tscn" id="6_hgkws"]
@@ -106,6 +107,8 @@ size = Vector3(1, 4.968628, 2.7249146)
 properties/0/path = NodePath(".:dedserver")
 properties/0/spawn = true
 properties/0/replication_mode = 1
+
+[sub_resource type="AudioStreamMicrophone" id="AudioStreamMicrophone_6id1c"]
 
 [node name="Quiz" type="Node3D" unique_id=1417688692]
 script = ExtResource("1_kninm")
@@ -230,6 +233,22 @@ offset_bottom = 30.0
 text = "Ban-ip:"
 
 [node name="HTTPRequest2" type="HTTPRequest" parent="CanvasLayer" unique_id=526062888]
+
+[node name="mute" type="Button" parent="CanvasLayer" unique_id=1439546638]
+offset_left = 1126.0
+offset_top = 478.0
+offset_right = 1151.0
+offset_bottom = 510.0
+icon = ExtResource("3_p60ki")
+expand_icon = true
+
+[node name="mute2" type="Button" parent="CanvasLayer" unique_id=1978644850]
+offset_left = 1039.0
+offset_top = 483.0
+offset_right = 1122.0
+offset_bottom = 508.0
+text = "Mute ALL"
+expand_icon = true
 
 [node name="MultiplayerSpawner" type="MultiplayerSpawner" parent="." unique_id=1917892521]
 _spawnable_scenes = PackedStringArray("uid://d0vuotcp6ec3s")
@@ -9078,6 +9097,22 @@ shape = SubResource("BoxShape3D_p60ki")
 [node name="MultiplayerSynchronizer" type="MultiplayerSynchronizer" parent="." unique_id=491059278]
 replication_config = SubResource("SceneReplicationConfig_6id1c")
 
+[node name="send_recording_timer" type="Timer" parent="." unique_id=2079925766]
+wait_time = 0.1
+autostart = true
+
+[node name="recs" type="Timer" parent="." unique_id=609209693]
+wait_time = 0.5
+autostart = true
+
+[node name="AudioStreamPlayer2" type="AudioStreamPlayer" parent="." unique_id=845104917]
+volume_db = 10.478
+
+[node name="AudioStreamRecord" type="AudioStreamPlayer" parent="." unique_id=1415031745]
+stream = SubResource("AudioStreamMicrophone_6id1c")
+autoplay = true
+bus = &"record"
+
 [connection signal="pressed" from="CanvasLayer/Panel/host" to="." method="_on_host_pressed"]
 [connection signal="pressed" from="CanvasLayer/Panel/join" to="." method="_on_join_pressed"]
 [connection signal="pressed" from="CanvasLayer/Chat/LineEdit/Button" to="." method="_on_button_pressed"]
@@ -9085,6 +9120,8 @@ replication_config = SubResource("SceneReplicationConfig_6id1c")
 [connection signal="pressed" from="CanvasLayer/ban/ban" to="." method="_on_ban_pressed"]
 [connection signal="pressed" from="CanvasLayer/ban-ip/ban-ip" to="." method="_on_banip_pressed"]
 [connection signal="request_completed" from="CanvasLayer/HTTPRequest2" to="." method="_on_http_request_2_request_completed"]
+[connection signal="pressed" from="CanvasLayer/mute" to="." method="_on_mute_pressed"]
+[connection signal="pressed" from="CanvasLayer/mute2" to="." method="_on_mute_2_pressed"]
 [connection signal="body_entered" from="MeshInstance3D2/Area3D" to="." method="_on_area_3d_body_entered"]
 [connection signal="body_entered" from="MeshInstance3D3/Area3D" to="." method="_on_area_3d_body_entered"]
 [connection signal="body_entered" from="MeshInstance3D13/Area3D" to="." method="_on_area_3d_body_entered"]
@@ -9125,3 +9162,4 @@ replication_config = SubResource("SceneReplicationConfig_6id1c")
 [connection signal="body_entered" from="Area3D3" to="." method="_on_area_3d_25_body_entered"]
 [connection signal="body_entered" from="Area3D4" to="." method="_on_area_3d_25_body_entered"]
 [connection signal="body_entered" from="Area3D15" to="." method="_on_area_3d_15_body_entered"]
+[connection signal="timeout" from="send_recording_timer" to="." method="_on_send_recording_timer_timeout"]
