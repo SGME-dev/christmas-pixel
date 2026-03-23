@@ -1,5 +1,7 @@
-res://lighthunt.tscn
+res://lobby.tscn
 res://new_array_mesh.tres
-res://lighthunt.gd
 res://parkore_skills.tscn
-res://parkore_skills.gd
+res://quiz.tscn
+res://easteregghunt.tscn
+res://meaningofeaster.tscn
+res://lighthunt.tscn
