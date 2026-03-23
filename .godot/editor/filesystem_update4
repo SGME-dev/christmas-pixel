@@ -1,7 +1,3 @@
-res://lobby.tscn
+res://main_menu.tscn
 res://new_array_mesh.tres
-res://parkore_skills.tscn
-res://quiz.tscn
-res://easteregghunt.tscn
-res://meaningofeaster.tscn
-res://lighthunt.tscn
+res://lobby.tscn

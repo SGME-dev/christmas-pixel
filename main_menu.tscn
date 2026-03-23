@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://dwd41ws6yd1el"]
 
 [ext_resource type="Script" uid="uid://bd6gq5hkci1mr" path="res://main_menu.gd" id="1_06t4h"]
-[ext_resource type="Texture2D" uid="uid://ba431u8vpn66l" path="res://New Piskel (24) (1).png" id="2_fu7sn"]
+[ext_resource type="Texture2D" uid="uid://pqn0x004koo6" path="res://Screenshot 2026-03-23 220349.png" id="2_glbon"]
 [ext_resource type="PackedScene" uid="uid://bbgttfso3p6n1" path="res://fps.tscn" id="3_fu7sn"]
 [ext_resource type="Script" uid="uid://bysdc4gdjnds2" path="res://birthgardens.gd" id="3_jix8l"]
 [ext_resource type="Script" uid="uid://cme5ng7d7r8wy" path="res://light_hunt.gd" id="4_glbon"]
@@ -16,54 +16,18 @@ grow_vertical = 2
 script = ExtResource("1_06t4h")
 
 [node name="Sprite3D" type="Sprite2D" parent="." unique_id=285043848]
-position = Vector2(574, 325.5)
-scale = Vector2(1.12891, 1.27148)
-texture = ExtResource("2_fu7sn")
+position = Vector2(578.49994, 323.99997)
+scale = Vector2(0.6133402, 0.60797036)
+texture = ExtResource("2_glbon")
 
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=39073345]
 
 [node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer" unique_id=850539257]
-offset_left = 246.0
-offset_top = 103.0
-offset_right = 963.0
-offset_bottom = 529.0
+offset_left = -889.0
+offset_top = 159.0
+offset_right = -172.0
+offset_bottom = 585.0
 theme_override_constants/separation = 20
-
-[node name="Label" type="Label" parent="CanvasLayer/VBoxContainer" unique_id=701832348]
-layout_mode = 2
-theme_override_colors/font_color = Color(0, 0.419608, 1, 1)
-theme_override_font_sizes/font_size = 50
-text = "Christmas Pixel"
-
-[node name="play" type="Button" parent="CanvasLayer/VBoxContainer" unique_id=870640240]
-layout_mode = 2
-text = "play"
-
-[node name="support" type="Button" parent="CanvasLayer/VBoxContainer" unique_id=1522928312]
-layout_mode = 2
-text = "support"
-
-[node name="quit" type="Button" parent="CanvasLayer/VBoxContainer" unique_id=1054816739]
-layout_mode = 2
-text = "quit
-"
-
-[node name="settings" type="Button" parent="CanvasLayer/VBoxContainer" unique_id=1161553209]
-layout_mode = 2
-text = "settings"
-
-[node name="Bible Verses" type="Button" parent="CanvasLayer/VBoxContainer" unique_id=909191412]
-layout_mode = 2
-text = "Bible Verses"
-
-[node name="website" type="Button" parent="CanvasLayer/VBoxContainer" unique_id=408416776]
-layout_mode = 2
-text = "Website"
-
-[node name="Credits" type="Button" parent="CanvasLayer/VBoxContainer" unique_id=559961537]
-layout_mode = 2
-text = "Credits
-"
 
 [node name="TextEdit" type="TextEdit" parent="CanvasLayer" unique_id=920479154]
 visible = false
@@ -157,23 +121,84 @@ offset_right = 51.0
 offset_bottom = 636.0
 text = "Back"
 
+[node name="Label" type="Label" parent="CanvasLayer" unique_id=701832348]
+offset_left = 716.0
+offset_top = 98.0
+offset_right = 1433.0
+offset_bottom = 180.0
+theme_override_colors/font_color = Color(0, 0.419608, 1, 1)
+theme_override_font_sizes/font_size = 30
+text = "Christmas Pixel"
+
+[node name="play" type="Button" parent="CanvasLayer" unique_id=870640240]
+offset_left = 768.0
+offset_top = 165.0
+offset_right = 1128.0
+offset_bottom = 190.0
+text = "play"
+
+[node name="support" type="Button" parent="CanvasLayer" unique_id=1522928312]
+offset_left = 759.0
+offset_top = 210.0
+offset_right = 1128.0
+offset_bottom = 235.0
+text = "support"
+
+[node name="quit" type="Button" parent="CanvasLayer" unique_id=1054816739]
+offset_left = 743.0
+offset_top = 255.0
+offset_right = 1128.0
+offset_bottom = 280.0
+text = "quit
+"
+
+[node name="settings2" type="Button" parent="CanvasLayer" unique_id=1161553209]
+offset_left = 737.0
+offset_top = 300.0
+offset_right = 1128.0
+offset_bottom = 325.0
+text = "settings"
+
+[node name="Bible Verses" type="Button" parent="CanvasLayer" unique_id=909191412]
+offset_left = 731.0
+offset_top = 345.0
+offset_right = 1128.0
+offset_bottom = 370.0
+text = "Bible Verses"
+
+[node name="website" type="Button" parent="CanvasLayer" unique_id=408416776]
+offset_left = 729.0
+offset_top = 390.0
+offset_right = 1128.0
+offset_bottom = 415.0
+text = "Website"
+
+[node name="Credits" type="Button" parent="CanvasLayer" unique_id=559961537]
+offset_left = 723.0
+offset_top = 435.0
+offset_right = 1128.0
+offset_bottom = 460.0
+text = "Credits
+"
+
 [node name="FPS" parent="." unique_id=851101326 instance=ExtResource("3_fu7sn")]
 layout_mode = 0
 anchors_preset = 0
 anchor_right = 0.0
 anchor_bottom = 0.0
-offset_right = 1.0
-offset_bottom = 23.0
+offset_left = 19.0
+offset_top = 31.0
+offset_right = 52.0
+offset_bottom = 54.0
 grow_horizontal = 1
 grow_vertical = 1
 
-[connection signal="pressed" from="CanvasLayer/VBoxContainer/play" to="." method="_on_play_pressed"]
-[connection signal="pressed" from="CanvasLayer/VBoxContainer/support" to="." method="_on_support_pressed"]
-[connection signal="pressed" from="CanvasLayer/VBoxContainer/quit" to="." method="_on_quit_pressed"]
-[connection signal="pressed" from="CanvasLayer/VBoxContainer/settings" to="." method="_on_settings_pressed"]
-[connection signal="pressed" from="CanvasLayer/VBoxContainer/Bible Verses" to="." method="_on_bible_verses_pressed"]
-[connection signal="pressed" from="CanvasLayer/VBoxContainer/website" to="." method="_on_website_pressed"]
-[connection signal="pressed" from="CanvasLayer/VBoxContainer/Credits" to="." method="_on_credits_pressed"]
+[node name="Polygon2D" type="Polygon2D" parent="." unique_id=1332665528]
+position = Vector2(15.150335, -0.22303012)
+scale = Vector2(0.9728001, 0.9868806)
+color = Color(0, 0, 0, 0.74509805)
+polygon = PackedVector2Array(759, -17, 557, 669, 1177, 669, 1182, -17)
+
 [connection signal="pressed" from="CanvasLayer/TextEdit/VBoxContainer/Button" to="." method="_on_button_pressed"]
 [connection signal="pressed" from="CanvasLayer/TextEdit/VBoxContainer/Parkore" to="." method="_on_parkore_pressed"]
 [connection signal="pressed" from="CanvasLayer/TextEdit/VBoxContainer/Quiz" to="." method="_on_quiz_pressed"]
@@ -186,3 +211,10 @@ grow_vertical = 1
 [connection signal="pressed" from="CanvasLayer/settings/VBoxContainer/Button3" to="." method="_on_button_3_pressed"]
 [connection signal="pressed" from="CanvasLayer/settings/VBoxContainer/Button4" to="." method="_on_button_4_pressed"]
 [connection signal="pressed" from="CanvasLayer/settings/back" to="." method="_on_back2_pressed"]
+[connection signal="pressed" from="CanvasLayer/play" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="CanvasLayer/support" to="." method="_on_support_pressed"]
+[connection signal="pressed" from="CanvasLayer/quit" to="." method="_on_quit_pressed"]
+[connection signal="pressed" from="CanvasLayer/settings2" to="." method="_on_settings_pressed"]
+[connection signal="pressed" from="CanvasLayer/Bible Verses" to="." method="_on_bible_verses_pressed"]
+[connection signal="pressed" from="CanvasLayer/website" to="." method="_on_website_pressed"]
+[connection signal="pressed" from="CanvasLayer/Credits" to="." method="_on_credits_pressed"]
